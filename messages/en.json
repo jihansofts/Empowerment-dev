@@ -1,0 +1,881 @@
+{
+  "nav": {
+    "about": "About Us",
+    "organization": "Our Organization",
+    "journey": "Our Journey",
+    "culture": "Our Culture",
+    "services": "Services",
+    "board": "Board Advisory Services",
+    "executive": "Executive Search",
+    "leadership": "Leadership Hiring",
+    "expertise": "Expertise",
+    "industries": "Industries",
+    "building": "Building Materials",
+    "education": " Education",
+    "industrial": "Industrial",
+    "development": "Development",
+    "realestate": "Real Estate",
+    "technology": "Technology",
+    "oursuccess": "Our Success",
+    "contact": "Contact Us"
+  },
+  "hero": {
+    "title": "Empower Your Business ",
+    "subtitle": "with Empowerment Group",
+    "description": "Strategic consulting designed to fuel growth, spark innovation, and deliver lasting success.",
+    "button": "Get in Touch"
+  },
+  "countstats": {
+    "title": "An integral part of corporate Europe's journey",
+    "subtitle": "Guiding multinationals, top European enterprises, and visionary leaders with expert insight.",
+    "count1": "Years of Trusted Excellence",
+    "count2": "Leadership Placements Delivereds",
+    "count3": "Industry-Savvy Consultants",
+    "count4": "Client Satisfaction Rate"
+  },
+  "ourpeople": {
+    "title": "Our People",
+    "subtitle": "The passionate minds powering our progress."
+  },
+  "ourjourney": {
+    "title": "Our Journey",
+    "subtitle": "A Legacy of Excellence, Evolving with the Times",
+    "timeyear1": "2010",
+    "timeyear2": "2015",
+    "timeyear3": "2020",
+    "timeyear4": "2023",
+    "timeyear5": "2024",
+    "timetitle1": "Global Expansion",
+    "timedec1": "Brought talent acquisition solutions to international markets.",
+    "timetitle2": "Innovation",
+    "timedec2": "Introduced AI-driven recruitment tools.",
+    "timetitle3": "Adaptation",
+    "timedec3": "Shifted to virtual recruitment and consulting.",
+    "timetitle4": "Future-Focused",
+    "timedec4": " Launched initiatives promoting diversity and inclusion.",
+    "timetitle5": "Intelligent Recruitment",
+    "timedec5": "Implemented AI-powered hiring solutions."
+  },
+  "industriesspecialization": {
+    "title": "Industry Specialisation",
+    "subtitle": "Specialized recruitment solutions across key sectors—tailored to your industry&apos;s unique needs.",
+    "industries1": {
+      "title": "Media & Entertainment",
+      "desc": "Connecting top talent to the dynamic world of media."
+    },
+    "industries2": {
+      "title": "Consumer",
+      "desc": "Expert financial sector staffing."
+    },
+    "industries3": {
+      "title": "Industrial",
+      "desc": "Reliable recruitment for industrial and manufacturing roles."
+    },
+    "industries4": {
+      "title": "Technology",
+      "desc": "Specialists in sourcing high-impact tech professionals."
+    },
+    "industries5": {
+      "title": "Consumer",
+      "desc": "Consumer sector hiring experts."
+    }
+  },
+  "ourservices": {
+    "title": "Our Services",
+    "subtitle": "End-to-end talent acquisition and management solutions tailored to your organization’s needs.",
+    "services1": {
+      "title": "Recruitment Solutions",
+      "desc": "Smart hiring. Real results."
+    },
+    "services2": {
+      "title": "Executive Search",
+      "desc": "Top-tier leadership hires."
+    },
+    "services3": {
+      "title": "HR Consulting",
+      "desc": "Expert people strategies."
+    },
+    "services4": {
+      "title": "Talent Assessment",
+      "desc": "Spot the right fit."
+    },
+    "btnText": "Get Started"
+  },
+  "banner1": {
+    "title": "Transform Your Business ",
+    "subtitle": "Tailored consulting to fuel growth, spark innovation, and ensure long-term success.",
+    "btnText": "Get Started"
+  },
+  "ourorganization": {
+    "menu1": "Home",
+    "menu2": "About Us",
+    "title": "Leading Executive Search & Selection Firm",
+    "subtitle": "  Since our inception in 1969, Empowerment Group has been at the forefront of talent acquisition and leadership solutions. We combine decades of experience with innovative methodologies to deliver exceptional results for our clients.",
+    "desc": "Our deep industry knowledge, extensive network, and commitment to excellence make us the trusted partner for organizations seeking top-tier talent across sectors.",
+    "btnText": "Learn More"
+  },
+  "ourculture": {
+    "title": "Our Culture",
+    "subtitle": "  Driven by values. Defined by purpose. We cultivate a culture rooted in continuous learning, innovation, and a shared commitment to excellence.",
+    "culture1": {
+      "title": "Trust & Integrity",
+      "desc": "We uphold honesty and transparency, building strong, lasting relationships."
+    },
+    "culture2": {
+      "title": "Excellence",
+      "desc": "We go beyond expectations to deliver outstanding results, every time."
+    },
+    "culture3": {
+      "title": "Collaboration",
+      "desc": "We believe success is a team effort—and we grow stronger together."
+    },
+    "culture4": {
+      "title": "Innovation",
+      "desc": "We challenge the status quo to deliver bold, forward-thinking solutions."
+    }
+  },
+  "banner2": {
+    "title": "Our Values",
+    "subtitle": "Guiding every decision, shaping our culture. They reflect who we are, what we stand for, and how we work with integrity, excellence, and purpose.",
+    "btnText": "Get Started"
+  },
+
+  "boardservices": {
+    "menu1": "Home",
+    "menu2": "Services",
+    "title": "Board Advisory Services",
+    "desc1": "We partner with organizations to build and sustain high-performing boards through expert guidance in board composition, succession planning, and governance.",
+    "desc2": "Backed by decades of cross-industry experience, our tailored solutions enhance board effectiveness and strengthen corporate governance.",
+    "btnText": "All Services"
+  },
+  "boardadvisoryservices": {
+    "title": "Board Advisory Services",
+    "desc": "Strategic solutions to strengthen board performance and governance excellence.",
+    "advisory1": {
+      "title": "Board Effectiveness",
+      "desc": "Drive performance through tailored board evaluations and development programs."
+    },
+    "advisory2": {
+      "title": "Governance Structure",
+      "desc": "Design and implement robust governance frameworks aligned with best practices."
+    },
+    "advisory3": {
+      "title": "Succession Planning",
+      "desc": "Ensure leadership continuity with proactive succession and transition strategies."
+    },
+    "advisory4": {
+      "title": "Board Composition",
+      "desc": "Build high-impact boards with the right structure and member expertise."
+    },
+    "advisory5": {
+      "title": "Risk Management",
+      "desc": "Enhance oversight with effective risk governance and control mechanisms.."
+    }
+  },
+  "banner3": {
+    "titlebanner": "Collaborate with us to elevate your board and achieve lasting success through strategic leadership."
+  },
+  "executivesearch": {
+    "menu1": "Home",
+    "menu2": "Services",
+    "title": "Executive Search",
+    "desc1": "Our Executive Search practice specializes in identifying and attracting top-tier leadership talent for organizations across industries. We understand that finding the right executive leadership is crucial for organizational success.",
+    "desc2": "With our extensive network and proven methodology, we help organizations build high-performing leadership teams that drive growth and innovation in today's competitive business landscape.",
+    "btnText": "All Services",
+    "title2": "Executive Search Services",
+    "description": "Targeted solutions to attract and secure exceptional leadership talent.",
+    "executive1": {
+      "title": "C-Suite Search",
+      "desc": "Connecting you with high-caliber C-level executives to lead with impact."
+    },
+    "executive2": {
+      "title": "Leadership Assessment",
+      "desc": "Thorough evaluation of executive capabilities, readiness, and potential."
+    },
+    "executive3": {
+      "title": "Industry Expertise",
+      "desc": "Sector-specific insights to match the right leaders with the right roles."
+    },
+    "executive4": {
+      "title": "Global Talent Access",
+      "desc": "Reach top executive talent across international markets and networks."
+    },
+    "executive5": {
+      "title": "Executive Integration",
+      "desc": "Seamless onboarding and transition support for long-term leadership success."
+    },
+    "methodologie1": {
+      "title": "Our Search Methodology",
+      "desc": "A proven, structured process for finding and securing top-tier talent."
+    },
+    "methodologie2": {
+      "title": "Our Screening & Selection Process",
+      "desc": "A rigorous, step-by-step approach to ensure the perfect talent match."
+    },
+    "methodologie3": {
+      "title": "Requirements Analysis",
+      "desc": "Deep dive into client needs and role expectations."
+    },
+    "methodologie4": {
+      "title": "Candidate Sourcing",
+      "desc": "Targeted identification through extensive networks and channels."
+    },
+    "methodologie5": {
+      "title": "Screening",
+      "desc": "Final  Detailed review of qualifications, experience, and cultural fit."
+    }
+  },
+  "banner4": {
+    "titlebanner": "In Search of Executive Talent?",
+    "subtitlebanner": "We’ll help you find the right leader to drive your success.",
+    "btnText": "Get Started"
+  },
+  "leadershipservices": {
+    "menu1": "Home",
+    "menu2": "Services",
+    "title": "Leadership Recruitment",
+    "desc1": "We specialize in identifying and attracting top-tier talent for key leadership roles across all levels and functions.",
+    "desc2": "Recognizing that strong leadership is vital for organizational growth, we leverage our extensive network and proven assessment methods to build leadership teams that align with your strategic goals and cultural values.",
+    "desc3": "Our comprehensive approach ensures the perfect fit for both the organization and the candidate.",
+    "btnText": "All Services",
+    "title2": "Our Leadership Hiring Services",
+    "description": "End-to-end solutions for crafting high-performing leadership teams.",
+    "leadership1": {
+      "title": "Senior Management",
+      "desc": "Recruiting experienced leaders for critical senior management positions."
+    },
+    "leadership2": {
+      "title": "Department Heads",
+      "desc": "Identifying capable leaders to drive departmental excellence."
+    },
+    "leadership3": {
+      "title": "Team Leaders",
+      "desc": "Sourcing talented professionals to lead and inspire teams."
+    },
+    "leadership4": {
+      "title": "Project Leaders",
+      "desc": "Finding skilled managers to drive project success and delivery."
+    },
+    "leadership5": {
+      "title": "Technical Leaders",
+      "desc": "Recruiting leaders with deep technical expertise and management skills."
+    },
+    "methodologytitle": "Our Search Methodology",
+    "methodologydesc": "A structured approach to identifying and securing exceptional talent.",
+    "methodologie1": {
+      "title": "Role Analysis",
+      "desc": "Define key leadership competencies and role requirements."
+    },
+    "methodologie2": {
+      "title": "Talent Search",
+      "desc": "Identify high-potential leadership candidates through targeted sourcing."
+    },
+    "methodologie3": {
+      "title": "Evaluation",
+      "desc": "Gauge candidate suitability through strategic screening and interviews."
+    },
+    "methodologie4": {
+      "title": "Assessment",
+      "desc": "Measure leadership potential, skills, and cultural alignment."
+    },
+    "methodologie5": {
+      "title": "Selection",
+      "desc": "Finalize the best-fit candidate for successful placement."
+    }
+  },
+  "banner5": {
+    "titlebanner": "Building Your Leadership Team?",
+    "subtitlebanner": "We’ll help you find the leaders who move your vision forward.",
+    "btnText": "Get Started"
+  },
+
+  "secondarynav": {
+    "nav": ["Specialities", "Search Methodology", "Representative Searches"]
+  },
+  "buildingmaterials": {
+    "title": "Building Materials",
+    "desc": [
+      "As a vital pillar of construction and infrastructure, the building materials industry demands visionary leadership.",
+      "With deep sector insight, we help manufacturers, suppliers, and distributors recruit executives who drive innovation, navigate regulations, and lead sustainable growth.",
+      "From cement and steel to timber, glass, and advanced composites our expertise covers the full spectrum of industry talent needs."
+    ],
+    "specialitytitle": "Our Specialities",
+    "representativetitle": "Representative Searches",
+    "specialitie": [
+      "Sanitaryware",
+      "Ceramics",
+      "Paints, Chemicals & Adhesives",
+      "Architectural Fittings",
+      "Glass",
+      "Interior & Exterior Solutions",
+      "Doors & Windows",
+      "Plywood, Veneers, Laminates & MDF",
+      "Stone & Graphite",
+      "Elevators & Escalators",
+      "Piping, Cables & UPVC",
+      "Modular Kitchens & Office Furniture"
+    ],
+    "representative1": {
+      "title": "Technical Director",
+      "desc": "Leading Sanitaryware Manufacturer"
+    },
+    "representative2": {
+      "title": "Group Head – Materials",
+      "desc": "Top Decorative Paints Brand"
+    },
+    "representative3": {
+      "title": "Senior Vice President – Exports",
+      "desc": "Prominent Ceramics Manufacturer"
+    },
+    "representative4": {
+      "title": "Country Manager, India",
+      "desc": "Global Premium Sanitaryware Brand"
+    },
+    "representative5": {
+      "title": "Executive Vice President – Business Development",
+      "desc": "Diversified Conglomerate – Doors & Windows Division"
+    },
+    "representative6": {
+      "title": "Vice President – Sales",
+      "desc": "Leading ACP (Aluminium Composite Panel) Manufacturer"
+    },
+    "representative7": {
+      "title": "Chief Financial Officer (CFO)",
+      "desc": "Renowned Plywood Manufacturer"
+    },
+    "representative8": {
+      "title": "Chief Human Resources Officer (CHRO)",
+      "desc": "Global Leader in Partitions & False Ceilings"
+    },
+    "methodologie1": {
+      "title": "Role Discovery",
+      "desc": "Deep dive into client needs and position requirements."
+    },
+    "methodologie2": {
+      "title": "Talent Mapping",
+      "desc": "Identify top candidates through targeted outreach and networks."
+    },
+    "methodologie3": {
+      "title": "Screening",
+      "desc": "Thorough evaluation of skills, experience, and alignment."
+    },
+    "methodologie4": {
+      "title": "Candidate Assessment",
+      "desc": "In-depth analysis of shortlisted candidates for best fit."
+    },
+    "methodologie5": {
+      "title": "Selection & Offer",
+      "desc": "Support final selection and manage the offer process."
+    },
+    "methodologie6": {
+      "title": "Onboarding Support",
+      "desc": "Ensure a seamless integration into the organization."
+    }
+  },
+  "banner6": {
+    "titlebanner": "Connect with Our Senior Consultants",
+    "subtitlebanner": "For expert support with your leadership hiring needs.",
+    "btnText": "Get Started"
+  },
+  "industries": {
+    "title": "Industrial",
+    "menu1": "Home",
+    "menu2": "Industries",
+    "title2": "Industrial",
+    "desc": [
+      "The industrial sector is the cornerstone of manufacturing and technological progress. With our deep expertise, we specialize in identifying and placing leaders who drive operational excellence and foster innovation.",
+      "We collaborate with manufacturing firms, automation providers, and equipment manufacturers to find executives with the right blend of technical expertise and strong leadership capabilities.",
+      "Our extensive knowledge spans critical industrial segments, including heavy engineering, automation, process industries, and emerging technologies like Industrial IoT, ensuring we meet your specific leadership needs."
+    ],
+    "specialitytitle": "Our Specialities",
+    "representativetitle": "Representative Searches",
+    "specialitie": [
+      "Heavy Engineering",
+      "Industrial Automation",
+      "Power Generation Equipment",
+      "Material Handling Equipment",
+      "Industrial Manufacturing",
+      "Process Industries",
+      "Machine Tools",
+      "Industrial Electronics",
+      "Industrial IoT",
+      "Precision Engineering",
+      "Industrial Equipment",
+      "Manufacturing Systems",
+      "Industrial Robotics"
+    ],
+    "representative1": {
+      "title": "Chief Operating Officer",
+      "desc": "Leading Industrial Manufacturing Company"
+    },
+    "representative2": {
+      "title": "Plant Head",
+      "desc": "Major Heavy Engineering Corporation"
+    },
+    "representative3": {
+      "title": "VP Supply Chain",
+      "desc": "Industrial Equipment Manufacturer"
+    },
+    "representative4": {
+      "title": "Director of Engineering",
+      "desc": "Precision Manufacturing Company"
+    },
+    "representative5": {
+      "title": "Head of R&D",
+      "desc": "Power Generation Equipment Manufacturer"
+    },
+    "representative6": {
+      "title": "Technology Director",
+      "desc": "Industrial Automation Solutions Provider"
+    },
+    "representative7": {
+      "title": "Business Head",
+      "desc": "Industrial IoT Solutions Company"
+    },
+    "representative8": {
+      "title": "VP Human Resources",
+      "desc": "Leading Process Industry Corporation"
+    },
+    "methodologie1": {
+      "title": "Requirements Analysis",
+      "desc": "In-depth understanding of client needs and role specifications."
+    },
+    "methodologie2": {
+      "title": "Candidate Identification",
+      "desc": "Utilizing our network to pinpoint potential candidates."
+    },
+    "methodologie3": {
+      "title": "Screening Process",
+      "desc": " Comprehensive evaluation of candidates’ qualifications and fit."
+    },
+    "methodologie4": {
+      "title": "Assessment",
+      "desc": "Thorough assessment of shortlisted candidates."
+    },
+    "methodologie5": {
+      "title": "Selection",
+      "desc": " Final candidate selection and offer management."
+    },
+    "methodologie6": {
+      "title": "Onboarding",
+      "desc": " Ensuring a smooth transition and integration into the role."
+    }
+  },
+  "banner7": {
+    "titlebanner": "Reach out to our Senior Consultants",
+    "subtitlebanner": "for your leadership hiring needs",
+    "btnText": "Get In Touch"
+  },
+  "realestate": {
+    "title": "Industrial",
+    "menu1": "Home",
+    "menu2": "Industries",
+    "title2": "Real Estate",
+    "desc": [
+      "The real estate sector is a dynamic and evolving industry that requires visionary leadership. Our expertise in this domain enables us to identify and place leaders who can drive growth and innovation in property development and management.",
+      "We work with developers, property management firms, and real estate investment companies to find executives who understand market dynamics, regulatory requirements, and emerging trends in sustainable development.",
+      "Our comprehensive understanding spans across various segments including residential, commercial, retail, and industrial real estate, ensuring we can support your specific leadership needs within this diverse sector."
+    ],
+    "specialitytitle": "Our Specialities",
+    "representativetitle": "Representative Searches",
+    "specialitie": [
+      "Residential Real Estate",
+      "Commercial Property",
+      "Real Estate Development",
+      "Property Management",
+      "Real Estate Investment",
+      "Construction Management",
+      "Asset Management",
+      "Facilities Management",
+      "Real Estate Advisory",
+      "Project Management",
+      "Real Estate Finance"
+    ],
+    "representative1": {
+      "title": "Chief Operating Officer",
+      "desc": "Leading Industrial Manufacturing Company"
+    },
+    "representative2": {
+      "title": "Plant Head",
+      "desc": "Major Heavy Engineering Corporation"
+    },
+    "representative3": {
+      "title": "VP Supply Chain",
+      "desc": "Industrial Equipment Manufacturer"
+    },
+    "representative4": {
+      "title": "Director of Engineering",
+      "desc": "Precision Manufacturing Company"
+    },
+    "representative5": {
+      "title": "Head of R&D",
+      "desc": "Power Generation Equipment Manufacturer"
+    },
+    "representative6": {
+      "title": "Technology Director",
+      "desc": "Industrial Automation Solutions Provider"
+    },
+    "representative7": {
+      "title": "Business Head",
+      "desc": "Industrial IoT Solutions Company"
+    },
+    "representative8": {
+      "title": "VP Human Resources",
+      "desc": "Leading Process Industry Corporation"
+    },
+    "methodologie1": {
+      "title": "A Strategic Approach to Securing Top Talent",
+      "desc": "We use a structured methodology to identify and attract exceptional candidates."
+    },
+    "methodologie2": {
+      "title": "Requirements Analysis",
+      "desc": "We thoroughly understand client needs and role specifications."
+    },
+    "methodologie3": {
+      "title": "Candidate Identification",
+      "desc": " We leverage our extensive network to find the best matches."
+    },
+    "methodologie4": {
+      "title": "Screening Process",
+      "desc": " In-depth evaluation to assess candidates' qualifications and fit."
+    },
+    "methodologie5": {
+      "title": "Assessment",
+      "desc": " Comprehensive evaluation of shortlisted candidates."
+    },
+    "methodologie6": {
+      "title": "Selection",
+      "desc": "Managing the final selection and offer process."
+    }
+  },
+  "banner8": {
+    "titlebanner": "Reach out to our Senior Consultants",
+    "subtitlebanner": "for your leadership hiring needs",
+    "btnText": "Get In Touch"
+  },
+  "education": {
+    "title": "Industrial",
+    "menu1": "Home",
+    "menu2": "Industries",
+    "title2": "Education",
+    "desc": [
+      "The education sector plays a crucial role in shaping the future. Our expertise allows us to identify and place leaders who can drive academic excellence and foster innovation.",
+      "We collaborate with educational institutions, EdTech companies, and training providers to find executives who understand the complexities of the education landscape and lead with vision and integrity.",
+      "Our deep understanding spans key segments, including K-12, higher education, vocational training, and online learning, ensuring we can address your specific leadership needs in this dynamic sector."
+    ],
+    "specialitytitle": "Our Specialities",
+    "representativetitle": "Representative Searches",
+    "specialitie": [
+      "K-12 Education",
+      "Higher Education",
+      "EdTech",
+      "Vocational Training",
+      "Corporate Training",
+      "Educational Publishing",
+      "Online Learning",
+      "Special Education",
+      "Educational Administration",
+      "Curriculum Development",
+      "Educational Research",
+      "Student Services",
+      "Teacher Training"
+    ],
+    "representative1": {
+      "title": "Chief Operating Officer",
+      "desc": "Leading Industrial Manufacturing Company"
+    },
+    "representative2": {
+      "title": "Plant Head",
+      "desc": "Major Heavy Engineering Corporation"
+    },
+    "representative3": {
+      "title": "VP Supply Chain",
+      "desc": "Industrial Equipment Manufacturer"
+    },
+    "representative4": {
+      "title": "Director of Engineering",
+      "desc": "Precision Manufacturing Company"
+    },
+    "representative5": {
+      "title": "Head of R&D",
+      "desc": "Power Generation Equipment Manufacturer"
+    },
+    "representative6": {
+      "title": "Technology Director",
+      "desc": "Industrial Automation Solutions Provider"
+    },
+    "methodologie1": {
+      "title": "Requirements Analysis",
+      "desc": "Understanding client needs and role specifications"
+    },
+    "methodologie2": {
+      "title": "Candidate Identification",
+      "desc": "Leveraging our network to find potential matches"
+    },
+    "methodologie3": {
+      "title": "Screening Process",
+      "desc": "In-depth evaluation of candidates"
+    },
+    "methodologie4": {
+      "title": "Assessment",
+      "desc": "Detailed assessment of shortlisted candidates."
+    },
+    "methodologie5": {
+      "title": "Selection",
+      "desc": " Final selection and offer management"
+    },
+    "methodologie6": {
+      "title": "Onboarding",
+      "desc": "Ensuring smooth transition into the role"
+    }
+  },
+  "banner9": {
+    "titlebanner": "Reach out to our Senior Consultants",
+    "subtitlebanner": "for your leadership hiring needs",
+    "btnText": "Get In Touch"
+  },
+  "devlopment": {
+    "title": "Industrial",
+    "menu1": "Home",
+    "menu2": "Industries",
+    "title2": "Development",
+    "desc": [
+      "The development sector is key to shaping our cities and infrastructure. Our expertise allows us to identify and place leaders who drive sustainable development and foster innovation.",
+      "We collaborate with development authorities, infrastructure companies, and urban planning organizations to find executives who understand the complexities of large-scale projects and lead with vision and purpose.",
+      "Our deep understanding spans key areas, including infrastructure, urban development, and transportation, ensuring we can meet your leadership needs within this dynamic sector."
+    ],
+    "specialitytitle": "Our Specialities",
+    "representativetitle": "Representative Searches",
+    "specialitie": [
+      "Infrastructure Development",
+      "Urban Development",
+      "Project Planning",
+      "Construction Management",
+      "Transportation Projects",
+      "Public Works",
+      "Environmental Planning",
+      "Sustainable Development",
+      "Smart City Development",
+      "Industrial Development",
+      "Rural Development",
+      "Economic Development",
+      "Project Finance"
+    ],
+    "representative1": {
+      "title": "Chief Operating Officer",
+      "desc": "Leading Industrial Manufacturing Company"
+    },
+    "representative2": {
+      "title": "Plant Head",
+      "desc": "Major Heavy Engineering Corporation"
+    },
+    "representative3": {
+      "title": "VP Supply Chain",
+      "desc": "Industrial Equipment Manufacturer"
+    },
+    "representative4": {
+      "title": "Director of Engineering",
+      "desc": "Precision Manufacturing Company"
+    },
+    "representative5": {
+      "title": "Head of R&D",
+      "desc": "Power Generation Equipment Manufacturer"
+    },
+    "representative6": {
+      "title": "Technology Director",
+      "desc": "Industrial Automation Solutions Provider"
+    },
+    "representative7": {
+      "title": "Business Head",
+      "desc": "Industrial IoT Solutions Company"
+    },
+    "representative8": {
+      "title": "VP Human Resources",
+      "desc": "Leading Process Industry Corporation"
+    },
+    "methodologie1": {
+      "title": "Requirements Analysis",
+      "desc": "Understanding client needs and role specifications"
+    },
+    "methodologie2": {
+      "title": "Candidate Identification",
+      "desc": "Leveraging our network to find potential matches"
+    },
+    "methodologie3": {
+      "title": "Screening Process",
+      "desc": "In-depth evaluation of candidates"
+    },
+    "methodologie4": {
+      "title": "Assessment",
+      "desc": "Detailed assessment of shortlisted candidates."
+    },
+    "methodologie5": {
+      "title": "Selection",
+      "desc": " Final selection and offer management"
+    },
+    "methodologie6": {
+      "title": "Onboarding",
+      "desc": "Ensuring smooth transition into the role"
+    }
+  },
+  "banner10": {
+    "titlebanner": "Reach out to our Senior Consultants",
+    "subtitlebanner": "for your leadership hiring needs",
+    "btnText": "Get In Touch"
+  },
+  "technology": {
+    "title": "Industrial",
+    "menu1": "Home",
+    "menu2": "Industries",
+    "title2": "Technology",
+    "desc": [
+      "The technology sector leads the way in innovation and digital transformation. Our expertise helps us identify and place leaders who can drive technological advancements and business growth.",
+      "We partner with software companies, tech startups, and enterprise solution providers to find executives who blend technological expertise with business strategy, ensuring successful digital initiatives.",
+      "Our deep understanding spans key areas, including software development, AI/ML, cloud computing, and cybersecurity, allowing us to meet your specific leadership needs in this ever-evolving sector."
+    ],
+    "specialitytitle": "Our Specialities",
+    "representativetitle": "Representative Searches",
+    "specialitie": [
+      "Software Development",
+      "Cloud Computing",
+      "Artificial Intelligence",
+      "Data Analytics",
+      "Cybersecurity",
+      "Enterprise Solutions",
+      "Digital Transformation",
+      "Mobile Technologies",
+      "DevOps",
+      "Blockchain",
+      "IoT Solutions",
+      "FinTech",
+      "SaaS Platforms"
+    ],
+    "representative1": {
+      "title": "Chief Operating Officer",
+      "desc": "Leading Industrial Manufacturing Company"
+    },
+    "representative2": {
+      "title": "Plant Head",
+      "desc": "Major Heavy Engineering Corporation"
+    },
+    "representative3": {
+      "title": "VP Supply Chain",
+      "desc": "Industrial Equipment Manufacturer"
+    },
+    "representative4": {
+      "title": "Director of Engineering",
+      "desc": "Precision Manufacturing Company"
+    },
+    "representative5": {
+      "title": "Head of R&D",
+      "desc": "Power Generation Equipment Manufacturer"
+    },
+    "representative6": {
+      "title": "Technology Director",
+      "desc": "Industrial Automation Solutions Provider"
+    },
+    "representative7": {
+      "title": "Business Head",
+      "desc": "Industrial IoT Solutions Company"
+    },
+    "representative8": {
+      "title": "VP Human Resources",
+      "desc": "Leading Process Industry Corporation"
+    },
+    "methodologie1": {
+      "title": "Requirements Analysis",
+      "desc": "Understanding client needs and role specifications"
+    },
+    "methodologie2": {
+      "title": "Candidate Identification",
+      "desc": "Leveraging our network to find potential matches"
+    },
+    "methodologie3": {
+      "title": "Screening Process",
+      "desc": "In-depth evaluation of candidates"
+    },
+    "methodologie4": {
+      "title": "Assessment",
+      "desc": "Detailed assessment of shortlisted candidates."
+    },
+    "methodologie5": {
+      "title": "Selection",
+      "desc": " Final selection and offer management"
+    },
+    "methodologie6": {
+      "title": "Onboarding",
+      "desc": "Ensuring smooth transition into the role"
+    }
+  },
+  "banner11": {
+    "titlebanner": "Reach out to our Senior Consultants",
+    "subtitlebanner": "for your leadership hiring needs",
+    "btnText": "Get In Touch"
+  },
+  "contact": {
+    "title": "Contact Information",
+    "menu1": "Home",
+    "menu2": "Contact Us",
+    "location1": {
+      "title": "Corporate Headquarter - Qatar",
+      "address": "World Wide Business Centre, D Ring Rd, Doha, Qatar"
+    },
+    "location2": {
+      "title": "Head Office - Romania",
+      "address": "Municipiul Slobozia, Starda VIILOR,Nr.3,Bloc R3,Scara, A,Etaj P,Ap.1,Judet Ialomita, Romania"
+    },
+    "phone": "Phone",
+    "email": "Email",
+    "contactsocial": "Connect With Us",
+    "workingtime": {
+      "title": "Business Hours",
+      "days1": "Monday to Friday",
+      "hours1": "8:00 AM - 6:00 PM",
+      "days2": "Saturday",
+      "hours2": "8:00 AM - 2:00 PM",
+      "days3": "Sunday",
+      "hours3": "Closed"
+    },
+    "contactform": {
+      "title": "Get in Touch",
+      "desc": "Fill out the form below and we'll get back to you as soon as possible.",
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "btnText": "Send Message"
+    }
+  },
+  "contactpop": {
+    "title": "Contact Us",
+    "subtitle1": "The Corporates",
+    "desc1": " Would you like us to assist in your search for premium talent?",
+    "subtitle2": "Candidates",
+    "email": "E-mail",
+    "phone": "Phone",
+    "desc2": "Are you looking for the right career opportunity?",
+    "btnText": "Submit your CV",
+    "desc3": "Fraudulent recruitment acti"
+  },
+  "footer": {
+    "title1": "Empowerment Group",
+    "desc": "Delivering expert consulting and innovative solutions to businesses across the globe.",
+    "location1": {
+      "title": "Corporate Headquarter - Qatar",
+      "address": "World Wide Business Centre, D Ring Rd, Doha, Qatar"
+    },
+    "location2": {
+      "title": "Head Office - Romania",
+      "address": "Municipiul Slobozia Str. Viilor 3 Bl. R3 Sc. A Et. P Ap. 1, Judetul Ialomita, România"
+    },
+    "title2": "Quick Links",
+    "nav1": "Contact Us",
+    "title3": "Services",
+    "nav2": "Board Advisory",
+    "nav3": "Executive Talent Search",
+    "nav4": "Leadership Recruitment",
+    "email": "Email",
+    "phone": "Phone",
+    "copyright": "Copyright © 2025 Empowerment Group. All rights reserved."
+  }
+}

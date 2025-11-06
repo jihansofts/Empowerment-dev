@@ -1,0 +1,886 @@
+{
+  "nav": {
+    "about": "O nama",
+    "organization": "Naša organizacija",
+    "journey": "Naše putovanje",
+    "culture": "Naša kultura",
+    "services": "Usluge",
+    "board": "Usluge savjetovanja odbora",
+    "executive": "Izvršna potraga",
+    "leadership": "Zapošljavanje lidera",
+    "expertise": "Stručnost",
+    "industries": "Industrije",
+    "building": "Građevinski materijali",
+    "education": "Obrazovanje",
+    "industrial": "Industrija",
+    "development": "Razvoj",
+    "realestate": "Nekretnine",
+    "technology": "Tehnologija",
+    "oursuccess": "Naš uspjeh",
+    "contact": "Kontaktirajte nas"
+  },
+  "hero": {
+    "title": "Osnažite svoje poslovanje",
+    "subtitle": "sa Empowerment Groupom",
+    "description": "Strateško savjetovanje osmišljeno za poticanje rasta, poticanje inovacija i postizanje trajnog uspjeha.",
+    "button": "Kontaktirajte nas"
+  },
+  "countstats": {
+    "title": "Sastavni dio putovanja korporativne Evrope",
+    "subtitle": "Vođenje multinacionalnih kompanija, vodećih evropskih preduzeća i vizionarskih lidera sa stručnim uvidom.",
+    "count1": "Godine povjerenja i izvrsnosti",
+    "count2": "Izvršenih pozicija lidera",
+    "count3": "Stručnih savjetnika poznavatelja industrije",
+    "count4": "Stopa zadovoljstva klijenata"
+  },
+  "ourpeople": {
+    "title": "Naši ljudi",
+    "subtitle": "Strastveni umovi koji pokreću naš napredak."
+  },
+
+  "ourjourney": {
+    "title": "Naše putovanje",
+    "subtitle": "Naslijeđe izvrsnosti, razvijajući se s vremenom",
+    "timeyear1": "2010",
+    "timeyear2": "2015",
+    "timeyear3": "2020",
+    "timeyear4": "2023",
+    "timeyear5": "2024",
+    "timetitle1": "Globalna ekspanzija",
+    "timedec1": "Donijeli rješenja za pronalaženje talenata na međunarodna tržišta.",
+    "timetitle2": "Inovacija",
+    "timedec2": "Uveli alate za regrutaciju vođene umjetnom inteligencijom.",
+    "timetitle3": "Adaptacija",
+    "timedec3": "Prešli na virtualnu regrutaciju i savjetovanje.",
+    "timetitle4": "Usmjerenost na budućnost",
+    "timedec4": "Pokrenuli inicijative za promociju raznolikosti i uključivanja.",
+    "timetitle5": "Inteligentna regrutacija",
+    "timedec5": "Implementirali rješenja za zapošljavanje vođena umjetnom inteligencijom."
+  },
+  "industriesspecialization": {
+    "title": "Industrijska specijalizacija",
+    "subtitle": "Specijalizirana rješenja za regrutaciju u ključnim sektorima — prilagođena jedinstvenim potrebama vaše industrije.",
+    "industries1": {
+      "title": "Mediji i zabava",
+      "desc": "Povezujemo vrhunske talente sa dinamičnim svijetom medija."
+    },
+    "industries2": {
+      "title": "Finansije",
+      "desc": "Stručno osoblje za finansijski sektor."
+    },
+    "industries3": {
+      "title": "Industrija",
+      "desc": "Pouzdana regrutacija za industrijske i proizvodne uloge."
+    },
+    "industries4": {
+      "title": "Tehnologija",
+      "desc": "Specijalisti u pronalaženju visokokvalitetnih IT profesionalaca."
+    },
+    "industries5": {
+      "title": "Potrošački",
+      "desc": "Stručnjaci za zapošljavanje u potrošačkom sektoru."
+    }
+  },
+  "ourservices": {
+    "title": "Naše usluge",
+    "subtitle": "Kompletna rješenja za pronalaženje i upravljanje talentima, prilagođena potrebama vaše organizacije.",
+    "services1": {
+      "title": "Rješenja za zapošljavanje",
+      "desc": "Pametno zapošljavanje. Stvarni rezultati."
+    },
+    "services2": {
+      "title": "Izvršna potraga",
+      "desc": "Zapošljavanje vrhunskih lidera."
+    },
+    "services3": {
+      "title": "HR savjetovanje",
+      "desc": "Stručne strategije upravljanja ljudima."
+    },
+    "services4": {
+      "title": "Procjena talenata",
+      "desc": "Prepoznajte pravog kandidata."
+    },
+    "btnText": "Započnite"
+  },
+  "banner1": {
+    "title": "Transformirajte svoj biznis",
+    "subtitle": "Personalizirano savjetovanje za poticanje rasta, pokretanje inovacija i osiguranje dugoročnog uspjeha.",
+    "btnText": "Započnite"
+  },
+  "ourorganization": {
+    "menu1": "Početna",
+    "menu2": "O nama",
+    "title": "Vodeća firma za izvršno pretraživanje i selekciju",
+    "subtitle": "Od svog osnivanja 1969. godine, Empowerment Group je bio na čelu rješenja za regrutaciju talenata i liderstvo. Kombiniramo decenije iskustva sa inovativnim metodologijama kako bismo pružili izuzetne rezultate za naše klijente.",
+    "desc": "Naše duboko poznavanje industrije, široka mreža i posvećenost izvrsnosti čine nas pouzdanim partnerom za organizacije koje traže vrhunske talente u različitim sektorima.",
+    "btnText": "Saznajte više"
+  },
+  "ourculture": {
+    "title": "Naša kultura",
+    "subtitle": "Vođeni vrijednostima. Definirani svrhom. Njegujemo kulturu ukorijenjenu u kontinuiranom učenju, inovacijama i zajedničkoj predanosti izvrsnosti.",
+    "culture1": {
+      "title": "Povjerenje i integritet",
+      "desc": "Podržavamo iskrenost i transparentnost, gradeći jake, trajne odnose."
+    },
+    "culture2": {
+      "title": "Izvrsnost",
+      "desc": "Prelazimo očekivanja kako bismo svaki put pružili izvanredne rezultate."
+    },
+    "culture3": {
+      "title": "Saradnja",
+      "desc": "Vjerujemo da je uspjeh timski napor – i postajemo jači zajedno."
+    },
+    "culture4": {
+      "title": "Inovacija",
+      "desc": "Izzivamo status kvo kako bismo pružili hrabra, napredna rješenja."
+    }
+  },
+  "banner2": {
+    "title": "Naše vrijednosti",
+    "subtitle": "Vode svaku odluku, oblikuju našu kulturu. One odražavaju ko smo, za šta stojimo i kako radimo s integritetom, izvrsnošću i svrhom.",
+    "btnText": "Započnite"
+  },
+
+  "boardservices": {
+    "menu1": "Početna",
+    "menu2": "Usluge",
+    "title": "Savjetodavne usluge za odbore",
+    "desc1": "Partnerimo s organizacijama u izgradnji i održavanju visokoučinkovitih odbora kroz stručno vođenje u sastavu odbora, planiranju nasljeđivanja i upravljanju.",
+    "desc2": "Potkrijepljeni decenijama iskustva u različitim industrijama, naše prilagođene rješenja poboljšavaju učinkovitost odbora i jačaju korporativno upravljanje.",
+    "btnText": "Sve usluge"
+  },
+  "boardadvisoryservices": {
+    "title": "Savjetodavne usluge za odbore",
+    "desc": "Strateška rješenja za jačanje performansi odbora i izvrsnosti upravljanja.",
+    "advisory1": {
+      "title": "Učinkovitost odbora",
+      "desc": "Unaprijedite performanse kroz prilagođene evaluacije odbora i programe razvoja."
+    },
+    "advisory2": {
+      "title": "Upravljačka struktura",
+      "desc": "Dizajnirajte i implementirajte robusne okvire upravljanja usklađene s najboljim praksama."
+    },
+    "advisory3": {
+      "title": "Planiranje nasljeđivanja",
+      "desc": "Osigurajte kontinuitet liderstva proaktivnim strategijama nasljeđivanja i tranzicije."
+    },
+    "advisory4": {
+      "title": "Sastav odbora",
+      "desc": "Izgradite visokoučinkovite odbore s pravom strukturom i stručnošću članova."
+    },
+    "advisory5": {
+      "title": "Upravljanje rizikom",
+      "desc": "Poboljšajte nadzor efektivnim mehanizmima upravljanja i kontrole rizika."
+    }
+  },
+  "banner3": {
+    "titlebanner": "Surađujte s nama kako biste unaprijedili svoj odbor i postigli trajni uspjeh kroz strateško liderstvo."
+  },
+  "executivesearch": {
+    "menu1": "Početna",
+    "menu2": "Usluge",
+    "title": "Izvršna potraga",
+    "desc1": "Naša praksa izvršne potrage specijalizirana je za identifikaciju i privlačenje vrhunskih lidera za organizacije u različitim industrijama. Razumijemo da je pronalaženje pravog rukovodstva ključno za uspjeh organizacije.",
+    "desc2": "Sa našom širokom mrežom i dokazanom metodologijom, pomažemo organizacijama da izgrade visokoučinkovite timove lidera koji pokreću rast i inovacije u današnjem konkurentnom poslovnom okruženju.",
+    "btnText": "Sve usluge",
+    "title2": "Usluge izvršne potrage",
+    "description": "Ciljana rješenja za privlačenje i osiguravanje izuzetnih lidera.",
+    "executive1": {
+      "title": "Potraga za C-Level rukovodstvom",
+      "desc": "Povezujemo vas s visokokvalificiranim izvršnim direktorima koji vode sa utjecajem."
+    },
+    "executive2": {
+      "title": "Procjena liderstva",
+      "desc": "Temeljita evaluacija izvršnih sposobnosti, spremnosti i potencijala."
+    },
+    "executive3": {
+      "title": "Stručnost u industriji",
+      "desc": "Sektorska znanja za usklađivanje pravih lidera s pravim ulogama."
+    },
+    "executive4": {
+      "title": "Pristup globalnim talentima",
+      "desc": "Dostup do vrhunskih izvršnih talenata na međunarodnim tržištima i mrežama."
+    },
+    "executive5": {
+      "title": "Integracija rukovodstva",
+      "desc": "Besprijekorno uključivanje i podrška pri tranziciji za dugoročni uspjeh liderstva."
+    },
+    "methodologie1": {
+      "title": "Naša metodologija potrage",
+      "desc": "Dokazan, strukturiran proces za pronalaženje i osiguravanje vrhunskih talenata."
+    },
+    "methodologie2": {
+      "title": "Naš proces selekcije i odabira",
+      "desc": "Strog, korak po korak pristup kako bi se osiguralo savršeno poklapanje talenata."
+    },
+    "methodologie3": {
+      "title": "Analiza zahtjeva",
+      "desc": "Dubinski pregled potreba klijenta i očekivanja uloge."
+    },
+    "methodologie4": {
+      "title": "Pronalaženje kandidata",
+      "desc": "Ciljano pronalaženje kroz široke mreže i kanale."
+    },
+    "methodologie5": {
+      "title": "Selekcija",
+      "desc": "Detaljna provjera kvalifikacija, iskustva i kulturne podudarnosti."
+    }
+  },
+  "banner4": {
+    "titlebanner": "U potrazi za izvršnim talentima?",
+    "subtitlebanner": "Pomoći ćemo vam da pronađete pravog lidera koji će pokrenuti vaš uspjeh.",
+    "btnText": "Započnite"
+  },
+  "leadershipservices": {
+    "menu1": "Početna",
+    "menu2": "Usluge",
+    "title": "Regrutacija lidera",
+    "desc1": "Specijalizirani smo za identifikaciju i privlačenje najboljih talenata za ključne leaderske pozicije na svim nivoima i funkcijama.",
+    "desc2": "Svjesni da je snažno liderstvo ključno za organizacijski rast, koristimo našu široku mrežu i provjerene metode procjene kako bismo izgradili leaderske timove koji su u skladu s vašim strateškim ciljevima i kulturnim vrijednostima.",
+    "desc3": "Naš sveobuhvatan pristup osigurava savršeno uklapanje kako za organizaciju tako i za kandidata.",
+    "btnText": "Sve usluge",
+    "title2": "Naše usluge zapošljavanja lidera",
+    "description": "Kompletna rješenja za izgradnju visokoučinkovitih leaderskih timova.",
+    "leadership1": {
+      "title": "Viši menadžment",
+      "desc": "Zapošljavanje iskusnih lidera za ključne pozicije u višem menadžmentu."
+    },
+    "leadership2": {
+      "title": "Voditelji odjela",
+      "desc": "Identifikacija sposobnih lidera za unapređenje rada odjela."
+    },
+    "leadership3": {
+      "title": "Vođe timova",
+      "desc": "Pronalaženje talentovanih profesionalaca koji će voditi i inspirirati timove."
+    },
+    "leadership4": {
+      "title": "Voditelji projekata",
+      "desc": "Pronalaženje vještih menadžera za uspješno vođenje projekata."
+    },
+    "leadership5": {
+      "title": "Tehnički lideri",
+      "desc": "Zapošljavanje lidera sa dubokim tehničkim znanjem i menadžerskim vještinama."
+    },
+    "methodologytitle": "Naša metodologija pretrage",
+    "methodologydesc": "Strukturiran pristup identifikaciji i privlačenju izuzetnih talenata.",
+    "methodologie1": {
+      "title": "Analiza uloge",
+      "desc": "Definisanje ključnih leaderskih kompetencija i zahtjeva za ulogu."
+    },
+    "methodologie2": {
+      "title": "Potraga za talentima",
+      "desc": "Identifikacija kandidata sa visokim potencijalom kroz ciljanu potragu."
+    },
+    "methodologie3": {
+      "title": "Evaluacija",
+      "desc": "Procjena podobnosti kandidata kroz strateško screening i intervjue."
+    },
+    "methodologie4": {
+      "title": "Procjena",
+      "desc": "Mjerenje liderksog potencijala, vještina i usklađenosti s kulturom."
+    },
+    "methodologie5": {
+      "title": "Selekcija",
+      "desc": "Finaliziranje najpogodnijeg kandidata za uspješno zapošljavanje."
+    }
+  },
+  "banner5": {
+    "titlebanner": "Gradite svoj leaderski tim?",
+    "subtitlebanner": "Pomoći ćemo vam pronaći lidere koji će pomaknuti vašu viziju naprijed.",
+    "btnText": "Započnite"
+  },
+  "secondarynav": {
+    "nav": [
+      "Specijalnosti",
+      "Metodologija pretrage",
+      "Reprezentativne pretrage"
+    ]
+  },
+  "buildingmaterials": {
+    "title": "Građevinski materijali",
+    "desc": [
+      "Kao vitalni stub građevinarstva i infrastrukture, industrija građevinskih materijala zahtijeva vizionarsko vodstvo.",
+      "Sa dubokim uvideom u sektor, pomažemo proizvođačima, dobavljačima i distributerima da zaposle rukovodioce koji pokreću inovacije, upravljaju propisima i vode održivi rast.",
+      "Od cementa i čelika do drveta, stakla i naprednih kompozita, naša ekspertiza pokriva cijeli spektar potreba industrije za talentima."
+    ],
+    "specialitytitle": "Naše specijalnosti",
+    "representativetitle": "Reprezentativne pretrage",
+    "specialitie": [
+      "Sanitarije",
+      "Keramika",
+      "Boje, hemikalije i ljepila",
+      "Arhitektonska oprema",
+      "Staklo",
+      "Interijerna i eksterijerna rješenja",
+      "Vrata i prozori",
+      "Šperploča, furnir, laminati i MDF",
+      "Kamen i grafit",
+      "Liftovi i pokretne stepenice",
+      "Cijevi, kablovi i UPVC",
+      "Modularne kuhinje i uredski namještaj"
+    ],
+    "representative1": {
+      "title": "Tehnički direktor",
+      "desc": "Vodeći proizvođač sanitarija"
+    },
+    "representative2": {
+      "title": "Voditelj grupe – materijali",
+      "desc": "Vrhunski brend dekorativnih boja"
+    },
+    "representative3": {
+      "title": "Viši potpredsjednik – izvoz",
+      "desc": "Istaknuti proizvođač keramike"
+    },
+    "representative4": {
+      "title": "Direktor za zemlju, Indija",
+      "desc": "Globalni premium brend sanitarija"
+    },
+    "representative5": {
+      "title": "Izvršni potpredsjednik – razvoj poslovanja",
+      "desc": "Diverzificirani konglomerat – odjel za vrata i prozore"
+    },
+    "representative6": {
+      "title": "Potpredsjednik – prodaja",
+      "desc": "Vodeći proizvođač ACP (aluminijumskih kompozitnih panela)"
+    },
+    "representative7": {
+      "title": "Glavni finansijski direktor (CFO)",
+      "desc": "Poznati proizvođač šperploča"
+    },
+    "representative8": {
+      "title": "Glavni direktor ljudskih resursa (CHRO)",
+      "desc": "Globalni lider u pregradama i lažnim plafonima"
+    },
+    "methodologie1": {
+      "title": "Otkrivanje uloge",
+      "desc": "Dubinski pregled potreba klijenta i zahtjeva pozicije."
+    },
+    "methodologie2": {
+      "title": "Mapiranje talenata",
+      "desc": "Identifikacija najboljih kandidata putem ciljanog pristupa i mreža."
+    },
+    "methodologie3": {
+      "title": "Provjera",
+      "desc": "Temeljita evaluacija vještina, iskustva i usklađenosti."
+    },
+    "methodologie4": {
+      "title": "Procjena kandidata",
+      "desc": "Dubinska analiza kandidata za najbolje poklapanje."
+    },
+    "methodologie5": {
+      "title": "Odabir i ponuda",
+      "desc": "Podrška pri konačnom odabiru i upravljanje procesom ponude."
+    },
+    "methodologie6": {
+      "title": "Podrška pri uključivanju",
+      "desc": "Osiguravanje besprijekorne integracije u organizaciju."
+    }
+  },
+  "banner6": {
+    "titlebanner": "Povežite se s našim senior konsultantima",
+    "subtitlebanner": "Za stručnu podršku pri vašim potrebama za zapošljavanjem lidera.",
+    "btnText": "Započnite"
+  },
+  "industries": {
+    "title": "Industrijski",
+    "menu1": "Početna",
+    "menu2": "Industrije",
+    "title2": "Industrijski",
+    "desc": [
+      "Industrijski sektor je temelj proizvodnje i tehnološkog napretka. Sa našim dubokim znanjem, specijalizirani smo za pronalaženje i postavljanje lidera koji pokreću operativnu izvrsnost i podstiču inovacije.",
+      "Sarađujemo sa proizvodnim firmama, dobavljačima automatizacije i proizvođačima opreme kako bismo pronašli rukovodioce sa pravom kombinacijom tehničke ekspertize i jakih liderksih sposobnosti.",
+      "Naše opsežno znanje obuhvata ključne industrijske segmente, uključujući teško inženjerstvo, automatizaciju, procesne industrije i nove tehnologije kao što je Industrijski Internet stvari, osiguravajući da ispunjavamo vaše specifične potrebe za liderima."
+    ],
+    "specialitytitle": "Naše specijalnosti",
+    "representativetitle": "Reprezentativne pretrage",
+    "specialitie": [
+      "Teško inženjerstvo",
+      "Industrijska automatizacija",
+      "Oprema za proizvodnju energije",
+      "Oprema za rukovanje materijalima",
+      "Industrijska proizvodnja",
+      "Procesne industrije",
+      "Mašinski alati",
+      "Industrijska elektronika",
+      "Industrijski Internet stvari",
+      "Precizno inženjerstvo",
+      "Industrijska oprema",
+      "Proizvodni sistemi",
+      "Industrijska robotika"
+    ],
+    "representative1": {
+      "title": "Glavni operativni direktor",
+      "desc": "Vodeća industrijska proizvodna kompanija"
+    },
+    "representative2": {
+      "title": "Rukovodilac pogona",
+      "desc": "Velika korporacija za teško inženjerstvo"
+    },
+    "representative3": {
+      "title": "Potpredsjednik lanca snabdijevanja",
+      "desc": "Proizvođač industrijske opreme"
+    },
+    "representative4": {
+      "title": "Direktor inženjeringa",
+      "desc": "Kompanija za preciznu proizvodnju"
+    },
+    "representative5": {
+      "title": "Rukovodilac istraživanja i razvoja",
+      "desc": "Proizvođač opreme za proizvodnju energije"
+    },
+    "representative6": {
+      "title": "Tehnološki direktor",
+      "desc": "Dobavljač rješenja za industrijsku automatizaciju"
+    },
+    "representative7": {
+      "title": "Poslovni rukovodilac",
+      "desc": "Kompanija za rješenja Industrijskog Interneta stvari"
+    },
+    "representative8": {
+      "title": "Potpredsjednik ljudskih resursa",
+      "desc": "Vodeća korporacija u procesnoj industriji"
+    },
+    "methodologie1": {
+      "title": "Analiza zahtjeva",
+      "desc": "Dubinsko razumijevanje potreba klijenta i specifikacija uloge."
+    },
+    "methodologie2": {
+      "title": "Identifikacija kandidata",
+      "desc": "Korištenje naše mreže za lociranje potencijalnih kandidata."
+    },
+    "methodologie3": {
+      "title": "Proces selekcije",
+      "desc": "Sveobuhvatna evaluacija kvalifikacija i podobnosti kandidata."
+    },
+    "methodologie4": {
+      "title": "Procjena",
+      "desc": "Temeljita procjena kandidata sa užeg spiska."
+    },
+    "methodologie5": {
+      "title": "Selekcija",
+      "desc": "Konačni izbor kandidata i upravljanje ponudom."
+    },
+    "methodologie6": {
+      "title": "Uključivanje",
+      "desc": "Osiguravanje glatkog prelaza i integracije u ulogu."
+    }
+  },
+  "banner7": {
+    "titlebanner": "Obratite se našim višim konsultantima",
+    "subtitlebanner": "za vaše potrebe zapošljavanja lidera",
+    "btnText": "Kontaktirajte nas"
+  },
+  "realestate": {
+    "title": "Industrijski",
+    "menu1": "Početna",
+    "menu2": "Industrije",
+    "title2": "Nekretnine",
+    "desc": [
+      "Sektor nekretnina je dinamična i razvijajuća industrija koja zahtijeva vizionarsko vodstvo. Naša ekspertiza u ovoj oblasti omogućava nam da identificiramo i postavimo lidere koji mogu pokretati rast i inovacije u razvoju i upravljanju nekretninama.",
+      "Radimo sa developerima, firmama za upravljanje nekretninama i kompanijama za investicije u nekretnine kako bismo pronašli rukovodioce koji razumiju tržišnu dinamiku, regulatorne zahtjeve i nove trendove u održivom razvoju.",
+      "Naše sveobuhvatno razumijevanje obuhvata različite segmente uključujući stambene, komercijalne, maloprodajne i industrijske nekretnine, osiguravajući da možemo podržati vaše specifične potrebe za liderima u ovom raznolikom sektoru."
+    ],
+    "specialitytitle": "Naše specijalnosti",
+    "representativetitle": "Reprezentativne pretrage",
+    "specialitie": [
+      "Stambene nekretnine",
+      "Komercijalne nekretnine",
+      "Razvoj nekretnina",
+      "Upravljanje nekretninama",
+      "Investicije u nekretnine",
+      "Upravljanje građevinama",
+      "Upravljanje imovinom",
+      "Upravljanje objektima",
+      "Savjetovanje o nekretninama",
+      "Upravljanje projektima",
+      "Finansiranje nekretnina"
+    ],
+    "representative1": {
+      "title": "Glavni operativni direktor",
+      "desc": "Vodeća industrijska proizvodna kompanija"
+    },
+    "representative2": {
+      "title": "Voditelj pogona",
+      "desc": "Velika korporacija za teško inženjerstvo"
+    },
+    "representative3": {
+      "title": "Potpredsjednik lanca snabdijevanja",
+      "desc": "Proizvođač industrijskih oprema"
+    },
+    "representative4": {
+      "title": "Direktor inženjeringa",
+      "desc": "Kompanija za preciznu proizvodnju"
+    },
+    "representative5": {
+      "title": "Voditelj istraživanja i razvoja",
+      "desc": "Proizvođač opreme za proizvodnju energije"
+    },
+    "representative6": {
+      "title": "Tehnološki direktor",
+      "desc": "Dobavljač rješenja za industrijsku automatizaciju"
+    },
+    "representative7": {
+      "title": "Voditelj poslovanja",
+      "desc": "Kompanija za rješenja industrijskog interneta stvari"
+    },
+    "representative8": {
+      "title": "Potpredsjednik ljudskih resursa",
+      "desc": "Vodeća korporacija u procesnoj industriji"
+    },
+    "methodologie1": {
+      "title": "Strateški pristup osiguravanju vrhunskih talenata",
+      "desc": "Koristimo strukturiranu metodologiju za identifikaciju i privlačenje izuzetnih kandidata."
+    },
+    "methodologie2": {
+      "title": "Analiza zahtjeva",
+      "desc": "Temeljito razumijemo potrebe klijenata i specifikacije uloge."
+    },
+    "methodologie3": {
+      "title": "Identifikacija kandidata",
+      "desc": "Koristimo našu široku mrežu kako bismo pronašli najbolje odgovarajuće kandidate."
+    },
+    "methodologie4": {
+      "title": "Proces selekcije",
+      "desc": "Dubinska evaluacija za procjenu kvalifikacija i prilagodljivosti kandidata."
+    },
+    "methodologie5": {
+      "title": "Procjena",
+      "desc": "Sveobuhvatna evaluacija kandidata sa kratkog spiska."
+    },
+    "methodologie6": {
+      "title": "Odabir",
+      "desc": "Upravljanje konačnim procesom odabira i ponude."
+    }
+  },
+  "banner8": {
+    "titlebanner": "Obratite se našim višim konsultantima",
+    "subtitlebanner": "za vaše potrebe zapošljavanja lidera",
+    "btnText": "Kontaktirajte nas"
+  },
+  "education": {
+    "title": "Industrijski",
+    "menu1": "Početna",
+    "menu2": "Industrije",
+    "title2": "Obrazovanje",
+    "desc": [
+      "Obrazovni sektor igra ključnu ulogu u oblikovanju budućnosti. Naša ekspertiza nam omogućava da identificiramo i postavimo lidere koji mogu poticati akademsku izvrsnost i poticati inovacije.",
+      "Surađujemo s obrazovnim institucijama, EdTech kompanijama i pružateljima obuka kako bismo pronašli rukovodioce koji razumiju složenost obrazovnog krajolika i vode vizijom i integritetom.",
+      "Naše duboko razumijevanje obuhvata ključne segmente, uključujući K-12, visoko obrazovanje, stručno osposobljavanje i online učenje, osiguravajući da možemo odgovoriti na vaše specifične potrebe za liderstvom u ovom dinamičnom sektoru."
+    ],
+    "specialitytitle": "Naše specijalnosti",
+    "representativetitle": "Reprezentativne pretrage",
+    "specialitie": [
+      "Obrazovanje K-12",
+      "Visoko obrazovanje",
+      "EdTech",
+      "Stručno osposobljavanje",
+      "Korporativna obuka",
+      "Obrazovno izdavaštvo",
+      "Online učenje",
+      "Specijalno obrazovanje",
+      "Obrazovna administracija",
+      "Razvoj kurikuluma",
+      "Obrazovna istraživanja",
+      "Studentske usluge",
+      "Osposobljavanje nastavnika"
+    ],
+    "representative1": {
+      "title": "Glavni operativni direktor",
+      "desc": "Vodeća industrijska proizvodna kompanija"
+    },
+    "representative2": {
+      "title": "Voditelj pogona",
+      "desc": "Velika korporacija za teško inženjerstvo"
+    },
+    "representative3": {
+      "title": "Potpredsjednik lanca snabdijevanja",
+      "desc": "Proizvođač industrijskih opreme"
+    },
+    "representative4": {
+      "title": "Direktor inženjeringa",
+      "desc": "Kompanija za preciznu proizvodnju"
+    },
+    "representative5": {
+      "title": "Voditelj istraživanja i razvoja",
+      "desc": "Proizvođač opreme za proizvodnju energije"
+    },
+    "representative6": {
+      "title": "Tehnološki direktor",
+      "desc": "Dobavljač rješenja za industrijsku automatizaciju"
+    },
+    "methodologie1": {
+      "title": "Analiza zahtjeva",
+      "desc": "Razumijevanje potreba klijenta i specifikacija uloge"
+    },
+    "methodologie2": {
+      "title": "Identifikacija kandidata",
+      "desc": "Korištenje naše mreže za pronalaženje potencijalnih podudarnosti"
+    },
+    "methodologie3": {
+      "title": "Proces selekcije",
+      "desc": "Duboka evaluacija kandidata"
+    },
+    "methodologie4": {
+      "title": "Procjena",
+      "desc": "Detaljna procjena odabranih kandidata."
+    },
+    "methodologie5": {
+      "title": "Odabir",
+      "desc": "Konačni odabir i upravljanje ponudama"
+    },
+    "methodologie6": {
+      "title": "Uključivanje",
+      "desc": "Osiguravanje glatkog prelaska u ulogu"
+    }
+  },
+  "banner9": {
+    "titlebanner": "Obratite se našim višim konsultantima",
+    "subtitlebanner": "za vaše potrebe zapošljavanja lidera",
+    "btnText": "Kontaktirajte nas"
+  },
+
+  "devlopment": {
+    "title": "Industrijski",
+    "menu1": "Početna",
+    "menu2": "Industrije",
+    "title2": "Razvoj",
+    "desc": [
+      "Sektor razvoja je ključan za oblikovanje naših gradova i infrastrukture. Naša ekspertiza nam omogućava da identificiramo i postavimo lidere koji pokreću održivi razvoj i potiču inovacije.",
+      "Surađujemo s razvojnim vlastima, infrastrukturnim kompanijama i organizacijama za urbano planiranje kako bismo pronašli rukovodioce koji razumiju složenost velikih projekata i vode vizijom i svrhom.",
+      "Naše duboko razumijevanje obuhvata ključna područja, uključujući infrastrukturu, urbani razvoj i transport, osiguravajući da možemo ispuniti vaše potrebe za liderstvom u ovom dinamičnom sektoru."
+    ],
+    "specialitytitle": "Naše specijalnosti",
+    "representativetitle": "Reprezentativne pretrage",
+    "specialitie": [
+      "Razvoj infrastrukture",
+      "Urbani razvoj",
+      "Planiranje projekata",
+      "Upravljanje građevinom",
+      "Transportni projekti",
+      "Javni radovi",
+      "Ekološko planiranje",
+      "Održivi razvoj",
+      "Razvoj pametnih gradova",
+      "Industrijski razvoj",
+      "Ruralni razvoj",
+      "Ekonomski razvoj",
+      "Finansiranje projekata"
+    ],
+    "representative1": {
+      "title": "Glavni operativni direktor",
+      "desc": "Vodeća industrijska proizvodna kompanija"
+    },
+    "representative2": {
+      "title": "Voditelj pogona",
+      "desc": "Velika korporacija za teško inženjerstvo"
+    },
+    "representative3": {
+      "title": "Potpredsjednik lanca snabdijevanja",
+      "desc": "Proizvođač industrijskih oprema"
+    },
+    "representative4": {
+      "title": "Direktor inženjeringa",
+      "desc": "Kompanija za preciznu proizvodnju"
+    },
+    "representative5": {
+      "title": "Voditelj istraživanja i razvoja",
+      "desc": "Proizvođač opreme za proizvodnju energije"
+    },
+    "representative6": {
+      "title": "Tehnološki direktor",
+      "desc": "Dobavljač rješenja za industrijsku automatizaciju"
+    },
+    "representative7": {
+      "title": "Voditelj poslovanja",
+      "desc": "Kompanija za rješenja industrijskog interneta stvari"
+    },
+    "representative8": {
+      "title": "Potpredsjednik za ljudske resurse",
+      "desc": "Vodeća korporacija u procesnoj industriji"
+    },
+    "methodologie1": {
+      "title": "Analiza zahtjeva",
+      "desc": "Razumijevanje potreba klijenata i specifikacija uloge"
+    },
+    "methodologie2": {
+      "title": "Identifikacija kandidata",
+      "desc": "Korištenje naše mreže za pronalaženje potencijalnih podudarnosti"
+    },
+    "methodologie3": {
+      "title": "Proces selekcije",
+      "desc": "Dubinska evaluacija kandidata"
+    },
+    "methodologie4": {
+      "title": "Procjena",
+      "desc": "Detaljna procjena odabranih kandidata."
+    },
+    "methodologie5": {
+      "title": "Odabir",
+      "desc": "Konačni odabir i upravljanje ponudama"
+    },
+    "methodologie6": {
+      "title": "Uključivanje",
+      "desc": "Osiguravanje glatkog prelaska u ulogu"
+    }
+  },
+  "banner10": {
+    "titlebanner": "Obratite se našim višim konsultantima",
+    "subtitlebanner": "za vaše potrebe zapošljavanja lidera",
+    "btnText": "Kontaktirajte nas"
+  },
+  "technology": {
+    "title": "Industrijski",
+    "menu1": "Početna",
+    "menu2": "Industrije",
+    "title2": "Tehnologija",
+    "desc": [
+      "Tehnološki sektor vodi put u inovacijama i digitalnoj transformaciji. Naša ekspertiza nam pomaže da identificiramo i postavimo lidere koji mogu pokrenuti tehnološki napredak i poslovni rast.",
+      "Partner smo sa softverskim kompanijama, tehnološkim startupima i pružaocima korporativnih rješenja kako bismo pronašli izvršne direktore koji kombiniraju tehnološku ekspertizu sa poslovnom strategijom, osiguravajući uspješne digitalne inicijative.",
+      "Naše duboko razumijevanje obuhvata ključna područja, uključujući razvoj softvera, AI/ML, računarstvo u oblaku i kibernetičku sigurnost, što nam omogućava da ispunimo vaše specifične potrebe za liderstvom u ovom sektoru koji se stalno razvija."
+    ],
+    "specialitytitle": "Naše specijalnosti",
+    "representativetitle": "Reprezentativne pretrage",
+    "specialitie": [
+      "Razvoj softvera",
+      "Računarstvo u oblaku",
+      "Umjetna inteligencija",
+      "Analiza podataka",
+      "Kibernetička sigurnost",
+      "Korporativna rješenja",
+      "Digitalna transformacija",
+      "Mobilne tehnologije",
+      "DevOps",
+      "Blockchain",
+      "IoT rješenja",
+      "FinTech",
+      "SaaS platforme"
+    ],
+    "representative1": {
+      "title": "Glavni operativni direktor",
+      "desc": "Vodeća industrijska proizvodna kompanija"
+    },
+    "representative2": {
+      "title": "Voditelj pogona",
+      "desc": "Velika korporacija za teško inženjerstvo"
+    },
+    "representative3": {
+      "title": "Potpredsjednik lanca snabdijevanja",
+      "desc": "Proizvođač industrijskih oprema"
+    },
+    "representative4": {
+      "title": "Direktor inženjeringa",
+      "desc": "Kompanija za preciznu proizvodnju"
+    },
+    "representative5": {
+      "title": "Voditelj istraživanja i razvoja",
+      "desc": "Proizvođač opreme za proizvodnju energije"
+    },
+    "representative6": {
+      "title": "Tehnološki direktor",
+      "desc": "Dobavljač rješenja za industrijsku automatizaciju"
+    },
+    "representative7": {
+      "title": "Voditelj poslovanja",
+      "desc": "Kompanija za rješenja industrijskog interneta stvari"
+    },
+    "representative8": {
+      "title": "Potpredsjednik za ljudske resurse",
+      "desc": "Vodeća korporacija u procesnoj industriji"
+    },
+    "methodologie1": {
+      "title": "Analiza zahtjeva",
+      "desc": "Razumijevanje potreba klijenata i specifikacija uloge"
+    },
+    "methodologie2": {
+      "title": "Identifikacija kandidata",
+      "desc": "Korištenje naše mreže za pronalaženje potencijalnih podudarnosti"
+    },
+    "methodologie3": {
+      "title": "Proces selekcije",
+      "desc": "Dubinska evaluacija kandidata"
+    },
+    "methodologie4": {
+      "title": "Procjena",
+      "desc": "Detaljna procjena odabranih kandidata."
+    },
+    "methodologie5": {
+      "title": "Odabir",
+      "desc": "Konačni odabir i upravljanje ponudama"
+    },
+    "methodologie6": {
+      "title": "Uključivanje",
+      "desc": "Osiguravanje glatkog prelaska u ulogu"
+    }
+  },
+  "banner11": {
+    "titlebanner": "Obratite se našim višim konsultantima",
+    "subtitlebanner": "za vaše potrebe zapošljavanja lidera",
+    "btnText": "Kontaktirajte nas"
+  },
+  "contact": {
+    "title": "Kontakt informacije",
+    "menu1": "Početna",
+    "menu2": "Kontaktirajte nas",
+    "location1": {
+      "title": "Sjedište kompanije - Katar",
+      "address": "World Wide Business Centre, D Ring Rd, Doha, Katar"
+    },
+    "location2": {
+      "title": "Glavni ured - Rumunija",
+      "address": "Municipiul Slobozia, Starda VIILOR,Nr.3,Bloc R3,Scara, A,Etaj P,Ap.1,Judet Ialomita, Rumunija"
+    },
+    "phone": "Telefon",
+    "email": "Email",
+    "contactsocial": "Povežite se s nama",
+    "workingtime": {
+      "title": "Radno vrijeme",
+      "days1": "Ponedjeljak do petak",
+      "hours1": "8:00 - 18:00",
+      "days2": "Subota",
+      "hours2": "8:00 - 14:00",
+      "days3": "Nedjelja",
+      "hours3": "Zatvoreno"
+    },
+    "contactform": {
+      "title": "Pišite nam",
+      "desc": "Ispunite obrazac ispod i odgovorit ćemo vam u najkraćem mogućem roku.",
+      "name": "Ime",
+      "email": "Email",
+      "subject": "Predmet",
+      "message": "Poruka",
+      "btnText": "Pošalji poruku"
+    }
+  },
+  "contactpop": {
+    "title": "Kontaktirajte nas",
+    "subtitle1": "Korporativni klijenti",
+    "desc1": "Želite li da vam pomognemo u potrazi za vrhunskim talentima?",
+    "subtitle2": "Kandidati",
+    "email": "E-mail",
+    "phone": "Telefon",
+    "desc2": "Tražite li pravu karijernu priliku?",
+    "btnText": "Pošaljite CV",
+    "desc3": "Prijevarni postupci zapošljavanja"
+  },
+  "footer": {
+    "title1": "Empowerment Group",
+    "desc": "Pružamo stručne savjete i inovativna rješenja za poslovanje širom svijeta.",
+    "location1": {
+      "title": "Glavni ured - Katar",
+      "address": "World Wide Business Centre, D Ring Rd, Doha, Katar"
+    },
+    "location2": {
+      "title": "Glavni ured - Rumunija",
+      "address": "Municipiul Slobozia Str. Viilor 3 Bl. R3 Sc. A Et. P Ap. 1, Judetul Ialomita, România"
+    },
+    "title2": "Brzi linkovi",
+    "nav1": "Kontakt",
+    "title3": "Usluge",
+    "nav2": "Savjetovanje uprave",
+    "nav3": "Potraga za izvršnim talentima",
+    "nav4": "Zapošljavanje lidera",
+    "email": "E-mail",
+    "phone": "Telefon",
+    "copyright": "© 2025 Empowerment Group. Sva prava zadržana."
+  }
+}
