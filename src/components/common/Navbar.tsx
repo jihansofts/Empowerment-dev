@@ -62,7 +62,7 @@ const Navbar: React.FC<HTMLAttributes<HTMLElement>> = () => {
                 <NavigationMenu
                   value={activeMenu}
                   onValueChange={setActiveMenu}>
-                  <NavigationMenuList className="flex items-center md:gap-1 lg:gap-4">
+                  <NavigationMenuList className="flex items-center md:gap-1 lg:gap-3">
                     <NavigationMenuItem>
                       <NavigationMenuTrigger
                         className={`text-lg font-semibold relative group ${
@@ -199,14 +199,43 @@ const Navbar: React.FC<HTMLAttributes<HTMLElement>> = () => {
                         </div>
                       </NavigationMenuContent>
                     </NavigationMenuItem>
+                    <NavigationMenuItem>
+                      <NavigationMenuTrigger
+                        className={`text-lg font-semibold relative group ${
+                          isActive("/partner-with") ? "text-primary" : ""
+                        }`}>
+                        Partner With
+                        {isActive("/partner-with") && (
+                          <span className="absolute bottom-0 left-0 w-full h-0.5 bg-primary" />
+                        )}
+                      </NavigationMenuTrigger>
+                      <NavigationMenuContent className="border-t-2 border-t-primary">
+                        <ul className="grid w-[400px] gap-3 p-4">
+                          <li>
+                            <Link
+                              className="block p-2 text-base font-medium rounded-md hover:bg-accent"
+                              href="/partner-with/become-agent">
+                              Become an Agent
+                            </Link>
+                          </li>
+                          <li>
+                            <Link
+                              className="block p-2 font-medium rounded-md hover:bg-accent"
+                              href="/partner-with/our-success">
+                              Our Success Stories
+                            </Link>
+                          </li>
+                        </ul>
+                      </NavigationMenuContent>
+                    </NavigationMenuItem>
                   </NavigationMenuList>
-                  <NavigationMenuViewport />
                   <Link
-                    href="/our-success"
+                    href="/careers"
                     className="relative flex items-center justify-center px-2 md:px-6">
-                    <span className="relative z-10">{t("oursuccess")}</span>
+                    <span className="relative z-10">Careers</span>
                     <div className="absolute inset-0 transition-transform duration-300 ease-out origin-top-right transform scale-0 rounded-full bg-primary/90 group-hover:scale-100" />
                   </Link>
+                  <NavigationMenuViewport />
                 </NavigationMenu>
               </div>
             )}

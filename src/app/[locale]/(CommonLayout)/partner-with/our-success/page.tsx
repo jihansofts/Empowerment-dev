@@ -1,4 +1,4 @@
-import CountryGallery from "@/components/pages/our-success/CountryGallery";
+import CountryGallery from "@/components/pages/partner-with/our-success/CountryGallery";
 
 export default function Page() {
   return (
