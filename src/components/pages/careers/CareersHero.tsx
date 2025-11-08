@@ -1,34 +1,19 @@
 "use client";
 import { useEffect, useState } from "react";
-import {
-  FaBriefcase,
-  FaMapMarkerAlt,
-  FaMoneyBillWave,
-  FaUserTie,
-  FaVenusMars,
-  FaUsers,
-} from "react-icons/fa";
-import { MdOutlineWork } from "react-icons/md";
-import { IoMdTime } from "react-icons/io";
+import { FaMapMarkerAlt, FaMoneyBillWave, FaUserTie } from "react-icons/fa";
 import JobModal from "./JobModal";
 
 interface Job {
   SL_No: number;
-  Date: string;
-  JobCategory: string;
   Title: string;
-  Description: string;
   Industry: string;
   Country: string;
-  CandidatesOrigin: string;
-  Gender: string;
-  Experience: string;
   Salary: string;
-  Shift: string;
+  Experience: string;
   JobType: string;
-  Requirements: string;
-  Vacancies: number;
   Status: string;
+  Vacancies: number;
+  Date: string;
 }
 
 export default function CareersPage() {
@@ -39,7 +24,7 @@ export default function CareersPage() {
   useEffect(() => {
     setLoading(true);
     fetch(
-      "https://script.googleusercontent.com/macros/echo?user_content_key=AehSKLjOvtiacwT3fGKQQtk3Mh3ECDyAgwPY-5Nkb7s8Tl6njjaJvFQSXf4z0gqE2WlQBlCmheRtzOQJjsDbKJNsWcIga717FQ0L0asl_4Pj4IdleA3aLB09F881EVwCm63bN46tRpoSGP4sc40nqTTY-6_j5C_EfY1SiZVISRX9s3abyhFGzq5Upvd1HsJy0_iNNjmdcp0ccaNGe7UziK7th36L9v6AActcjZ_yXJ8uyxnpiFb2oqhKyHhtq-XqC7PW7amhfknKru2l83QDzvdSo_Bxc6u5I6mkHQjTu9-6XW41UeDMZbNnptdUyNyAxg&lib=MOG3XTzfacQmAEOKOhbhck_HvpOmuPJJp"
+      "https://script.google.com/macros/s/AKfycbxSihU_-lx49-gr1h4oe6w1H621Nxy2QHfMEx87gGGQKzfvwyQ3V3TMOxx9ypsR_JFdow/exec?site=Empowerment "
     )
       .then((res) => res.json())
       .then((data) => {
@@ -62,7 +47,6 @@ export default function CareersPage() {
           Explore exciting opportunities and apply today!
         </p>
 
-        {/* Loading Spinner */}
         {loading ? (
           <div className="flex flex-col items-center justify-center py-20">
             <div className="w-12 h-12 border-4 border-gray-300 rounded-full border-t-black animate-spin"></div>
@@ -72,72 +56,82 @@ export default function CareersPage() {
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {jobs
               .filter((job) => job.Status === "Active")
-              .map((job) => (
-                <div
-                  key={job.SL_No}
-                  className="p-6 transition-all duration-300 bg-white border shadow-sm rounded-2xl hover:shadow-lg group">
-                  <div className="flex items-center justify-between mb-2">
-                    <h3 className="flex items-center gap-2 text-lg font-semibold text-gray-900 group-hover:text-black">
-                      <FaBriefcase className="text-black/70" />{" "}
-                      {job.Title || "Untitled"}
-                    </h3>
-                    <span className="px-3 py-1 text-xs font-medium text-green-700 bg-green-100 rounded-full">
-                      {job.Status}
-                    </span>
-                  </div>
+              .map(
+                (job) => (
+                  console.log(job, "job data"),
+                  (
+                    <div
+                      key={job.SL_No}
+                      className="relative p-6 transition-all bg-white border border-gray-100 shadow-md rounded-3xl hover:shadow-xl backdrop-blur-md">
+                      {/* Title + Company */}
+                      <div className="mb-4 text-left">
+                        <h3 className="text-xl font-semibold text-gray-900">
+                          {job.Title}
+                        </h3>
+                        <div className="flex items-center justify-between py-2">
+                          <p className="text-sm text-gray-500">
+                            {job.Industry || "Company Name"}
+                          </p>
+                          <span className="font-semibold text-gray-500 ">
+                            {job.Vacancies}
+                            <span className="text-sm"> Vacancies</span>
+                          </span>
+                        </div>
+                      </div>
 
-                  <p className="flex items-center gap-1 mb-3 text-sm text-gray-500">
-                    <MdOutlineWork /> {job.Industry} • <FaMapMarkerAlt />{" "}
-                    {job.Country}
-                  </p>
+                      {/* Job Info */}
+                      <div className="space-y-3 text-sm text-gray-700">
+                        <p className="flex items-center gap-2">
+                          <FaMapMarkerAlt className="text-blue-500" />
+                          {job.Country}
+                        </p>
+                        <p className="flex items-center gap-2">
+                          <FaMoneyBillWave className="text-green-500" />
+                          {job.Salary} / year
+                        </p>
+                        <p className="flex items-center gap-2">
+                          <FaUserTie className="text-gray-600" />
+                          {job.Experience} Years Experience
+                        </p>
+                      </div>
 
-                  <p className="mb-4 text-sm text-gray-700 line-clamp-3">
-                    {job.Description}
-                  </p>
+                      {/* Divider */}
+                      <div className="my-4 border-t border-gray-200"></div>
 
-                  <div className="pt-3 space-y-2 text-sm text-left text-gray-700 border-t">
-                    <p className="flex items-center gap-2">
-                      <FaMoneyBillWave className="text-green-600" />
-                      <strong>Salary:</strong> {job.Salary}
-                    </p>
-                    <p className="flex items-center gap-2">
-                      <FaUserTie className="text-blue-600" />
-                      <strong>Experience:</strong> {job.Experience} years
-                    </p>
-                    <p className="flex items-center gap-2">
-                      <IoMdTime className="text-purple-600" />
-                      <strong>Shift:</strong> {job.Shift}
-                    </p>
-                    <p className="flex items-center gap-2">
-                      <MdOutlineWork className="text-gray-600" />
-                      <strong>Type:</strong> {job.JobType}
-                    </p>
-                    <p className="flex items-center gap-2">
-                      <FaUsers className="text-orange-600" />
-                      <strong>Vacancies:</strong> {job.Vacancies}
-                    </p>
-                    <p className="flex items-center gap-2">
-                      <FaVenusMars className="text-pink-600" />
-                      <strong>Gender:</strong> {job.Gender}
-                    </p>
-                  </div>
+                      {/* Tags */}
+                      <div className="flex flex-wrap gap-2 mb-3">
+                        <span className="px-3 py-1 text-xs font-medium text-blue-700 bg-blue-100 rounded-full">
+                          {job.JobType}
+                        </span>
+                        <span className="px-3 py-1 text-xs font-medium text-green-700 bg-green-100 rounded-full">
+                          Flexible Hours
+                        </span>
+                        <span className="px-3 py-1 text-xs font-medium text-purple-700 bg-purple-100 rounded-full">
+                          Expert Level
+                        </span>
+                        <span className="px-3 py-1 text-xs font-medium text-pink-700 bg-pink-100 rounded-full">
+                          Big Data
+                        </span>
+                      </div>
 
-                  <button
-                    onClick={() => setSelectedJob(job)}
-                    className="w-full py-2 mt-5 font-medium text-white transition-all bg-black rounded-lg hover:bg-gray-800">
-                    Apply Now
-                  </button>
-                </div>
-              ))}
+                      {/* Apply Button */}
+                      <button
+                        onClick={() => setSelectedJob(job)}
+                        className="w-full py-2 mt-6 font-medium text-white transition-all bg-primary rounded-xl hover:bg-secondary-foreground">
+                        Apply Now
+                      </button>
+                    </div>
+                  )
+                )
+              )}
           </div>
         ) : (
-          <p className="text-gray-500 col-span-full">
+          <p className="text-gray-500">
             No job listings available at the moment.
           </p>
         )}
       </div>
 
-      {/* Apply Modal */}
       {selectedJob && (
         <JobModal job={selectedJob} onClose={() => setSelectedJob(null)} />
       )}

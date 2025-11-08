@@ -2,7 +2,7 @@
 
 import Hero from "@/components/pages/home/Hero";
 import CountStatscard from "@/components/pages/home/CountStatscard";
-import OurPeople from "@/components/pages/home/OurPeople";
+// import OurPeople from "@/components/pages/home/OurPeople";
 import OurJourney from "@/components/pages/home/OurJourney";
 import IndustrySpecialization from "@/components/pages/home/IndustrySpecialisation";
 import OurServices from "@/components/pages/home/OurServices";
@@ -18,7 +18,7 @@ export default function Home() {
     <main>
       <Hero />
       <CountStatscard />
-      <OurPeople />
+      {/* <OurPeople /> */}
       <OurJourney />
       <IndustrySpecialization />
       <OurServices />

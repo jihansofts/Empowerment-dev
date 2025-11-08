@@ -28,7 +28,6 @@ const BoardAdvisoryServices = () => {
   return (
     <>
       <PageTransition>
-        {/* Header Section */}
         <motion.div
           initial="hidden"
           animate="visible"
@@ -53,7 +52,6 @@ const BoardAdvisoryServices = () => {
               </Breadcrumb>
             </motion.div>
 
-            {/* Centered Title */}
             <motion.h1
               variants={organizationItemVariants}
               className="text-2xl md:text-4xl font-bold text-center">

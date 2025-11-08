@@ -75,43 +75,15 @@ const Footer = () => {
               <li>
                 <Link
                   className="block p-2 font-medium rounded-md hover:bg-accent hover:text-primary"
-                  href="/expertise/building-materials">
-                  {t2("building")}
+                  href="/about-us">
+                  {t2("about")}
                 </Link>
               </li>
               <li>
                 <Link
                   className="block p-2 font-medium rounded-md hover:bg-accent hover:text-primary"
-                  href="/expertise/education">
-                  {t2("education")}
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="block p-2 font-medium rounded-md hover:bg-accent hover:text-primary"
-                  href="/expertise/industrial">
-                  {t2("industrial")}
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="block p-2 font-medium rounded-md hover:bg-accent hover:text-primary"
-                  href="/expertise/development">
-                  {t2("development")}
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="block p-2 font-medium rounded-md hover:bg-accent hover:text-primary"
-                  href="/expertise/real-estate">
-                  {t2("realestate")}
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="block p-2 font-medium rounded-md hover:bg-accent hover:text-primary"
-                  href="/expertise/technology">
-                  {t2("technology")}
+                  href="/services/recruitment-solutions">
+                  {t2("services")}
                 </Link>
               </li>
               <li>

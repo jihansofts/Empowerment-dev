@@ -4,6 +4,7 @@ import OurJourney from "@/components/pages/home/OurJourney";
 import CommonBanner from "@/components/common/CommonBanner";
 import OurCulture from "@/components/pages/about-us/OurCulture";
 import { useTranslations } from "next-intl";
+import OurPeople from "@/components/pages/home/OurPeople";
 
 export const metadata = {
   title: "About Us - Empowerment Group",
@@ -17,6 +18,7 @@ export default function About() {
     <>
       <OurOrganization />
       <OurJourney />
+      <OurPeople />
       <OurCulture />
       <CommonBanner
         title={t("title")}

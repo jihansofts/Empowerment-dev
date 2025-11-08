@@ -3,27 +3,9 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
-import {
-  ArrowRight,
-  // Twitter,
-  Facebook,
-  Youtube,
-  Instagram,
-} from "lucide-react";
+import { ArrowRight, Facebook, Youtube, Instagram } from "lucide-react";
 import Link from "next/link";
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  type CarouselApi,
-} from "@/components/ui/carousel";
 import Image from "next/image";
-import AnimateInView from "@/components/animation/AnimateInView";
-import {
-  fadeInLeft,
-  fadeInRight,
-  fadeInUp,
-} from "@/components/animation/variants";
 import PageTransition from "@/components/animation/PageTransition";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
@@ -31,28 +13,9 @@ import { FaPinterest, FaTiktok } from "react-icons/fa";
 
 const images = ["/images/h1.jpg", "/images/h2.jpg", "/images/h3.jpg"];
 
-const containerVariants = {
-  initial: {
-    opacity: 0,
-    y: 20,
-  },
-  animate: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.4,
-      delay: 0.4,
-      ease: [0.22, 1, 0.36, 1],
-      staggerChildren: 0.1,
-      delayChildren: 0.5,
-    },
-  },
-};
-
 const Hero = () => {
   const [mounted, setMounted] = useState(false);
-  const [activeIndex, setActiveIndex] = useState(0);
-  const [api, setApi] = useState<CarouselApi>();
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const t = useTranslations("hero");
 
   useEffect(() => {
@@ -60,162 +23,321 @@ const Hero = () => {
   }, []);
 
   useEffect(() => {
-    if (!api) return;
-
-    api.on("select", () => {
-      setActiveIndex(api.selectedScrollSnap());
-    });
-  }, [api]);
-
-  useEffect(() => {
-    if (!api) return;
+    if (!mounted) return;
 
     const interval = setInterval(() => {
-      api.scrollNext();
-    }, 3000);
+      setCurrentImageIndex((prevIndex) =>
+        prevIndex === images.length - 1 ? 0 : prevIndex + 1
+      );
+    }, 5000);
 
     return () => clearInterval(interval);
-  }, [api]);
+  }, [mounted]);
 
-  if (!mounted) return null;
+  if (!mounted) {
+    return (
+      <section className="relative min-h-screen flex items-center justify-center bg-gray-100">
+        <div className="container px-4 mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            <div className="space-y-6">
+              <div className="h-8 bg-gray-300 rounded w-48 animate-pulse"></div>
+              <div className="h-16 bg-gray-300 rounded animate-pulse"></div>
+              <div className="h-4 bg-gray-300 rounded w-3/4 animate-pulse"></div>
+            </div>
+            <div className="flex justify-center">
+              <div className="w-full h-64 bg-gray-300 rounded-2xl animate-pulse"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    );
+  }
 
   return (
     <PageTransition>
-      <motion.section
-        variants={containerVariants}
-        initial="initial"
-        animate="animate"
-        className="relative min-h-[80vh] flex items-center bg-white py-6 md:py-12 pb-4">
-        <div className="container px-4 mx-auto">
-          <div className="grid items-center grid-cols-1 gap-6 md:grid-cols-2 md:gap-12">
-            <AnimateInView
-              variants={fadeInRight}
-              delay={0.6}
-              className="relative order-1 mt-0 mb-8 md:mb-0 md:mt-0 md:order-2">
-              <div className="absolute w-full h-full transform -right-8 top-8 rounded-2xl bg-primary/20 blur-lg" />
-              <Carousel
-                setApi={setApi}
-                className="relative w-full overflow-hidden rounded-2xl shadow-[2px_4px_16px_rgba(0,0,0,0.15)]"
-                opts={{
-                  loop: true,
-                  align: "center",
-                  skipSnaps: false,
-                  dragFree: false,
-                }}>
-                <CarouselContent>
-                  {images.map((image, index) => (
-                    <CarouselItem key={index}>
-                      {/* Adjusted image heights for better proportions */}
-                      <div className="relative w-full h-[200px] sm:h-[280px] md:h-[350px] lg:h-[420px]">
-                        <Image
-                          src={image}
-                          alt={`Carousel Image ${index + 1}`}
-                          fill
-                          priority
-                          className="object-cover rounded-2xl"
-                        />
-                      </div>
-                    </CarouselItem>
-                  ))}
-                </CarouselContent>
-                <div className="absolute flex items-center gap-2 -translate-x-1/2 bottom-4 left-1/2">
-                  {images.map((_, index) => (
-                    <button
-                      key={`dot-${index}`}
-                      onClick={() => api?.scrollTo(index)}
-                      className={`w-2 h-2 md:w-2.5 md:h-2.5 rounded-full transition-colors ${
-                        activeIndex === index ? "bg-black" : "bg-white/50"
-                      }`}
-                      aria-label={`Go to slide ${index + 1}`}
-                    />
-                  ))}
-                </div>
-              </Carousel>
-            </AnimateInView>
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gray-900 ">
+        <div className="absolute inset-0 z-0">
+          {images.map((image, index) => (
+            <motion.div
+              key={image}
+              initial={{ opacity: index === 0 ? 1 : 0 }}
+              animate={{
+                opacity: currentImageIndex === index ? 1 : 0,
+                scale: currentImageIndex === index ? 1.05 : 1,
+              }}
+              transition={{
+                opacity: { duration: 2, ease: "easeInOut" },
+                scale: { duration: 8, ease: "easeInOut" },
+              }}
+              className="absolute inset-0"
+            >
+              <Image
+                src={image}
+                alt={`Background ${index + 1}`}
+                fill
+                className="object-cover"
+                priority={index === 0}
+                quality={90}
+              />
 
-            {/* Content section */}
-            <AnimateInView
-              variants={fadeInLeft}
-              delay={0.6}
-              className="order-2 space-y-2 md:space-y-8 md:order-1">
-              <AnimateInView variants={fadeInUp} delay={0.7}>
-                <h1 className="text-2xl font-bold leading-tight text-gray-900 sm:text-3xl md:text-5xl lg:text-6xl">
-                  {t("title")}
-                  <span className="block text-primary mt-0.5 md:mt-2">
+              <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-black/20" />
+            </motion.div>
+          ))}
+        </div>
+
+        <div className="absolute inset-0 z-5">
+          {[...Array(15)].map((_, i) => (
+            <motion.div
+              key={i}
+              animate={{
+                y: [0, -100, 0],
+                x: [0, Math.sin(i) * 50, 0],
+                opacity: [0, 0.6, 0],
+                scale: [0.8, 1.2, 0.8],
+              }}
+              transition={{
+                duration: 4 + i * 0.5,
+                repeat: Infinity,
+                delay: i * 0.3,
+                ease: "easeInOut",
+              }}
+              className="absolute w-2 h-2 bg-white/30 rounded-full"
+              style={{
+                left: `${(i * 7) % 100}%`,
+                top: `${(i * 10) % 100}%`,
+              }}
+            />
+          ))}
+        </div>
+
+        <div className="container relative z-10 px-4 mx-auto py-10">
+          <div className="grid items-center grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
+            <div className="space-y-8 lg:space-y-10">
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.2 }}
+                className="space-y-4"
+              >
+                <h1 className="text-4xl lg:text-6xl xl:text-6xl font-bold leading-tight text-white">
+                  <motion.span
+                    initial={{ opacity: 0, x: -20 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ delay: 0.4 }}
+                    className="block"
+                  >
+                    {t("title")}
+                  </motion.span>
+                  <motion.span
+                    initial={{ opacity: 0, x: 20 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ delay: 0.6 }}
+                    className="block text-[#EF3D54] mt-2 lg:mt-4"
+                  >
                     {t("subtitle")}
-                  </span>
+                  </motion.span>
                 </h1>
-              </AnimateInView>
 
-              <AnimateInView variants={fadeInUp} delay={0.8}>
-                <p className="max-w-lg text-sm text-gray-600 sm:text-base md:text-xl">
+                <motion.div
+                  initial={{ width: 0 }}
+                  animate={{ width: "140px" }}
+                  transition={{ delay: 0.8, duration: 1.5, ease: "easeOut" }}
+                  className="h-1 bg-gradient-to-r from-[#EF3D54] to-pink-500 rounded-full"
+                />
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.4, duration: 0.7 }}
+                className="relative"
+              >
+                <p className="text-lg lg:text-xl leading-relaxed text-white/90 max-w-2xl backdrop-blur-sm bg-white/10 rounded-2xl p-6 border border-white/20">
                   {t("description")}
                 </p>
-              </AnimateInView>
+                <motion.div
+                  animate={{
+                    opacity: [0.3, 0.6, 0.3],
+                  }}
+                  transition={{
+                    duration: 3,
+                    repeat: Infinity,
+                    ease: "easeInOut",
+                  }}
+                  className="absolute inset-0 bg-[#EF3D54]/10 rounded-2xl blur-xl -z-10"
+                />
+              </motion.div>
 
-              <AnimateInView variants={fadeInUp} delay={0.9}>
-                <div className="flex flex-col items-center gap-3 pt-2 sm:flex-row md:pt-4">
-                  <div className="flex flex-row items-center justify-between w-full gap-3 sm:w-auto md:gap-4">
-                    <Button
-                      size="lg"
-                      className="relative flex items-center justify-center w-auto gap-2 px-4 py-3 overflow-hidden text-sm text-white transition-all duration-300 ease-in-out transform bg-black rounded-full sm:text-base md:text-xl hover:bg-primary/90 md:gap-3 sm:py-4 md:py-6 sm:px-6 md:px-8 hover:scale-105 group">
-                      <span className="relative z-10">{t("button")}</span>
-                      <span className="bg-white p-1 sm:p-1.5 md:p-2 rounded-full relative z-10">
-                        <ArrowRight className="w-3 h-3 text-black sm:h-4 sm:w-4 md:h-6 md:w-6" />
-                      </span>
-                      <div className="absolute inset-0 transition-transform duration-300 ease-out origin-right transform scale-0 bg-primary group-hover:scale-100" />
-                    </Button>
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.6, duration: 0.7 }}
+                className="flex flex-col sm:flex-row gap-6 items-start sm:items-center"
+              >
+                <motion.div
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                >
+                  <Button
+                    size="lg"
+                    className="flex items-center gap-3 px-8 py-6 text-lg font-semibold text-white bg-[#EF3D54] rounded-xl hover:bg-[#EF3D54]/90 transition-all duration-300 shadow-lg shadow-[#EF3D54]/20"
+                  >
+                    <span>{t("button")}</span>
+                    <motion.div
+                      animate={{ x: [0, 5, 0] }}
+                      transition={{ duration: 2, repeat: Infinity }}
+                    >
+                      <ArrowRight className="w-5 h-5" />
+                    </motion.div>
+                  </Button>
+                </motion.div>
 
-                    {/* Social Media Icons */}
-                    <div className="flex space-x-4">
+                <div className="flex gap-3">
+                  {[
+                    {
+                      icon: Facebook,
+                      href: "https://www.facebook.com/WeEmpowerment",
+                      color: "hover:bg-blue-500/80",
+                    },
+                    {
+                      icon: Instagram,
+                      href: "https://www.instagram.com/empowerment.group25/",
+                      color: "hover:bg-pink-500/80",
+                    },
+                    {
+                      icon: FaTiktok,
+                      href: "https://www.tiktok.com/@empowerment.group25?lang=en",
+                      color: "hover:bg-black/80",
+                    },
+                    {
+                      icon: FaPinterest,
+                      href: "https://www.pinterest.com/empowermentgroup25/",
+                      color: "hover:bg-red-500/80",
+                    },
+                    {
+                      icon: Youtube,
+                      href: "https://www.youtube.com/@EmpowermentGroupLimited",
+                      color: "hover:bg-red-600/80",
+                    },
+                  ].map((social, index) => (
+                    <motion.div
+                      key={index}
+                      whileHover={{ scale: 1.2, y: -2 }}
+                      whileTap={{ scale: 0.9 }}
+                      animate={{ y: [0, -3, 0] }}
+                      transition={{
+                        duration: 3,
+                        delay: index * 0.2,
+                        repeat: Infinity,
+                      }}
+                    >
                       <Link
-                        href="https://www.facebook.com/WeEmpowerment"
-                        className="p-3 transition-colors bg-gray-100 rounded-xl hover:bg-gray-200"
-                        target="_blank">
-                        <Facebook className="w-6 h-6 text-gray-700" />
+                        href={social.href}
+                        className={`flex items-center justify-center w-12 h-12 transition-all duration-300 bg-white/20 backdrop-blur-sm rounded-xl border border-white/30 ${social.color} hover:shadow-lg hover:shadow-white/20`}
+                        target="_blank"
+                      >
+                        {social.icon === FaTiktok ||
+                        social.icon === FaPinterest ? (
+                          <social.icon className="w-5 h-5 text-white" />
+                        ) : (
+                          <social.icon className="w-5 h-5 text-white" />
+                        )}
                       </Link>
-                      <Link
-                        href="https://www.instagram.com/empowerment.group25/"
-                        className="p-3 transition-colors bg-gray-100 rounded-xl hover:bg-gray-200">
-                        <Instagram className="w-6 h-6 text-gray-700" />
-                      </Link>
-                      <Link
-                        href="https://www.tiktok.com/@empowerment.group25?lang=en"
-                        className="flex justify-center p-3 transition-colors bg-gray-100 jus ju rounded-xl hover:bg-gray-200">
-                        <FaTiktok className="w-6 h-6 text-gray-700 " />
-                      </Link>
-                      <Link
-                        href="https://www.pinterest.com/empowermentgroup25/"
-                        className="flex justify-center p-3 transition-colors bg-gray-100 justi rounded-xl hover:bg-gray-200"
-                        target="_blank">
-                        <FaPinterest className="w-6 h-6 text-gray-700 " />
-                      </Link>
-                      {/* <a
-                    href="https://x.com/empowerment4492"
-                    className="p-3 transition-colors bg-gray-100 rounded-xl hover:bg-gray-200"
-                    target="_blank">
-                    <Twitter className="w-6 h-6 text-gray-700" />
-                  </a> */}
-                      <Link
-                        href="https://www.youtube.com/@EmpowermentGroupLimited"
-                        className="p-3 transition-colors bg-gray-100 rounded-xl hover:bg-gray-200"
-                        target="_blank">
-                        <Youtube className="w-6 h-6 text-gray-700" />
-                      </Link>
-                      {/* <a
-                    href="https://www.linkedin.com/company/empowerment-group-limited"
-                    className="p-3 transition-colors bg-gray-100 rounded-xl hover:bg-gray-200"
-                    target="_blank">
-                    <Linkedin className="w-6 h-6 text-gray-700" />
-                  </a> */}
-                    </div>
-                  </div>
+                    </motion.div>
+                  ))}
                 </div>
-              </AnimateInView>
-            </AnimateInView>
+              </motion.div>
+            </div>
+
+
+            <motion.div
+              initial={{ opacity: 0, x: 50 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8, delay: 0.3 }}
+              className="relative"
+            >
+
+              <motion.div
+                animate={{
+                  scale: [1, 1.02, 1],
+                  rotate: [0, 0.5, 0],
+                }}
+                transition={{
+                  duration: 8,
+                  repeat: Infinity,
+                  ease: "easeInOut",
+                }}
+                className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white/20 backdrop-blur-sm"
+              >
+                <div className="w-full h-64 lg:h-80 xl:h-96 relative">
+                  {images.map((image, index) => (
+                    <motion.div
+                      key={image}
+                      initial={{ opacity: index === 0 ? 1 : 0 }}
+                      animate={{
+                        opacity: currentImageIndex === index ? 1 : 0,
+                      }}
+                      transition={{
+                        opacity: { duration: 1.5, ease: "easeInOut" },
+                      }}
+                      className="absolute inset-0"
+                    >
+                      <Image
+                        src={image}
+                        alt={`Slide ${index + 1}`}
+                        fill
+                        className="object-cover"
+                        quality={85}
+                      />
+                    </motion.div>
+                  ))}
+                </div>
+
+                <motion.div
+                  key={currentImageIndex}
+                  initial={{ width: "0%" }}
+                  animate={{ width: "100%" }}
+                  transition={{ duration: 5, ease: "linear" }}
+                  className="absolute bottom-0 left-0 h-1 bg-[#EF3D54]"
+                />
+              </motion.div>
+
+              <div className="flex justify-center gap-3 mt-6">
+                {images.map((_, index) => (
+                  <motion.button
+                    key={index}
+                    onClick={() => setCurrentImageIndex(index)}
+                    whileHover={{ scale: 1.3 }}
+                    whileTap={{ scale: 0.9 }}
+                    className={`relative rounded-full transition-all duration-300 ${
+                      currentImageIndex === index
+                        ? "bg-[#EF3D54]"
+                        : "bg-white/50 hover:bg-white/80"
+                    }`}
+                    style={{
+                      width: currentImageIndex === index ? "32px" : "12px",
+                      height: "12px",
+                    }}
+                    aria-label={`Go to slide ${index + 1}`}
+                  >
+                    {currentImageIndex === index && (
+                      <motion.div
+                        layoutId="activeIndicator"
+                        className="absolute inset-0 bg-[#EF3D54] rounded-full"
+                        transition={{
+                          type: "spring",
+                          stiffness: 300,
+                          damping: 30,
+                        }}
+                      />
+                    )}
+                  </motion.button>
+                ))}
+              </div>
+            </motion.div>
           </div>
         </div>
-      </motion.section>
+      </section>
     </PageTransition>
   );
 };

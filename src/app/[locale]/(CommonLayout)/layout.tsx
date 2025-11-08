@@ -12,7 +12,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     <div className={cn("flex flex-col min-h-screen bg-background")}>
       <Navbar />
       <MobileNavbar />
-      <main className="flex-grow pt-24 container mx-auto">{children}</main>
+      <main className="flex-grow pt-24 ">{children}</main>
       {/* <ContactUs /> */}
       <Footer />
     </div>

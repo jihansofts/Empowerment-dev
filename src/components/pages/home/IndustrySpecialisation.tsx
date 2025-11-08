@@ -1,258 +1,352 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
-import { motion, AnimatePresence, PanInfo } from "framer-motion";
-import {
-  Building2,
-  CircuitBoard,
-  Users,
-  Radio,
-  Landmark,
-  ChevronLeft,
-  ChevronRight,
-} from "lucide-react";
-import {
-  headingVariants,
-  paragraphVariants,
-} from "@/components/animation/contentVariants";
+import React, { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
+import { ArrowRight, X, ChevronLeft, ChevronRight } from "lucide-react";
 import { useTranslations } from "next-intl";
-
-const CircularProgress = ({ onComplete }: { onComplete: () => void }) => (
-  <svg className="absolute inset-0 w-full h-full -rotate-90">
-    <circle
-      cx="50%"
-      cy="50%"
-      r="48%"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="4"
-      strokeLinecap="round"
-      className="text-primary"
-      pathLength="1"
-      strokeDasharray="1"
-      strokeDashoffset="1"
-      style={{
-        animation: "progress 3s linear forwards",
-      }}
-      onAnimationEnd={onComplete}
-    />
-  </svg>
-);
+import Link from "next/link";
 
 const IndustrySpecialisation = () => {
-  const [activeIndex, setActiveIndex] = useState(0);
-  const [isClient, setIsClient] = useState(false);
-  const [isAnimating, setIsAnimating] = useState(false);
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+  const [selectedIndustry, setSelectedIndustry] = useState<number | null>(null);
   const t = useTranslations("industriesspecialization");
+
   const industries = [
-    // {
-    //   title: "Media & Entertainment",
-    //   icon: Car,
-    //   description: "Connecting top talent to the dynamic world of media.",
-    // },
     {
-      title: t("industries1.title"),
-      icon: Radio,
-      description: t("industries1.desc"),
+      title: "Agriculture & Farming",
+      image: "/industries/agriculture.avif",
+      icon: "🌱",
     },
     {
-      title: t("industries2.title"),
-      icon: Landmark,
-      description: t("industries2.desc"),
+      title: "Automotive Services",
+      image: "/industries/automotive.avif",
+      icon: "🚗",
     },
     {
-      title: t("industries3.title"),
-      icon: Building2,
-      description: t("industries3.desc"),
+      title: "Bakery & Food Production",
+      image: "/industries/bakery.avif",
+      icon: "🍞",
     },
     {
-      title: t("industries4.title"),
-      icon: CircuitBoard,
-      description: t("industries4.desc"),
+      title: "Healthcare & Care Homes",
+      image: "/industries/healthcare.avif",
+      icon: "🏥",
     },
     {
-      title: t("industries5.title"),
-      icon: Users,
-      description: t("industries5.desc"),
+      title: "Commercial Cleaning",
+      image: "/industries/cleaning.avif",
+      icon: "✨",
+    },
+    {
+      title: "Construction & Building",
+      image: "/industries/construction.avif",
+      icon: "🏗️",
+    },
+    {
+      title: "Logistics & Delivery",
+      image: "/industries/delivery.avif",
+      icon: "🚚",
+    },
+    {
+      title: "Technical Services",
+      image: "/industries/technical.avif",
+      icon: "🔧",
+    },
+    {
+      title: "Hospitality & Tourism",
+      image: "/industries/hospitality.avif",
+      icon: "🏨",
+    },
+    { title: "Dairy Processing", image: "/industries/dairy.avif", icon: "🥛" },
+    {
+      title: "Manufacturing",
+      image: "/industries/manufacturing.avif",
+      icon: "🏭",
+    },
+    {
+      title: "Textiles & Garment",
+      image: "/industries/textiles.avif",
+      icon: "👕",
+    },
+    {
+      title: "Mining & Resources",
+      image: "/industries/mining.avif",
+      icon: "⛏️",
+    },
+    { title: "Oil & Gas", image: "/industries/oil-gas.avif", icon: "🛢️" },
+    { title: "Packaging", image: "/industries/packaging.avif", icon: "📦" },
+    {
+      title: "Railway Transport",
+      image: "/industries/railway.avif",
+      icon: "🚆",
+    },
+    {
+      title: "Restaurant Service",
+      image: "/industries/restaurant.avif",
+      icon: "🍽️",
+    },
+    {
+      title: "Beauty & Hairdressing",
+      image: "/industries/beauty.avif",
+      icon: "💇",
+    },
+    { title: "Sugar Processing", image: "/industries/sugar.avif", icon: "🍬" },
+    {
+      title: "Butchery & Meat",
+      image: "/industries/butchery.avif",
+      icon: "🥩",
+    },
+    {
+      title: "Warehouse & Logistics",
+      image: "/industries/warehouse.avif",
+      icon: "📦",
+    },
+    { title: "Welding & Metal", image: "/industries/welding.avif", icon: "🔩" },
+    {
+      title: "Woodwork & Furniture",
+      image: "/industries/woodwork.avif",
+      icon: "🪑",
     },
   ];
-  useEffect(() => {
-    setIsClient(true);
-  }, []);
-
-  const handleProgressComplete = () => {
-    if (!isAnimating) {
-      setIsAnimating(true);
-      setActiveIndex((prev) => (prev + 1) % industries.length);
-    }
-  };
 
   const handleNext = () => {
-    if (!isAnimating) {
-      setIsAnimating(true);
-      setActiveIndex((prev) => (prev + 1) % industries.length);
-    }
-  };
-
-  const handlePrev = () => {
-    if (!isAnimating) {
-      setIsAnimating(true);
-      setActiveIndex(
-        (prev) => (prev - 1 + industries.length) % industries.length
+    if (selectedIndustry !== null) {
+      setSelectedIndustry((prev) =>
+        prev === industries.length - 1 ? 0 : prev! + 1
       );
     }
   };
 
-  const handleAnimationComplete = () => {
-    setIsAnimating(false);
-  };
-
-  const handleDrag = (
-    event: MouseEvent | TouchEvent | PointerEvent,
-    info: PanInfo
-  ) => {
-    const dragDistance = info.offset.x;
-    const velocity = info.velocity.x;
-
-    if (Math.abs(dragDistance) > 50 || Math.abs(velocity) > 500) {
-      if ((dragDistance < 0 || velocity < -500) && !isAnimating) {
-        handleNext();
-      } else if ((dragDistance > 0 || velocity > 500) && !isAnimating) {
-        handlePrev();
-      }
+  const handlePrevious = () => {
+    if (selectedIndustry !== null) {
+      setSelectedIndustry((prev) =>
+        prev === 0 ? industries.length - 1 : prev! - 1
+      );
     }
   };
 
-  if (!isClient) return null;
-
   return (
-    <section className="py-12 sm:py-16 md:py-20">
+    <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
-        {/* Updated header spacing */}
-        <div className="text-center max-w-3xl mx-auto mb-8 sm:mb-12 md:mb-16">
+    
+        <div className="text-center max-w-3xl mx-auto mb-16">
           <motion.h2
-            variants={headingVariants}
-            initial="initial"
-            whileInView="animate"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
             viewport={{ once: true }}
-            className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2 sm:mb-4">
+            className="text-3xl md:text-4xl font-bold text-gray-900 mb-4"
+          >
             {t("title")}
           </motion.h2>
           <motion.p
-            variants={paragraphVariants}
-            initial="initial"
-            whileInView="animate"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.1 }}
             viewport={{ once: true }}
-            className="text-sm sm:text-base md:text-lg text-gray-600 max-w-2xl mx-auto px-4">
+            className="text-lg text-gray-600"
+          >
             {t("subtitle")}
           </motion.p>
         </div>
 
-        {/* Updated carousel container */}
-        <div className="flex justify-center items-center relative max-w-[320px] xs:max-w-[400px] sm:max-w-[600px] md:max-w-[700px] lg:max-w-[900px] mx-auto">
-          {/* Previous Button - Adjusted positioning */}
-          <button
-            onClick={handlePrev}
-            className="absolute -left-2 xs:left-0 z-20 p-2 sm:p-3 rounded-full bg-white shadow-md hover:bg-gray-50 transition-colors"
-            aria-label="Previous slide"
-            disabled={isAnimating}>
-            <ChevronLeft className="w-4 h-4 sm:w-6 sm:h-6 text-primary" />
-          </button>
+     
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 md:gap-4">
+          {industries.map((industry, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, scale: 0.8 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.5, delay: index * 0.05 }}
+              viewport={{ once: true, margin: "-50px" }}
+              className="relative aspect-square group cursor-pointer"
+              onMouseEnter={() => setHoveredIndex(index)}
+              onMouseLeave={() => setHoveredIndex(null)}
+              onClick={() => setSelectedIndustry(index)}
+            >
+              
+              <div className="relative w-full h-full rounded-xl overflow-hidden">
+                <Image
+                  src={industry.image}
+                  alt={industry.title}
+                  fill
+                  className="object-cover transition-all duration-700 group-hover:scale-110"
+                  sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, (max-width: 1024px) 25vw, 20vw"
+                />
 
-          {/* Updated carousel viewport */}
-          <motion.div
-            className="relative w-[280px] xs:w-[350px] sm:w-[500px] md:w-[600px] lg:w-[800px] h-[300px] sm:h-[350px] md:h-[400px] overflow-hidden flex items-center cursor-grab active:cursor-grabbing select-none"
-            drag="x"
-            dragSnapToOrigin
-            dragTransition={{ bounceStiffness: 600, bounceDamping: 30 }}
-            dragConstraints={{ left: -50, right: 50 }}
-            dragElastic={0.1}
-            onDragEnd={handleDrag}
-            whileTap={{ cursor: "grabbing" }}
-            whileDrag={{ scale: 0.98 }}>
-            <AnimatePresence mode="popLayout" initial={false}>
-              {industries.map((industry, index) => {
-                const position = index - activeIndex;
-                return (
-                  <motion.div
-                    key={index}
-                    initial={{
-                      x: position > 0 ? 800 : -800,
-                      opacity: 0,
-                      scale: 0.7,
-                    }}
-                    animate={{
-                      x:
-                        position * (window.innerWidth < 640 ? 200 : 280) -
-                        (window.innerWidth < 640 ? 70 : 100),
-                      opacity: Math.abs(position) <= 1 ? 1 : 0.3,
-                      scale: position === 0 ? 1 : 0.75,
-                      zIndex: position === 0 ? 10 : 0,
-                    }}
-                    exit={{
-                      x: position < 0 ? -800 : 800,
-                      opacity: 0,
-                      scale: 0.7,
-                    }}
-                    transition={{
-                      type: "spring",
-                      stiffness: 300,
-                      damping: 30,
-                      duration: 0.4,
-                    }}
-                    onAnimationComplete={handleAnimationComplete}
-                    className="absolute pointer-events-none"
-                    style={{
-                      left: "50%",
-                      transform: "translateX(-50%)",
-                    }}>
-                    <div className="flex flex-col items-center">
-                      {/* Updated icon container sizing */}
-                      <div
-                        className={`w-28 h-28 sm:w-36 sm:h-36 md:w-44 md:h-44 rounded-full flex items-center justify-center p-4 sm:p-6 relative shadow-lg transition-all duration-300 
-                        ${position === 0 ? "bg-blue-50" : "bg-white"}`}>
-                        <industry.icon
-                          className={`w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 transition-colors duration-300
-                          ${position === 0 ? "text-primary" : "text-gray-400"}`}
-                        />
-                        {position === 0 && (
-                          <CircularProgress
-                            onComplete={handleProgressComplete}
-                          />
-                        )}
-                      </div>
+                
+                <motion.div
+                  className="absolute inset-0 bg-black/0 group-hover:bg-black/60 transition-all duration-500"
+                  initial={false}
+                  animate={{
+                    backgroundColor:
+                      hoveredIndex === index
+                        ? "rgba(0,0,0,0.6)"
+                        : "rgba(0,0,0,0)",
+                  }}
+                />
 
-                      {/* Updated text content sizing */}
-                      {position === 0 && (
-                        <motion.div
-                          initial={{ opacity: 0, y: 10 }}
-                          animate={{ opacity: 1, y: 0 }}
-                          exit={{ opacity: 0, y: 10 }}
-                          className="mt-4 sm:mt-6 text-center w-36 sm:w-44 md:w-48">
-                          <h3 className="text-base sm:text-lg font-medium text-primary mb-1 sm:mb-2">
-                            {industry.title}
-                          </h3>
-                          <p className="text-xs sm:text-sm text-primary/70">
-                            {industry.description}
-                          </p>
-                        </motion.div>
-                      )}
-                    </div>
-                  </motion.div>
-                );
-              })}
-            </AnimatePresence>
-          </motion.div>
+              
+                <div className="absolute top-3 left-3 w-8 h-8 bg-white/90 rounded-full flex items-center justify-center backdrop-blur-sm">
+                  <span className="text-lg">{industry.icon}</span>
+                </div>
 
-          {/* Next Button - Adjusted positioning */}
-          <button
-            onClick={handleNext}
-            className="absolute -right-2 xs:right-0 z-20 p-2 sm:p-3 rounded-full bg-white shadow-md hover:bg-gray-50 transition-colors"
-            aria-label="Next slide"
-            disabled={isAnimating}>
-            <ChevronRight className="w-4 h-4 sm:w-6 sm:h-6 text-primary" />
-          </button>
+              
+                <div className="absolute bottom-0 left-0 right-0 p-3 bg-gradient-to-t from-black/70 to-transparent">
+                  <h3 className="text-white font-semibold text-sm leading-tight">
+                    {industry.title}
+                  </h3>
+                </div>
+
+                <motion.div
+                  className="absolute inset-0 flex items-center justify-center"
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{
+                    opacity: hoveredIndex === index ? 1 : 0,
+                    y: hoveredIndex === index ? 0 : 20,
+                  }}
+                  transition={{ duration: 0.3 }}
+                >
+                  <motion.button
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    className="flex items-center gap-2 bg-[#EF3D54] text-white px-4 py-2 rounded-lg text-sm font-medium backdrop-blur-sm"
+                  >
+                    <span>Read More</span>
+                    <ArrowRight className="w-3 h-3" />
+                  </motion.button>
+                </motion.div>
+              </div>
+
+           
+              <motion.div
+                className="absolute inset-0 rounded-xl border-2 border-[#EF3D54] opacity-0 pointer-events-none"
+                animate={{
+                  opacity: hoveredIndex === index ? 1 : 0,
+                  scale: hoveredIndex === index ? 1.05 : 1,
+                }}
+                transition={{ duration: 0.3 }}
+              />
+            </motion.div>
+          ))}
         </div>
+
+     
+        <AnimatePresence>
+          {selectedIndustry !== null && (
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4"
+              onClick={() => setSelectedIndustry(null)}
+            >
+              <motion.div
+                key={selectedIndustry}
+                initial={{ scale: 0.5, opacity: 0, y: 100 }}
+                animate={{ scale: 1, opacity: 1, y: 0 }}
+                exit={{ scale: 0.5, opacity: 0, y: 100 }}
+                transition={{
+                  type: "spring",
+                  stiffness: 300,
+                  damping: 30,
+                }}
+                className="relative bg-white rounded-2xl overflow-hidden max-w-4xl w-full max-h-[90vh]"
+                onClick={(e) => e.stopPropagation()}
+              >
+                
+                <button
+                  onClick={() => setSelectedIndustry(null)}
+                  className="absolute top-4 right-4 z-10 w-8 h-8 bg-black/20 rounded-full flex items-center justify-center backdrop-blur-sm hover:bg-black/30 transition-colors"
+                >
+                  <X className="w-4 h-4 text-white" />
+                </button>
+
+                
+                <button
+                  onClick={handlePrevious}
+                  className="absolute left-4 top-1/2 transform -translate-y-1/2 z-10 w-10 h-10 bg-black/20 rounded-full flex items-center justify-center backdrop-blur-sm hover:bg-black/30 transition-colors"
+                >
+                  <ChevronLeft className="w-5 h-5 text-white" />
+                </button>
+
+                <button
+                  onClick={handleNext}
+                  className="absolute right-4 top-1/2 transform -translate-y-1/2 z-10 w-10 h-10 bg-black/20 rounded-full flex items-center justify-center backdrop-blur-sm hover:bg-black/30 transition-colors"
+                >
+                  <ChevronRight className="w-5 h-5 text-white" />
+                </button>
+
+                
+                <div className="grid md:grid-cols-2 h-full">
+                  
+                  <div className="relative h-64 md:h-full">
+                    <Image
+                      src={industries[selectedIndustry].image}
+                      alt={industries[selectedIndustry].title}
+                      fill
+                      className="object-cover"
+                      sizes="(max-width: 768px) 100vw, 50vw"
+                    />
+                    <div className="absolute top-4 left-4 w-10 h-10 bg-white/90 rounded-full flex items-center justify-center backdrop-blur-sm">
+                      <span className="text-xl">
+                        {industries[selectedIndustry].icon}
+                      </span>
+                    </div>
+
+                 
+                    <div className="absolute bottom-4 left-4 bg-black/60 text-white px-3 py-1 rounded-full text-sm backdrop-blur-sm">
+                      {selectedIndustry + 1} / {industries.length}
+                    </div>
+                  </div>
+
+                  <div className="p-6 md:p-8 flex flex-col justify-center">
+                    <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+                      {industries[selectedIndustry].title}
+                    </h3>
+                    <p className="text-gray-600 mb-6">
+                      Discover our specialized recruitment solutions for the{" "}
+                      {industries[selectedIndustry].title.toLowerCase()}{" "}
+                      industry. We provide expert staffing services tailored to
+                      your unique needs with qualified professionals ready to
+                      support your business growth.
+                    </p>
+                    <div className="flex gap-4">
+                      <Link
+                        href={"/areas-of-expertise"}
+                        className="flex-1 bg-[#EF3D54] text-white py-3 rounded-lg font-semibold hover:bg-[#EF3D54]/90 transition-colors text-center"
+                      >
+                        Learn More
+                      </Link>
+                      <button
+                        onClick={() => setSelectedIndustry(null)}
+                        className="flex-1 border border-gray-300 text-gray-700 py-3 rounded-lg font-semibold hover:bg-gray-50 transition-colors"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.3 }}
+          viewport={{ once: true }}
+          className="text-center mt-12"
+        >
+          <Link
+            href={"/areas-of-expertise"}
+            className="bg-[#EF3D54] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#EF3D54]/90 transition-all duration-300 hover:scale-105"
+          >
+            View All Industries
+          </Link>
+        </motion.div>
       </div>
     </section>
   );

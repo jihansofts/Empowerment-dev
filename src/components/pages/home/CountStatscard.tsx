@@ -17,7 +17,7 @@ const CountStatscard = () => {
     // 👇 Set your starting year here
     const startYear = 2010;
     const currentYear = new Date().getFullYear();
-    const years = currentYear - startYear; // Auto calculate years (e.g., 15)
+    const years = currentYear - startYear; 
 
     animate(0, years, {
       duration: 2,
@@ -49,7 +49,7 @@ const CountStatscard = () => {
       },
     });
 
-    animate(0, 98, {
+    animate(0, 95, {
       duration: 2,
       onUpdate: (value) => {
         if (containerRef.current) {
@@ -65,25 +65,28 @@ const CountStatscard = () => {
       {/* Background */}
       <div className="relative py-8 md:py-12 lg:py-24">
         <motion.div
-          className="text-center max-w-[90%] md:max-w-3xl mx-auto mt-8 md:mt-12 lg:mt-16 px-4"
+          className="text-center container mx-auto mt-8 md:mt-12 lg:mt-16 px-4"
           initial="initial"
           whileInView="animate"
-          viewport={{ once: true }}>
+          viewport={{ once: true }}
+        >
           <motion.h2
             className="mb-4 text-3xl font-bold sm:text-2xl md:text-4xl"
-            variants={headingVariants}>
+            variants={headingVariants}
+          >
             {t("title")}
           </motion.h2>
           <motion.p
             className="text-base text-gray-600 sm:text-lg"
-            variants={paragraphVariants}>
+            variants={paragraphVariants}
+          >
             {t("subtitle")}
           </motion.p>
         </motion.div>
 
         {/* Stats Grid */}
         <div className="py-12 md:py-16 lg:py-24" ref={containerRef}>
-          <div className="grid w-full max-w-5xl grid-cols-2 gap-4 px-4 mx-auto md:grid-cols-4 md:gap-8">
+          <div className="grid w-full container mx-auto grid-cols-2 gap-4 px-4 mx-auto md:grid-cols-4 md:gap-8">
             {[0, 1, 2, 3].map((index) => (
               <motion.div
                 key={index}
@@ -94,10 +97,12 @@ const CountStatscard = () => {
                   duration: 0.5,
                   delay: index * 0.1,
                   ease: "easeOut",
-                }}>
+                }}
+              >
                 <motion.div
                   whileHover={{ scale: 1.05 }}
-                  transition={{ type: "spring", stiffness: 300 }}>
+                  transition={{ type: "spring", stiffness: 300 }}
+                >
                   <Card className="flex flex-col items-center justify-center p-4 text-center transition-shadow bg-white rounded-full aspect-square sm:p-6 md:p-8 hover:shadow-lg">
                     <motion.p
                       id={`count${index + 1}`}
@@ -107,7 +112,8 @@ const CountStatscard = () => {
                       transition={{
                         duration: 0.5,
                         delay: 0.2 + index * 0.1,
-                      }}>
+                      }}
+                    >
                       0+
                     </motion.p>
                     <p className="text-xs text-gray-600 sm:text-sm md:text-base">

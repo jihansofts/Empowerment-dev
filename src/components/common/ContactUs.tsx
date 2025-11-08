@@ -1,12 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence, Variants } from "framer-motion";
 import { Plus, X } from "lucide-react";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 
-const drawerVariants = {
+const drawerVariants: Variants = {
   initial: {
     y: "100%",
     opacity: 0,
@@ -35,7 +35,7 @@ const drawerVariants = {
   },
 };
 
-const contentVariants = {
+const contentVariants: Variants = {
   initial: { opacity: 0 },
   animate: {
     opacity: 1,
@@ -65,11 +65,13 @@ const ContactUs = () => {
               variants={drawerVariants}
               initial="initial"
               animate="animate"
-              className="bg-white rounded-t-lg shadow-lg">
+              className="bg-white rounded-t-lg shadow-lg"
+            >
               {/* Header */}
               <div
                 className="flex items-center justify-between p-2 sm:p-3 cursor-pointer bg-black text-white rounded-t-lg" // Added smaller padding for mobile
-                onClick={() => setIsOpen(false)}>
+                onClick={() => setIsOpen(false)}
+              >
                 <h3 className="text-xs sm:text-sm font-semibold">
                   {t("title")}
                 </h3>
@@ -84,7 +86,8 @@ const ContactUs = () => {
                 initial="initial"
                 animate="animate"
                 exit="exit"
-                className="p-3 sm:p-4 space-y-3 sm:space-y-4">
+                className="p-3 sm:p-4 space-y-3 sm:space-y-4"
+              >
                 {/* Corporates Section */}
                 <div>
                   <h4 className="font-medium mb-1 text-black text-xs sm:text-sm">
@@ -109,7 +112,8 @@ const ContactUs = () => {
                   </p>
                   <Link
                     href="/contact-us"
-                    className="text-blue-600 hover:text-blue-700 text-[10px] sm:text-xs">
+                    className="text-blue-600 hover:text-blue-700 text-[10px] sm:text-xs"
+                  >
                     {t("btnText")}
                   </Link>
                 </div>
@@ -133,7 +137,8 @@ const ContactUs = () => {
                 duration: 0.4,
               }}
               className="bg-black text-white p-2 sm:p-3 cursor-pointer flex items-center justify-between hover:bg-black/90 rounded-t-lg" // Changed rounded-lg to rounded-t-lg
-              onClick={() => setIsOpen(true)}>
+              onClick={() => setIsOpen(true)}
+            >
               <span className="text-xs sm:text-sm font-semibold">
                 {t("title")}
               </span>

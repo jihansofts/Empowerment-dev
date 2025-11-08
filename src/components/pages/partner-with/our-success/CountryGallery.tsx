@@ -171,7 +171,7 @@ export default function CountryGallery() {
             </div>
 
             {/* Thumbnail Slider */}
-            <div className="flex max-w-3xl gap-3 mt-6 overflow-x-auto">
+            <div className="flex max-w-3xl gap-3 mt-6 overflow-hidden">
               {selectedCountry.image.map((img, index) => (
                 <motion.div
                   key={index}
