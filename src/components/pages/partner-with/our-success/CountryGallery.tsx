@@ -87,26 +87,30 @@ export default function CountryGallery() {
   return (
     <div className="min-h-screen p-8 bg-secondary">
       {/* Country Grid */}
-      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
-        {stories.map((story) => (
-          <motion.div
-            key={story.category}
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.97 }}
-            onClick={() => openModal(story)}
-            className="relative overflow-hidden shadow-md cursor-pointer rounded-xl">
-            <Image
-              src={story.categoryImage}
-              alt={story.category}
-              width={400}
-              height={500}
-              className="object-cover w-full h-60"
-            />
-            <div className="absolute inset-0 flex items-center justify-center bg-black/40">
-              <h2 className="text-lg font-bold text-white">{story.category}</h2>
-            </div>
-          </motion.div>
-        ))}
+      <div className="container px-4 mx-auto">
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
+          {stories.map((story) => (
+            <motion.div
+              key={story.category}
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.97 }}
+              onClick={() => openModal(story)}
+              className="relative overflow-hidden shadow-md cursor-pointer rounded-xl">
+              <Image
+                src={story.categoryImage}
+                alt={story.category}
+                width={400}
+                height={500}
+                className="object-cover w-full h-60"
+              />
+              <div className="absolute inset-0 flex items-center justify-center bg-black/40">
+                <h2 className="text-lg font-bold text-white">
+                  {story.category}
+                </h2>
+              </div>
+            </motion.div>
+          ))}
+        </div>
       </div>
 
       {/* Modal */}
