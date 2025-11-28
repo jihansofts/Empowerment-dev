@@ -40,8 +40,7 @@ const MobileNavbar = () => {
         variant="outline"
         size="icon"
         className="md:hidden fixed top-[1.25rem] right-4 z-50 bg-white shadow-md hover:bg-gray-50 h-10 w-10"
-        onClick={() => setIsOpen(true)}
-      >
+        onClick={() => setIsOpen(true)}>
         <Menu className="w-5 h-5" />
       </Button>
 
@@ -66,16 +65,14 @@ const MobileNavbar = () => {
                 damping: 30,
                 stiffness: 300,
               }}
-              className="fixed right-0 top-0 h-full w-[300px] bg-white shadow-xl z-50 overflow-y-auto"
-            >
+              className="fixed right-0 top-0 h-full w-[300px] bg-white shadow-xl z-50 overflow-y-auto">
               <div className="sticky top-0 flex items-center justify-between p-4 bg-white border-b">
                 <h2 className="text-lg font-bold">Menu</h2>
                 <Button
                   variant="ghost"
                   size="icon"
                   className="hover:bg-gray-100"
-                  onClick={() => setIsOpen(false)}
-                >
+                  onClick={() => setIsOpen(false)}>
                   <X className="w-5 h-5" />
                 </Button>
               </div>
@@ -84,8 +81,7 @@ const MobileNavbar = () => {
                 <div className="mb-6">
                   <button
                     onClick={() => toggleSubmenu("about")}
-                    className="flex items-center justify-between w-full p-2 text-lg font-bold"
-                  >
+                    className="flex items-center justify-between w-full p-2 text-lg font-bold">
                     <span>About</span>
                     <ChevronDown
                       className={`h-5 w-5 transition-transform ${
@@ -99,15 +95,13 @@ const MobileNavbar = () => {
                       height: expandedMenus.includes("about") ? "auto" : 0,
                       opacity: expandedMenus.includes("about") ? 1 : 0,
                     }}
-                    className="overflow-hidden"
-                  >
+                    className="overflow-hidden">
                     <ul className="py-2 pl-4 space-y-2">
                       <li>
                         <Link
                           href="/about-us"
                           className="block p-2 rounded-md hover:bg-accent"
-                          onClick={() => setIsOpen(false)}
-                        >
+                          onClick={() => setIsOpen(false)}>
                           Our Organization
                         </Link>
                       </li>
@@ -115,8 +109,7 @@ const MobileNavbar = () => {
                         <Link
                           href="/about-us#journey"
                           className="block p-2 rounded-md hover:bg-accent"
-                          onClick={() => setIsOpen(false)}
-                        >
+                          onClick={() => setIsOpen(false)}>
                           Our Journey
                         </Link>
                       </li>
@@ -124,8 +117,7 @@ const MobileNavbar = () => {
                         <Link
                           href="/about-us#ourculture"
                           className="block p-2 rounded-md hover:bg-accent"
-                          onClick={() => setIsOpen(false)}
-                        >
+                          onClick={() => setIsOpen(false)}>
                           Our Culture
                         </Link>
                       </li>
@@ -135,8 +127,7 @@ const MobileNavbar = () => {
                 <div className="mb-6">
                   <button
                     onClick={() => toggleSubmenu("services")}
-                    className="flex items-center justify-between w-full p-2 text-lg font-bold"
-                  >
+                    className="flex items-center justify-between w-full p-2 text-lg font-bold">
                     <span>Services</span>
                     <ChevronDown
                       className={`h-5 w-5 transition-transform ${
@@ -150,38 +141,33 @@ const MobileNavbar = () => {
                       height: expandedMenus.includes("services") ? "auto" : 0,
                       opacity: expandedMenus.includes("services") ? 1 : 0,
                     }}
-                    className="overflow-hidden"
-                  >
+                    className="overflow-hidden">
                     <ul className="py-2 pl-4 space-y-2">
                       <li>
                         <Link
                           className="block p-2 text-base font-medium rounded-md hover:bg-accent"
-                          href="/services/recruitment-solutions"
-                        >
+                          href="/services/recruitment-solutions">
                           {t("board")}
                         </Link>
                       </li>
                       <li>
                         <Link
                           className="block p-2 font-medium rounded-md hover:bg-accent"
-                          href="/services/executive-search"
-                        >
+                          href="/services/executive-search">
                           {t("executive")}
                         </Link>
                       </li>
                       <li>
                         <Link
                           className="block p-2 font-medium rounded-md hover:bg-accent"
-                          href="/services/hr-consulting"
-                        >
+                          href="/services/hr-consulting">
                           {t("leadership")}
                         </Link>
                       </li>
                       <li>
                         <Link
                           className="block p-2 font-medium rounded-md hover:bg-accent"
-                          href="/services/talent-assessment"
-                        >
+                          href="/services/talent-assessment">
                           {t("telant")}
                         </Link>
                       </li>
@@ -191,8 +177,7 @@ const MobileNavbar = () => {
                 <div className="mb-6">
                   <button
                     onClick={() => toggleSubmenu("partner")}
-                    className="flex items-center justify-between w-full p-2 text-lg font-bold"
-                  >
+                    className="flex items-center justify-between w-full p-2 text-lg font-bold">
                     <span>Partner With Us</span>
                     <ChevronDown
                       className={`h-5 w-5 transition-transform ${
@@ -206,15 +191,13 @@ const MobileNavbar = () => {
                       height: expandedMenus.includes("partner") ? "auto" : 0,
                       opacity: expandedMenus.includes("partner") ? 1 : 0,
                     }}
-                    className="overflow-hidden"
-                  >
+                    className="overflow-hidden">
                     <ul className="py-2 pl-4 space-y-2">
                       <li>
                         <Link
                           href="/partner-with/become-agent"
                           className="block p-2 rounded-md hover:bg-accent"
-                          onClick={() => setIsOpen(false)}
-                        >
+                          onClick={() => setIsOpen(false)}>
                           Become an Agent
                         </Link>
                       </li>
@@ -222,8 +205,7 @@ const MobileNavbar = () => {
                         <Link
                           href="/partner-with/our-success"
                           className="block p-2 rounded-md hover:bg-accent"
-                          onClick={() => setIsOpen(false)}
-                        >
+                          onClick={() => setIsOpen(false)}>
                           Our Success Stories
                         </Link>
                       </li>
@@ -235,8 +217,7 @@ const MobileNavbar = () => {
                 <div className="mb-6">
                   <button
                     onClick={() => toggleSubmenu("expertise")}
-                    className="flex items-center justify-between w-full p-2 text-lg font-bold"
-                  >
+                    className="flex items-center justify-between w-full p-2 text-lg font-bold">
                     <span>Expertise</span>
                     <ChevronDown
                       className={`h-5 w-5 transition-transform ${
@@ -250,8 +231,7 @@ const MobileNavbar = () => {
                       height: expandedMenus.includes("expertise") ? "auto" : 0,
                       opacity: expandedMenus.includes("expertise") ? 1 : 0,
                     }}
-                    className="overflow-hidden"
-                  >
+                    className="overflow-hidden">
                     <div className="flex gap-4 mb-4 border-b">
                       <button
                         className={`pb-2 font-medium transition-colors relative ${
@@ -259,8 +239,7 @@ const MobileNavbar = () => {
                             ? "text-primary border-b-2 border-primary -mb-[2px]"
                             : "text-gray-500"
                         }`}
-                        onClick={() => setActiveTab("industries")}
-                      >
+                        onClick={() => setActiveTab("industries")}>
                         Industries
                       </button>
                     </div>
@@ -269,8 +248,7 @@ const MobileNavbar = () => {
                         <Link
                           href="/expertise/building-materials"
                           className="block p-2 rounded-md hover:bg-accent"
-                          onClick={() => setIsOpen(false)}
-                        >
+                          onClick={() => setIsOpen(false)}>
                           Building Materials
                         </Link>
                       </li>
@@ -278,8 +256,7 @@ const MobileNavbar = () => {
                         <Link
                           href="/expertise/education"
                           className="block p-2 rounded-md hover:bg-accent"
-                          onClick={() => setIsOpen(false)}
-                        >
+                          onClick={() => setIsOpen(false)}>
                           Education
                         </Link>
                       </li>
@@ -287,8 +264,7 @@ const MobileNavbar = () => {
                         <Link
                           href="/expertise/industrial"
                           className="block p-2 rounded-md hover:bg-accent"
-                          onClick={() => setIsOpen(false)}
-                        >
+                          onClick={() => setIsOpen(false)}>
                           Industrial
                         </Link>
                       </li>
@@ -296,8 +272,7 @@ const MobileNavbar = () => {
                         <Link
                           href="/expertise/development"
                           className="block p-2 rounded-md hover:bg-accent"
-                          onClick={() => setIsOpen(false)}
-                        >
+                          onClick={() => setIsOpen(false)}>
                           Development
                         </Link>
                       </li>
@@ -305,8 +280,7 @@ const MobileNavbar = () => {
                         <Link
                           href="/expertise/real-estate"
                           className="block p-2 rounded-md hover:bg-accent"
-                          onClick={() => setIsOpen(false)}
-                        >
+                          onClick={() => setIsOpen(false)}>
                           Real Estate
                         </Link>
                       </li>
@@ -314,8 +288,7 @@ const MobileNavbar = () => {
                         <Link
                           href="/expertise/technology"
                           className="block p-2 rounded-md hover:bg-accent"
-                          onClick={() => setIsOpen(false)}
-                        >
+                          onClick={() => setIsOpen(false)}>
                           Technology
                         </Link>
                       </li>

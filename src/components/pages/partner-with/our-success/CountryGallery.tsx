@@ -85,9 +85,9 @@ export default function CountryGallery() {
   };
 
   return (
-    <div className="min-h-screen p-8 bg-secondary">
+    <div className="min-h-screen py-8 bg-secondary">
       {/* Country Grid */}
-      <div className="container px-4 mx-auto">
+      <div className="container px-5 mx-auto">
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
           {stories.map((story) => (
             <motion.div
@@ -161,7 +161,7 @@ export default function CountryGallery() {
                     alt={`${selectedCountry.category} ${currentIndex + 1}`}
                     width={900}
                     height={600}
-                    className="object-contain max-h-[70vh] w-full"
+                    className="object-contain max-h-[70vh] w-full hover:scale-105 cursor-pointer transition-transform duration-300"
                   />
                 </motion.div>
               </div>

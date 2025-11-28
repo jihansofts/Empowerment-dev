@@ -172,74 +172,6 @@ const Navbar: React.FC<HTMLAttributes<HTMLElement>> = () => {
                         </ul>
                       </NavigationMenuContent>
                     </NavigationMenuItem>
-                    {/* expertise */}
-                    {/* <NavigationMenuItem>
-                      <NavigationMenuTrigger
-                        className={`text-lg font-semibold relative group ${
-                          isActive("/expertise") ? "text-primary" : ""
-                        }`}
-                      >
-                        {t("expertise")}
-                        {isActive("/expertise") && (
-                          <span className="absolute bottom-0 left-0 w-full h-0.5 bg-primary" />
-                        )}
-                      </NavigationMenuTrigger>
-
-                      <NavigationMenuContent className="border-t-2 border-t-primary">
-                        <div className="w-[600px] p-6 flex">
-                          <div className="w-1/4 p-2 rounded-lg">
-                            <div className="flex items-center gap-2 cursor-default group">
-                              <h4 className="text-base font-bold text-gray-900 transition-colors group-hover:text-primary">
-                                {t("industries")}
-                              </h4>
-                              <ChevronLeft className="w-4 h-4 text-gray-400 transition-colors group-hover:text-primary" />
-                            </div>
-                          </div>
-                          <div className="w-3/4">
-                            <div className="relative grid grid-cols-2 gap-x-4 gap-y-3">
-                              <div className="absolute left-1/2 top-2 bottom-2 w-[2px] bg-gray-200" />
-
-                              <Link
-                                className="block p-2 font-medium rounded-md hover:bg-accent"
-                                href="/expertise/building-materials"
-                              >
-                                {t("building")}
-                              </Link>
-                              <Link
-                                className="block p-2 font-medium rounded-md hover:bg-accent"
-                                href="/expertise/education"
-                              >
-                                {t("education")}
-                              </Link>
-                              <Link
-                                className="block p-2 font-medium rounded-md hover:bg-accent"
-                                href="/expertise/industrial"
-                              >
-                                {t("industrial")}
-                              </Link>
-                              <Link
-                                className="block p-2 font-medium rounded-md hover:bg-accent"
-                                href="/expertise/development"
-                              >
-                                {t("development")}
-                              </Link>
-                              <Link
-                                className="block p-2 font-medium rounded-md hover:bg-accent"
-                                href="/expertise/real-estate"
-                              >
-                                {t("realestate")}
-                              </Link>
-                              <Link
-                                className="block p-2 font-medium rounded-md hover:bg-accent"
-                                href="/expertise/technology"
-                              >
-                                {t("technology")}
-                              </Link>
-                            </div>
-                          </div>
-                        </div>
-                      </NavigationMenuContent>
-                    </NavigationMenuItem> */}
                   </NavigationMenuList>
                   <Link
                     href="/areas-of-expertise"
@@ -261,11 +193,11 @@ const Navbar: React.FC<HTMLAttributes<HTMLElement>> = () => {
           </div>
 
           {/* Right section */}
-          <div className="flex items-center gap-1">
+          <div className="flex items-center justify-between gap-1 mr-7">
             <Button
               asChild
               variant="default"
-              className="relative px-2 overflow-hidden text-xs text-white transition-all duration-300 bg-black rounded-full h-7 md:h-10 md:text-base group mr-14 md:mr-0 md:px-6">
+              className="relative px-2 mr-4 overflow-hidden text-xs text-white transition-all duration-300 bg-black rounded-full h-7 md:h-10 md:text-base group md:mr-0 md:px-6">
               <Link
                 href="/contact-us"
                 className="relative flex items-center justify-center px-2 md:px-6">
@@ -273,8 +205,9 @@ const Navbar: React.FC<HTMLAttributes<HTMLElement>> = () => {
                 <div className="absolute inset-0 transition-transform duration-300 ease-out origin-top-right transform scale-0 rounded-full bg-primary/90 group-hover:scale-100" />
               </Link>
             </Button>
-
-            <LanguageSwitcher />
+            <div className="z-100">
+              <LanguageSwitcher />
+            </div>
           </div>
         </div>
       </div>
