@@ -19,7 +19,7 @@ interface Story {
 const stories: Story[] = [
   {
     category: "Romania",
-    categoryImage: "/images/dubai.jpg",
+    categoryImage: "/images/city1.jpg",
     image: [
       { url: "/images/visa.png", type: "image/png" },
       { url: "/images/visa.png", type: "image/png" },
@@ -28,7 +28,7 @@ const stories: Story[] = [
   },
   {
     category: "Serbia",
-    categoryImage: "/images/dubai.jpg",
+    categoryImage: "/images/city2.jpg",
     image: [
       { url: "/images/serbia1.jpg", type: "image/jpeg" },
       { url: "/images/serbia2.jpg", type: "image/jpeg" },
@@ -36,7 +36,7 @@ const stories: Story[] = [
   },
   {
     category: "Croatia",
-    categoryImage: "/images/dubai.jpg",
+    categoryImage: "/images/city3.jpg",
     image: [
       { url: "/images/croatia1.jpg", type: "image/jpeg" },
       { url: "/images/croatia2.jpg", type: "image/jpeg" },
@@ -44,7 +44,7 @@ const stories: Story[] = [
   },
   {
     category: "Bosnia",
-    categoryImage: "/images/dubai.jpg",
+    categoryImage: "/images/city4.jpg",
     image: [
       { url: "/images/bosnia1.jpg", type: "image/jpeg" },
       { url: "/images/bosnia2.jpg", type: "image/jpeg" },
@@ -52,7 +52,7 @@ const stories: Story[] = [
   },
   {
     category: "Malta",
-    categoryImage: "/images/dubai.jpg",
+    categoryImage: "/images/city5.jpg",
     image: [
       { url: "/images/malta1.jpg", type: "image/jpeg" },
       { url: "/images/malta2.jpg", type: "image/jpeg" },
