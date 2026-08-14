@@ -1,0 +1,168 @@
+{
+  "nav": {
+    "about": "Hakkımızda",
+    "organization": "Kuruluşumuz",
+    "journey": "Yolculuğumuz",
+    "culture": "Kültürümüz",
+    "services": "Hizmetler",
+    "board": "İstihdam Çözümleri",
+    "talent": "Yetenek Değerlendirmesi",
+    "expertise": "Uzmanlık Alanları",
+    "oursuccess": "Başarımız",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "title": "İş Gücünüzü Güçlendirin.",
+    "subtitle": "İşinizi Güçlendirin.",
+    "description": "Avrupalı işverenler için uluslararası istihdam ve iş gücü çözümleri. Avrupalı işverenleri uluslararası pazarlardan güvenilir, nitelikli ve motive olmuş çalışanlarla buluşturuyoruz.",
+    "button": "İletişime Geçin"
+  },
+  "countstats": {
+    "title": "Avrupalı İşverenleri Uluslararası Yeteneklerle Buluşturuyoruz",
+    "subtitle": "2010 yılından bu yana Empowerment Recruitment, işletmelerin geniş bir sektör yelpazesinde güvenilir iş gücü çözümlerine erişmesine yardımcı oluyor.",
+    "count1": "Yıllık İstihdam Deneyimi",
+    "count2": "Başarılı Yerleştirme",
+    "count3": "Ortak Şirket",
+    "count4": "Müşteri Memnuniyet Oranı"
+  },
+  "ourpeople": {
+    "title": "Ekibimiz",
+    "subtitle": "İstihdam nihayetinde insanlarla ilgilidir. Ekibimiz, işverenler ve adaylar arasında başarılı bağlantılar kurmaya yardımcı olmak için adayları bulma, aday değerlendirme, işveren koordinasyonu, belgelendirme ve istihdam desteği alanlarında çalışır."
+  },
+  "ourjourney": {
+    "title": "Yolculuğumuz",
+    "subtitle": "İstihdam Uzmanlığından Uluslararası İş Gücü Çözümlerine",
+    "timeyear1": "2010",
+    "timeyear2": "2015",
+    "timeyear3": "2020",
+    "timeyear4": "2023",
+    "timeyear5": "2024",
+    "timeyear6": "Bugün",
+    "timetitle1": "Kuruluş",
+    "timedec1": "Empowerment Recruitment, işverenleri uygun uluslararası yeteneklerle buluşturma odağıyla kuruldu.",
+    "timetitle2": "Uluslararası İstihdam",
+    "timedec2": "İstihdam faaliyetlerimizi uluslararası kaynak pazarlarına genişlettik ve işverenlerle daha geniş ortaklıklar geliştirdik.",
+    "timetitle3": "Dijital İstihdam",
+    "timedec3": "Dijital kaynak bulma, aday iletişimi ve uzaktan istihdam süreçlerini güçlendirdik.",
+    "timetitle4": "Genişletilmiş İş Gücü Çözümleri",
+    "timedec4": "Daha geniş bir sektör ve iş gücü ihtiyacı yelpazesinde istihdam yeteneklerimizi geliştirdik.",
+    "timetitle5": "Teknoloji Destekli İstihdam",
+    "timedec5": "Aday kaynak bulma ve işveren koordinasyonunu geliştirmek için gelişmiş dijital araçlar ve teknoloji destekli istihdam süreçleri devreye aldık.",
+    "timetitle6": "Uluslararası İş Gücü Çözümleri",
+    "timedec6": "Avrupalı işverenleri 30 temel sektörde daimi ve mevsimlik çalışanlarla buluşturuyoruz."
+  },
+  "industriesspecialization": {
+    "title": "30 Temel Sektörde İstihdam Uzmanlığı",
+    "subtitle": "Güvenilir operasyonel, nitelikli, yarı nitelikli, teknik ve mevsimlik çalışanlara ihtiyaç duyan sektörlerde iş gücü istihdam çözümleri sunuyoruz."
+  },
+  "ourservices": {
+    "title": "Hizmetlerimiz",
+    "subtitle": "Kuruluşunuzun daimi ve mevsimlik iş gücü ihtiyaçlarına göre uyarlanmış uluslararası istihdam çözümleri.",
+    "services1": {
+      "title": "Daimi İstihdam",
+      "desc": "Geniş bir sektör ve meslek yelpazesinde uzun vadeli istihdam çözümleri."
+    },
+    "services2": {
+      "title": "Mevsimlik İstihdam",
+      "desc": "Mevsimlik personel ihtiyacı olan işletmeler için iş gücü çözümleri."
+    },
+    "services3": {
+      "title": "Uluslararası Aday Bulma",
+      "desc": "Asya ve Afrika'daki köklü istihdam pazarlarından adaylar."
+    },
+    "services4": {
+      "title": "Çalışma İzni ve Vize Desteği",
+      "desc": "Çalışma izni ve vize başvurularıyla ilgili belgelendirme ve prosedürlerde yardım."
+    },
+    "btnText": "Başlayın"
+  },
+  "banner1": {
+    "title": "İş Gücünüzü Güçlendirmeye Hazır mısınız?",
+    "subtitle": "Hangi pozisyonları doldurmanız gerektiğini, nerede çalışana ihtiyacınız olduğunu ve gereksinimlerinizi bize bildirin. İstihdam ekibimiz gereksinimlerinizi görüşecek ve en uygun istihdam yaklaşımını belirleyecektir.",
+    "btnText": "İstihdam Sürecinizi Başlatın"
+  },
+  "ourorganization": {
+    "menu1": "Ana Sayfa",
+    "menu2": "Hakkımızda",
+    "title": "Avrupalı İşverenler için Uluslararası İstihdam ve İş Gücü Çözümleri",
+    "subtitle": "2010 yılından bu yana Empowerment Recruitment, işletmelerin geniş bir sektör yelpazesinde güvenilir iş gücü çözümlerine erişmesine yardımcı oluyor.",
+    "desc": "Her işverenin farklı iş gücü ihtiyaçları olduğunu biliyoruz. Görevimiz uygun adayları belirlemek, istihdam sürecini yönetmek ve adayları gerekli belgelendirme, çalışma izni ve vize prosedürleri konusunda desteklemek; böylece işverenlerin boş pozisyondan başarılı bir yerleştirmeye daha güvenle geçmesine yardımcı oluyoruz.",
+    "btnText": "Kültürümüz"
+  },
+  "ourculture": {
+    "title": "Önce İnsan. Her Zaman Dürüstlük.",
+    "subtitle": "Çalışmalarımız güven, şeffaflık ve sorumluluk üzerine kuruludur. Hem işverenler hem de adaylar için işleyen istihdam ilişkileri kurmayı hedefliyoruz.",
+    "culture1": {
+      "title": "Dürüstlük ve Şeffaflık",
+      "desc": "Dürüstçe iletişim kurar, sorumlu davranır ve istihdam süreci boyunca şeffaflığı koruruz."
+    },
+    "culture2": {
+      "title": "Kalite",
+      "desc": "Uygunluğa, güvenilirliğe ve her pozisyonun özel gereksinimlerine odaklanırız."
+    },
+    "culture3": {
+      "title": "Ortaklık",
+      "desc": "Uzun vadeli ilişkiler kurmak için işverenler, adaylar ve istihdam ortaklarıyla yakın çalışırız."
+    },
+    "culture4": {
+      "title": "Sorumluluk",
+      "desc": "Özellikle insanları uluslararası bir istihdam sürecinde desteklerken rolümüzü ciddiye alırız."
+    },
+    "culture5": {
+      "title": "Sürekli İyileştirme",
+      "desc": "Daha iyi bir deneyim sunmak için süreçlerimizi, teknolojimizi ve istihdam yeteneklerimizi sürekli geliştiriyoruz."
+    }
+  },
+  "banner2": {
+    "title": "İş Gücünüzü Oluşturmaya Hazır mısınız?",
+    "subtitle": "Boş pozisyonlarınız ve iş gücü ihtiyaçlarınız hakkında bize bilgi verin.",
+    "btnText": "İstihdam Sürecinizi Başlatın"
+  },
+  "contact": {
+    "title": "İletişim Bilgileri",
+    "menu1": "Ana Sayfa",
+    "menu2": "İletişim",
+    "location1": {
+      "title": "Merkez Ofis - Romanya",
+      "address": "Municipiul Slobozia, Strada Viilor, Nr. 3, Bloc R3, Scara A, Etaj P, Ap. 1, Județ Ialomița, Romania"
+    },
+    "phone": "Telefon",
+    "email": "E-posta",
+    "contactsocial": "Bize Ulaşın",
+    "workingtime": {
+      "title": "Çalışma Saatleri",
+      "days1": "Pazartesi - Cuma",
+      "hours1": "8:00 - 18:00",
+      "days2": "Cumartesi",
+      "hours2": "8:00 - 14:00",
+      "days3": "Pazar",
+      "hours3": "Kapalı"
+    },
+    "contactform": {
+      "title": "İşveren Talebi",
+      "desc": "Doldurmanız gereken pozisyonlar ve iş gücü ihtiyaçlarınız hakkında bize bilgi verin, en kısa sürede size dönüş yapacağız.",
+      "name": "İsim",
+      "email": "E-posta",
+      "subject": "Konu",
+      "message": "Mesaj",
+      "btnText": "Talebi Gönder"
+    }
+  },
+  "footer": {
+    "title1": "Empowerment Recruitment",
+    "desc": "Avrupalı işverenler için uluslararası istihdam ve iş gücü çözümleri. Avrupalı işverenleri uluslararası istihdam pazarlarından güvenilir yeteneklerle buluşturuyoruz.",
+    "location1": {
+      "title": "Merkez Ofis - Romanya",
+      "address": "Municipiul Slobozia, Strada Viilor, Nr. 3, Bloc R3, Scara A, Etaj P, Ap. 1, Județ Ialomița, Romania"
+    },
+    "title2": "Hızlı Bağlantılar",
+    "nav1": "İletişim",
+    "title3": "İstihdam Çözümleri",
+    "nav2": "İstihdam Çözümleri",
+    "nav3": "Yetenek Değerlendirmesi",
+    "nav4": "Uzmanlık Alanları",
+    "email": "E-posta",
+    "phone": "Telefon",
+    "copyright": "Telif Hakkı © 2026 Empowerment Recruitment. Tüm hakları saklıdır."
+  }
+}

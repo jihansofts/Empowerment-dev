@@ -1,0 +1,168 @@
+{
+  "nav": {
+    "about": "O nas",
+    "organization": "Naša organizacija",
+    "journey": "Naša pot",
+    "culture": "Naša kultura",
+    "services": "Storitve",
+    "board": "Rešitve za zaposlovanje",
+    "talent": "Ocena kandidatov",
+    "expertise": "Področja strokovnosti",
+    "oursuccess": "Naš uspeh",
+    "contact": "Kontaktirajte nas"
+  },
+  "hero": {
+    "title": "Okrepite svojo delovno silo.",
+    "subtitle": "Okrepite svoje poslovanje.",
+    "description": "Mednarodne rešitve za zaposlovanje in delovno silo za evropske delodajalce. Povezujemo evropske delodajalce z zanesljivimi, usposobljenimi in motiviranimi delavci z mednarodnih trgov.",
+    "button": "Kontaktirajte nas"
+  },
+  "countstats": {
+    "title": "Povezujemo evropske delodajalce z mednarodnimi talenti",
+    "subtitle": "Od leta 2010 Empowerment Recruitment podjetjem pomaga dostopati do zanesljivih rešitev za delovno silo v širokem naboru panog.",
+    "count1": "Let izkušenj pri zaposlovanju",
+    "count2": "Uspešnih zaposlitev",
+    "count3": "Partnerskih podjetij",
+    "count4": "Stopnja zadovoljstva strank"
+  },
+  "ourpeople": {
+    "title": "Naši ljudje",
+    "subtitle": "Zaposlovanje je navsezadnje o ljudeh. Naša ekipa deluje na področju iskanja kandidatov, preverjanja kandidatov, koordinacije z delodajalci, dokumentacije in podpore pri zaposlovanju, da bi ustvarili uspešne povezave med delodajalci in kandidati."
+  },
+  "ourjourney": {
+    "title": "Naša pot",
+    "subtitle": "Od strokovnosti pri zaposlovanju do mednarodnih rešitev za delovno silo",
+    "timeyear1": "2010",
+    "timeyear2": "2015",
+    "timeyear3": "2020",
+    "timeyear4": "2023",
+    "timeyear5": "2024",
+    "timeyear6": "Danes",
+    "timetitle1": "Ustanovitev",
+    "timedec1": "Empowerment Recruitment je bilo ustanovljeno s poudarkom na povezovanju delodajalcev z ustreznimi mednarodnimi talenti.",
+    "timetitle2": "Mednarodno zaposlovanje",
+    "timedec2": "Razširili smo dejavnosti zaposlovanja na mednarodne izvorne trge in razvili širša partnerstva z delodajalci.",
+    "timetitle3": "Digitalno zaposlovanje",
+    "timedec3": "Okrepili smo digitalno iskanje kandidatov, komunikacijo s kandidati in procese zaposlovanja na daljavo.",
+    "timetitle4": "Razširjene rešitve za delovno silo",
+    "timedec4": "Razvili smo zmogljivosti za zaposlovanje v širšem naboru panog in potreb po delovni sili.",
+    "timetitle5": "Tehnološko podprto zaposlovanje",
+    "timedec5": "Uvedli smo izboljšana digitalna orodja in tehnološko podprte procese zaposlovanja za izboljšanje iskanja kandidatov in koordinacije z delodajalci.",
+    "timetitle6": "Mednarodne rešitve za delovno silo",
+    "timedec6": "Povezujemo evropske delodajalce s stalnimi in sezonskimi delavci v 30 ključnih panogah."
+  },
+  "industriesspecialization": {
+    "title": "Strokovnost pri zaposlovanju v 30 ključnih panogah",
+    "subtitle": "Zagotavljamo rešitve za zaposlovanje delovne sile v panogah, ki so odvisne od zanesljivih operativnih, usposobljenih, delno usposobljenih, tehničnih in sezonskih delavcev."
+  },
+  "ourservices": {
+    "title": "Naše storitve",
+    "subtitle": "Mednarodne rešitve za zaposlovanje, prilagojene vašim potrebam po stalni in sezonski delovni sili.",
+    "services1": {
+      "title": "Stalno zaposlovanje",
+      "desc": "Dolgoročne zaposlitvene rešitve v širokem naboru panog in poklicev."
+    },
+    "services2": {
+      "title": "Sezonsko zaposlovanje",
+      "desc": "Rešitve za delovno silo za podjetja s sezonskimi kadrovskimi potrebami."
+    },
+    "services3": {
+      "title": "Mednarodno iskanje kandidatov",
+      "desc": "Kandidati z uveljavljenih trgov zaposlovanja v Aziji in Afriki."
+    },
+    "services4": {
+      "title": "Podpora pri delovnem dovoljenju in vizumu",
+      "desc": "Pomoč pri dokumentaciji in postopkih za vloge za delovno dovoljenje in vizum."
+    },
+    "btnText": "Začnite"
+  },
+  "banner1": {
+    "title": "Ste pripravljeni okrepiti svojo delovno silo?",
+    "subtitle": "Povejte nam, katera delovna mesta morate zapolniti, kje potrebujete delavce in kakšne so vaše zahteve. Naša ekipa za zaposlovanje bo obravnavala vaše zahteve in določila najprimernejši pristop k zaposlovanju.",
+    "btnText": "Začnite zaposlovanje"
+  },
+  "ourorganization": {
+    "menu1": "Domov",
+    "menu2": "O nas",
+    "title": "Mednarodne rešitve za zaposlovanje in delovno silo za evropske delodajalce",
+    "subtitle": "Od leta 2010 Empowerment Recruitment podjetjem pomaga dostopati do zanesljivih rešitev za delovno silo v širokem naboru panog.",
+    "desc": "Razumemo, da ima vsak delodajalec drugačne potrebe po delovni sili. Naša vloga je prepoznati ustrezne kandidate, upravljati proces zaposlovanja in podpirati kandidate pri potrebni dokumentaciji, postopkih za delovno dovoljenje in vizum, ter delodajalcem pomagati pri prehodu od prostega delovnega mesta do uspešne zaposlitve z večjim zaupanjem.",
+    "btnText": "Naša kultura"
+  },
+  "ourculture": {
+    "title": "Ljudje na prvem mestu. Vedno integriteta.",
+    "subtitle": "Naše delo temelji na zaupanju, preglednosti in odgovornosti. Prizadevamo si ustvariti odnose pri zaposlovanju, ki delujejo tako za delodajalce kot za kandidate.",
+    "culture1": {
+      "title": "Integriteta in preglednost",
+      "desc": "Komuniciramo pošteno, delujemo odgovorno in ohranjamo preglednost skozi celoten proces zaposlovanja."
+    },
+    "culture2": {
+      "title": "Kakovost",
+      "desc": "Osredotočamo se na primernost, zanesljivost in posebne zahteve vsakega delovnega mesta."
+    },
+    "culture3": {
+      "title": "Partnerstvo",
+      "desc": "Tesno sodelujemo z delodajalci, kandidati in partnerji za zaposlovanje, da ustvarimo dolgoročne odnose."
+    },
+    "culture4": {
+      "title": "Odgovornost",
+      "desc": "Svojo vlogo jemljemo resno, še posebej ko podpiramo ljudi na njihovi mednarodni poti zaposlovanja."
+    },
+    "culture5": {
+      "title": "Nenehno izboljševanje",
+      "desc": "Nenehno izboljšujemo naše procese, tehnologijo in zmogljivosti zaposlovanja, da zagotovimo boljšo izkušnjo."
+    }
+  },
+  "banner2": {
+    "title": "Ste pripravljeni zgraditi svojo delovno silo?",
+    "subtitle": "Povejte nam o svojih prostih delovnih mestih in potrebah po delovni sili.",
+    "btnText": "Začnite zaposlovanje"
+  },
+  "contact": {
+    "title": "Kontaktni podatki",
+    "menu1": "Domov",
+    "menu2": "Kontaktirajte nas",
+    "location1": {
+      "title": "Glavna pisarna - Romunija",
+      "address": "Municipiul Slobozia, Strada Viilor, Nr. 3, Bloc R3, Scara A, Etaj P, Ap. 1, Județ Ialomița, Romania"
+    },
+    "phone": "Telefon",
+    "email": "E-pošta",
+    "contactsocial": "Povežite se z nami",
+    "workingtime": {
+      "title": "Delovni čas",
+      "days1": "Ponedeljek - Petek",
+      "hours1": "8:00 - 18:00",
+      "days2": "Sobota",
+      "hours2": "8:00 - 14:00",
+      "days3": "Nedelja",
+      "hours3": "Zaprto"
+    },
+    "contactform": {
+      "title": "Povpraševanje delodajalca",
+      "desc": "Povejte nam o delovnih mestih, ki jih morate zapolniti, in vaših potrebah po delovni sili, mi pa vam bomo odgovorili v najkrajšem možnem času.",
+      "name": "Ime",
+      "email": "E-pošta",
+      "subject": "Zadeva",
+      "message": "Sporočilo",
+      "btnText": "Pošlji povpraševanje"
+    }
+  },
+  "footer": {
+    "title1": "Empowerment Recruitment",
+    "desc": "Mednarodne rešitve za zaposlovanje in delovno silo za evropske delodajalce. Povezujemo evropske delodajalce z zanesljivimi talenti z mednarodnih trgov zaposlovanja.",
+    "location1": {
+      "title": "Glavna pisarna - Romunija",
+      "address": "Municipiul Slobozia, Strada Viilor, Nr. 3, Bloc R3, Scara A, Etaj P, Ap. 1, Județ Ialomița, Romania"
+    },
+    "title2": "Hitre povezave",
+    "nav1": "Kontaktirajte nas",
+    "title3": "Rešitve za zaposlovanje",
+    "nav2": "Rešitve za zaposlovanje",
+    "nav3": "Ocena kandidatov",
+    "nav4": "Področja strokovnosti",
+    "email": "E-pošta",
+    "phone": "Telefon",
+    "copyright": "Copyright © 2026 Empowerment Recruitment. Vse pravice pridržane."
+  }
+}

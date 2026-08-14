@@ -1,0 +1,168 @@
+{
+  "nav": {
+    "about": "O nás",
+    "organization": "Naša organizácia",
+    "journey": "Naša cesta",
+    "culture": "Naša kultúra",
+    "services": "Služby",
+    "board": "Náborové riešenia",
+    "talent": "Hodnotenie talentov",
+    "expertise": "Oblasti odbornosti",
+    "oursuccess": "Náš úspech",
+    "contact": "Kontaktujte nás"
+  },
+  "hero": {
+    "title": "Posilnite svoju pracovnú silu.",
+    "subtitle": "Posilnite svoje podnikanie.",
+    "description": "Medzinárodné riešenia náboru a pracovnej sily pre európskych zamestnávateľov. Spájame európskych zamestnávateľov so spoľahlivými, kvalifikovanými a motivovanými pracovníkmi z medzinárodných trhov.",
+    "button": "Kontaktujte nás"
+  },
+  "countstats": {
+    "title": "Spájame európskych zamestnávateľov s medzinárodným talentom",
+    "subtitle": "Od roku 2010 spoločnosť Empowerment Recruitment pomáha firmám získať prístup k spoľahlivým riešeniam pracovnej sily v širokom spektre odvetví.",
+    "count1": "Rokov skúseností v nábore",
+    "count2": "Úspešných umiestnení",
+    "count3": "Partnerských spoločností",
+    "count4": "Miera spokojnosti klientov"
+  },
+  "ourpeople": {
+    "title": "Naši ľudia",
+    "subtitle": "Nábor je v konečnom dôsledku o ľuďoch. Náš tím pôsobí v oblasti vyhľadávania kandidátov, preverovania kandidátov, koordinácie so zamestnávateľmi, dokumentácie a podpory náborového procesu, aby sme vytvorili úspešné prepojenia medzi zamestnávateľmi a kandidátmi."
+  },
+  "ourjourney": {
+    "title": "Naša cesta",
+    "subtitle": "Od odbornosti v nábore k medzinárodným riešeniam pracovnej sily",
+    "timeyear1": "2010",
+    "timeyear2": "2015",
+    "timeyear3": "2020",
+    "timeyear4": "2023",
+    "timeyear5": "2024",
+    "timeyear6": "Dnes",
+    "timetitle1": "Založenie",
+    "timedec1": "Empowerment Recruitment bola založená so zameraním na prepájanie zamestnávateľov s vhodným medzinárodným talentom.",
+    "timetitle2": "Medzinárodný nábor",
+    "timedec2": "Rozšírili sme náborové aktivity na medzinárodné zdrojové trhy a rozvinuli širšie partnerstvá so zamestnávateľmi.",
+    "timetitle3": "Digitálny nábor",
+    "timedec3": "Posilnili sme digitálne vyhľadávanie kandidátov, komunikáciu s kandidátmi a procesy vzdialeného náboru.",
+    "timetitle4": "Rozšírené riešenia pracovnej sily",
+    "timedec4": "Rozvinuli sme náborové kapacity v širšom spektre odvetví a potrieb pracovnej sily.",
+    "timetitle5": "Nábor podporovaný technológiou",
+    "timedec5": "Zaviedli sme vylepšené digitálne nástroje a technologicky podporované náborové procesy na zlepšenie vyhľadávania kandidátov a koordinácie so zamestnávateľmi.",
+    "timetitle6": "Medzinárodné riešenia pracovnej sily",
+    "timedec6": "Spájame európskych zamestnávateľov so stálymi a sezónnymi pracovníkmi v 30 kľúčových odvetviach."
+  },
+  "industriesspecialization": {
+    "title": "Náborová odbornosť v 30 kľúčových odvetviach",
+    "subtitle": "Poskytujeme riešenia náboru pracovnej sily v odvetviach, ktoré sa spoliehajú na spoľahlivých prevádzkových, kvalifikovaných, polokvalifikovaných, technických a sezónnych pracovníkov."
+  },
+  "ourservices": {
+    "title": "Naše služby",
+    "subtitle": "Medzinárodné náborové riešenia prispôsobené vašim potrebám stálej a sezónnej pracovnej sily.",
+    "services1": {
+      "title": "Stály nábor",
+      "desc": "Dlhodobé riešenia zamestnania v širokom spektre odvetví a povolaní."
+    },
+    "services2": {
+      "title": "Sezónny nábor",
+      "desc": "Riešenia pracovnej sily pre firmy so sezónnymi personálnymi potrebami."
+    },
+    "services3": {
+      "title": "Medzinárodné vyhľadávanie kandidátov",
+      "desc": "Kandidáti z etablovaných náborových trhov v Ázii a Afrike."
+    },
+    "services4": {
+      "title": "Podpora pracovného povolenia a víza",
+      "desc": "Pomoc s dokumentáciou a postupmi súvisiacimi so žiadosťami o pracovné povolenie a vízum."
+    },
+    "btnText": "Začať"
+  },
+  "banner1": {
+    "title": "Ste pripravení posilniť svoju pracovnú silu?",
+    "subtitle": "Povedzte nám, ktoré pozície potrebujete obsadiť, kde potrebujete pracovníkov a aké sú vaše požiadavky. Náš náborový tím prediskutuje vaše požiadavky a určí najvhodnejší prístup k náboru.",
+    "btnText": "Začať nábor"
+  },
+  "ourorganization": {
+    "menu1": "Domov",
+    "menu2": "O nás",
+    "title": "Medzinárodné riešenia náboru a pracovnej sily pre európskych zamestnávateľov",
+    "subtitle": "Od roku 2010 spoločnosť Empowerment Recruitment pomáha firmám získať prístup k spoľahlivým riešeniam pracovnej sily v širokom spektre odvetví.",
+    "desc": "Chápeme, že každý zamestnávateľ má odlišné potreby pracovnej sily. Našou úlohou je identifikovať vhodných kandidátov, riadiť náborový proces a podporovať kandidátov prostredníctvom potrebnej dokumentácie, postupov pracovného povolenia a víza, čím pomáhame zamestnávateľom prejsť od voľnej pozície k úspešnému umiestneniu s väčšou istotou.",
+    "btnText": "Naša kultúra"
+  },
+  "ourculture": {
+    "title": "Ľudia na prvom mieste. Vždy integrita.",
+    "subtitle": "Naša práca je založená na dôvere, transparentnosti a zodpovednosti. Snažíme sa vytvárať náborové vzťahy, ktoré fungujú pre zamestnávateľov aj kandidátov.",
+    "culture1": {
+      "title": "Integrita a transparentnosť",
+      "desc": "Komunikujeme úprimne, konáme zodpovedne a udržiavame transparentnosť počas celého náborového procesu."
+    },
+    "culture2": {
+      "title": "Kvalita",
+      "desc": "Zameriavame sa na vhodnosť, spoľahlivosť a špecifické požiadavky každej pozície."
+    },
+    "culture3": {
+      "title": "Partnerstvo",
+      "desc": "Úzko spolupracujeme so zamestnávateľmi, kandidátmi a náborovými partnermi, aby sme vytvorili dlhodobé vzťahy."
+    },
+    "culture4": {
+      "title": "Zodpovednosť",
+      "desc": "Svoju úlohu berieme vážne, najmä keď podporujeme ľudí na ich medzinárodnej náborovej ceste."
+    },
+    "culture5": {
+      "title": "Neustále zlepšovanie",
+      "desc": "Neustále zlepšujeme naše procesy, technológie a náborové kapacity, aby sme poskytli lepší zážitok."
+    }
+  },
+  "banner2": {
+    "title": "Ste pripravení vybudovať svoju pracovnú silu?",
+    "subtitle": "Povedzte nám o svojich voľných pozíciách a potrebách pracovnej sily.",
+    "btnText": "Začať nábor"
+  },
+  "contact": {
+    "title": "Kontaktné informácie",
+    "menu1": "Domov",
+    "menu2": "Kontaktujte nás",
+    "location1": {
+      "title": "Hlavná kancelária - Rumunsko",
+      "address": "Municipiul Slobozia, Strada Viilor, Nr. 3, Bloc R3, Scara A, Etaj P, Ap. 1, Județ Ialomița, Romania"
+    },
+    "phone": "Telefón",
+    "email": "E-mail",
+    "contactsocial": "Spojte sa s nami",
+    "workingtime": {
+      "title": "Pracovná doba",
+      "days1": "Pondelok - Piatok",
+      "hours1": "8:00 - 18:00",
+      "days2": "Sobota",
+      "hours2": "8:00 - 14:00",
+      "days3": "Nedeľa",
+      "hours3": "Zatvorené"
+    },
+    "contactform": {
+      "title": "Dopyt zamestnávateľa",
+      "desc": "Povedzte nám o pozíciách, ktoré potrebujete obsadiť, a vašich potrebách pracovnej sily, a my sa vám čo najskôr ozveme.",
+      "name": "Meno",
+      "email": "E-mail",
+      "subject": "Predmet",
+      "message": "Správa",
+      "btnText": "Odoslať dopyt"
+    }
+  },
+  "footer": {
+    "title1": "Empowerment Recruitment",
+    "desc": "Medzinárodné riešenia náboru a pracovnej sily pre európskych zamestnávateľov. Spájame európskych zamestnávateľov so spoľahlivým talentom z medzinárodných náborových trhov.",
+    "location1": {
+      "title": "Hlavná kancelária - Rumunsko",
+      "address": "Municipiul Slobozia, Strada Viilor, Nr. 3, Bloc R3, Scara A, Etaj P, Ap. 1, Județ Ialomița, Romania"
+    },
+    "title2": "Rýchle odkazy",
+    "nav1": "Kontaktujte nás",
+    "title3": "Náborové riešenia",
+    "nav2": "Náborové riešenia",
+    "nav3": "Hodnotenie talentov",
+    "nav4": "Oblasti odbornosti",
+    "email": "E-mail",
+    "phone": "Telefón",
+    "copyright": "Copyright © 2026 Empowerment Recruitment. Všetky práva vyhradené."
+  }
+}

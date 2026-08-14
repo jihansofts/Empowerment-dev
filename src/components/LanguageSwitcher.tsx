@@ -10,6 +10,12 @@ const languages = [
   { code: "sr", name: "Serbian" },
   { code: "bs", name: "Bosnian" },
   { code: "bg", name: "Bulgarian" },
+  { code: "be", name: "Belarusian" },
+  { code: "el", name: "Greek" },
+  { code: "mk", name: "Macedonian" },
+  { code: "tr", name: "Turkish" },
+  { code: "sl", name: "Slovenian" },
+  { code: "sk", name: "Slovak" },
 ] as const;
 
 const LanguageSwitcher = ({ mobile = false }: { mobile?: boolean }) => {
