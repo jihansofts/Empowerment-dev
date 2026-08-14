@@ -47,7 +47,7 @@ const OurJourney: React.FC = () => {
       year: t("timeyear6"),
       title: t("timetitle6"),
       description: t("timedec6"),
-      image: "/images/2020.jpg",
+      image: "/images/43532.jpg",
     },
   ];
 
