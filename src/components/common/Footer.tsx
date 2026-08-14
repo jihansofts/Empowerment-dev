@@ -101,13 +101,13 @@ const Footer = () => {
             <h3 className="mb-4 text-xl font-bold">{t("title3")}</h3>
             <ul className="space-y-2">
               <li className="text-gray-400 transition-colors hover:text-white">
-                <Link href="/services/board-advisory">{t("nav2")}</Link>
+                <Link href="/services/recruitment-solutions">{t("nav2")}</Link>
               </li>
               <li className="text-gray-400 transition-colors hover:text-white">
-                <Link href="/services/executive-search">{t("nav3")}</Link>
+                <Link href="/services/talent-assessment">{t("nav3")}</Link>
               </li>
               <li className="text-gray-400 transition-colors hover:text-white">
-                <Link href="/services/leadership">{t("nav4")}</Link>
+                <Link href="/areas-of-expertise">{t("nav4")}</Link>
               </li>
             </ul>
           </div>
@@ -116,15 +116,10 @@ const Footer = () => {
           <div>
             <h3 className="mb-4 text-xl font-bold">{t("nav1")}</h3>
             <ul className="space-y-2 text-gray-400">
-              {/* <li className="w-full p-2 border rounded-lg">
+              <li className="w-full p-2 border rounded-lg">
                 <span className="text-[12px]">{t("location1.title")}</span>
                 <p className="text-sm">{t("location1.address")}</p>
-              </li> */}
-              <li className="w-full p-2 border rounded-lg">
-                <span className="text-[12px] ">{t("location2.title")}</span>
-                <p className="text-sm">{t("location2.address")}</p>
               </li>
-              {/* <li>{t("phone")}: +40 784 805 998 </li> */}
               <li>{t("email")}: info@empowerment.group</li>
             </ul>
           </div>

@@ -21,49 +21,48 @@ export default function WhyPartnerWithUs() {
   const partnershipBenefits = [
     {
       icon: FaMoneyBillWave,
-      title: "Lucrative Commissions",
+      title: "International Employer Network",
       description:
-        "Competitive earning potential with unlimited growth opportunities and performance-based incentives.",
+        "Work with a recruitment organisation serving employers across European markets.",
       color: "from-green-500 to-emerald-500",
       delay: 0.1,
     },
     {
       icon: FaRocket,
-      title: "Rapid Growth",
-      description:
-        "Access to premium resources, cutting-edge technology, and proven strategies for exponential success.",
+      title: "Multiple Recruitment Sectors",
+      description: "Access opportunities across 30 core industries.",
       color: "from-purple-500 to-pink-500",
       delay: 0.2,
     },
     {
       icon: FaHandsHelping,
-      title: "Full Support",
+      title: "Structured Recruitment Process",
       description:
-        "Comprehensive training, dedicated mentorship, and 24/7 backup from our expert leadership team.",
+        "Work within a defined process covering candidate sourcing, screening and employer coordination.",
       color: "from-blue-500 to-cyan-500",
       delay: 0.3,
     },
     {
       icon: FaChartLine,
-      title: "Proven Success System",
+      title: "Ongoing Support",
       description:
-        "Leverage our established processes and methodologies that have delivered outstanding results.",
+        "Receive support from our recruitment team throughout the partnership.",
       color: "from-orange-500 to-amber-500",
       delay: 0.4,
     },
     {
       icon: FaShieldAlt,
-      title: "Risk Protection",
+      title: "Long-Term Relationships",
       description:
-        "Enjoy financial security with guaranteed retainers and comprehensive business support systems.",
+        "We focus on building sustainable partnerships rather than one-off transactions.",
       color: "from-indigo-500 to-purple-500",
       delay: 0.5,
     },
     {
       icon: FaCrown,
-      title: "Elite Community",
+      title: "Growth Opportunities",
       description:
-        "Join an exclusive network of top performers and industry leaders for collaboration and growth.",
+        "Develop your recruitment business through access to international employer requirements and structured collaboration.",
       color: "from-yellow-500 to-orange-500",
       delay: 0.6,
     },
@@ -71,48 +70,47 @@ export default function WhyPartnerWithUs() {
 
   const successMetrics = [
     {
-      number: "85%",
-      label: "Higher Earnings",
-      icon: FaMoneyBillWave,
-      description: "than industry average",
-    },
-    {
-      number: "2.5x",
-      label: "Faster Growth",
-      icon: FaRocket,
-      description: "compared to independent operations",
-    },
-    {
-      number: "24/7",
-      label: "Expert Support",
+      number: "100+",
+      label: "Partner Companies",
       icon: FaHandsHelping,
-      description: "dedicated assistance",
+      description: "across European markets",
     },
     {
-      number: "100%",
-      label: "Success Rate",
+      number: "1,000+",
+      label: "Successful Placements",
+      icon: FaMoneyBillWave,
+      description: "and growing",
+    },
+    {
+      number: "95%",
+      label: "Client Satisfaction",
       icon: FaAward,
-      description: "partner satisfaction",
+      description: "recruitment relationship",
+    },
+    {
+      number: "30+",
+      label: "Industries",
+      icon: FaRocket,
+      description: "core recruitment sectors",
     },
   ];
 
   const values = [
     {
-      title: "We Invest in You",
-      description:
-        "Continuous training, resources, and tools to ensure your success from day one.",
+      title: "Integrity First",
+      description: "We value transparent and professional relationships.",
       icon: FaUsers,
     },
     {
-      title: "Growth-Focused",
+      title: "Quality Focus",
       description:
-        "Your success is our priority - we're committed to helping you achieve your financial goals.",
+        "We prioritise suitable candidates rather than simply increasing candidate volume.",
       icon: FaChartLine,
     },
     {
-      title: "Partnership First",
+      title: "Communication",
       description:
-        "Transparent relationships built on trust, respect, and mutual success.",
+        "Clear and timely communication keeps recruitment processes moving.",
       icon: FaStar,
     },
   ];
@@ -237,7 +235,7 @@ export default function WhyPartnerWithUs() {
               <FaStar className="text-[#E23D51] text-xl" />
             </motion.div>
             <span className="text-gray-700 font-semibold text-lg">
-              Join Our Success Story
+              Grow Together with Empowerment Recruitment
             </span>
           </motion.div>
 
@@ -262,7 +260,7 @@ export default function WhyPartnerWithUs() {
                 backgroundSize: "200% 200%",
               }}
             >
-              Our Team?
+              Us?
             </motion.span>
           </motion.h2>
 
@@ -272,13 +270,12 @@ export default function WhyPartnerWithUs() {
             whileInView={{ opacity: 1 }}
             transition={{ delay: 0.3, duration: 0.8 }}
           >
-            Experience unprecedented growth and financial success with our
+            We believe successful recruitment partnerships are built on
             <span className="font-semibold text-[#E23D51]">
               {" "}
-              proven partnership model
+              clear communication, professional conduct
             </span>
-            . We provide everything you need to thrive in the competitive
-            recruitment industry.
+            , reliable candidate sourcing and shared responsibility.
           </motion.p>
         </motion.div>
 
@@ -362,11 +359,11 @@ export default function WhyPartnerWithUs() {
         >
           <div className="text-center mb-12">
             <h3 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              Proven Partner Success
+              Our Partner Approach
             </h3>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Join hundreds of successful partners who have transformed their
-              careers and achieved financial freedom.
+              We invest in strong partnerships built on trust, transparency
+              and shared responsibility.
             </p>
           </div>
 
@@ -501,18 +498,18 @@ export default function WhyPartnerWithUs() {
             <div className="relative z-10">
               <FaAward className="text-white text-5xl mx-auto mb-6 opacity-80" />
               <h3 className="text-3xl lg:text-4xl font-bold mb-4">
-                Ready to Transform Your Career?
+                Ready to Become a Partner?
               </h3>
               <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-                Join our elite network of recruitment partners and start earning
-                the income you deserve with our comprehensive support system.
+                If you are a recruitment professional, agency or sourcing
+                partner with access to suitable candidates, contact our team.
               </p>
 
               <Link
                 href={"/contact-us"}
                 className="px-12 py-4 rounded-full font-bold text-white text-lg shadow-lg hover:shadow-xl transition-all duration-300 group inline-flex items-center gap-3 mx-auto bg-white/20 backdrop-blur-sm border border-white/30 hover:bg-white/30"
               >
-                Become a Partner Today
+                Become a Recruitment Partner
                 <FaArrowRight className="group-hover:translate-x-2 transition-transform duration-300" />
               </Link>
             </div>

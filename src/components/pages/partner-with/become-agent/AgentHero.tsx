@@ -126,16 +126,16 @@ export default function AgentHero() {
                     <FaCrown className="text-white text-lg" />
                   </motion.div>
                   <span className="text-white font-bold text-lg">
-                    Partnering With Us To Grow Together
+                    Grow Together with Empowerment Recruitment
                   </span>
                 </motion.div>
 
-      
+
                 <motion.h1
                   variants={itemVariants}
                   className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 leading-tight"
                 >
-                  Join Our
+                  Partner With Our
                   <motion.span
                     className="block bg-gradient-to-r from-[#E23D51] via-yellow-400 to-[#E23D51] bg-clip-text text-transparent"
                     animate={{
@@ -150,7 +150,7 @@ export default function AgentHero() {
                       backgroundSize: "200% 200%",
                     }}
                   >
-                    Success Network
+                    Recruitment Network
                   </motion.span>
                 </motion.h1>
 
@@ -159,21 +159,21 @@ export default function AgentHero() {
                   variants={itemVariants}
                   className="text-2xl sm:text-3xl text-white/90 mb-8 leading-relaxed font-light"
                 >
-                  Build Your Legacy with Our
+                  We work with recruitment professionals and
                   <span className="text-[#E23D51] font-semibold">
                     {" "}
-                    Most Trusted{" "}
+                    local partners{" "}
                   </span>
-                  Recruitment Partnership Program
+                  who help connect international candidates with European
+                  employment opportunities
                 </motion.p>
                 <motion.p
                   variants={itemVariants}
                   className="text-xl text-white/80 mb-12 leading-relaxed font-normal"
                 >
-                  Unlock unprecedented earning potential while transforming
-                  careers and businesses. Join a community of elite
-                  professionals who are redefining recruitment excellence across
-                  India.
+                  If you have access to qualified candidates in our
+                  recruitment markets and want to develop a long-term
+                  recruitment partnership, we would like to hear from you.
                 </motion.p>
 
                 <motion.div
@@ -191,7 +191,7 @@ export default function AgentHero() {
                       href="/contact-us"
                       className="bg-gradient-to-r from-[#E23D51] to-pink-600 text-white px-12 py-5 rounded-full font-bold text-xl flex items-center gap-4 group transition-all duration-300"
                     >
-                      Start Your Journey
+                      Become a Partner
                       <motion.div
                         animate={{ x: [0, 5, 0] }}
                         transition={{ duration: 1.5, repeat: Infinity }}

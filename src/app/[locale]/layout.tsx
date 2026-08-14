@@ -12,8 +12,9 @@ const titillium = Titillium_Web({
 });
 
 export const metadata: Metadata = {
-  title: "Empowerment Group - Agency for Employment",
-  description: "We connect the right workers with the right employers.",
+  title: "Empowerment Recruitment - International Recruitment & Workforce Solutions",
+  description:
+    "We connect European employers with reliable, skilled and motivated workers from international markets.",
   keywords:
     "job, jobs, work, employment, employer, employee, career, hiring, recruitment, recruitment agency, job hunting, job search, job board, job site, job listing, job application, job vacancy, job opening, job opportunity, job offer",
   icons: {
@@ -52,23 +53,25 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "/",
-    title: "Empowerment Group - Agency for Employment",
-    description: "We connect the right workers with the right employers.",
-    siteName: "Empowerment Group",
+    title: "Empowerment Recruitment - International Recruitment & Workforce Solutions",
+    description:
+      "We connect European employers with reliable, skilled and motivated workers from international markets.",
+    siteName: "Empowerment Recruitment",
     images: [
       {
         url: "/logo/logo.svg",
         width: 1920,
         height: 1080,
         type: "image/svg+xml",
-        alt: "Empowerment Group Logo",
+        alt: "Empowerment Recruitment Logo",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Empowerment Group - Agency for Employment",
-    description: "We connect the right workers with the right employers.",
+    title: "Empowerment Recruitment - International Recruitment & Workforce Solutions",
+    description:
+      "We connect European employers with reliable, skilled and motivated workers from international markets.",
     images: [
       {
         url: "/logo/logo.svg",

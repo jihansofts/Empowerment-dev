@@ -14,164 +14,192 @@ export interface Industry {
 export default function Industries() {
   const industries: Industry[] = [
     {
-      title: "Agriculture & Farming",
+      title: "Agriculture & Crop Production",
       image: "/industries/agriculture.avif",
       roundImage: "/logo/round.png",
       shortDescription:
-        "Expert recruitment for agricultural sectors including farming, gardening, fruit harvesting, and food processing industries",
+        "Recruitment for farms, crop production and agricultural operations.",
       keyRoles: [
         "Farm Workers",
-        "Gardeners",
-        "Fruit Pickers",
-        "Food Processing Operators",
-        "Agricultural Technicians",
-        "Farm Managers",
+        "Agricultural Workers",
+        "Crop Workers",
+        "Vegetable Farm Workers",
+        "Farm Assistants",
+        "Agricultural Machine Operators",
       ],
       yourBenefits: [
-        "Skilled seasonal workers",
-        "Reliable agricultural staff",
-        "Food safety certified professionals",
-        "Experienced harvest teams",
+        "Skilled and experienced agricultural workforce",
+        "Farm Workers and Agricultural Workers ready for deployment",
+        "Candidates screened against your role requirements",
+        "Support through documentation, work-permit and visa procedures",
       ],
     },
     {
-      title: "Automotive Services",
-      image: "/industries/automotive.avif",
+      title: "Horticulture & Gardening",
+      image: "/industries/agriculture.avif",
       roundImage: "/logo/round.png",
       shortDescription:
-        "Professional recruitment for car wash, servicing, and automotive maintenance businesses",
+        "Workforce solutions for horticulture, gardening, nurseries and landscaping operations.",
       keyRoles: [
-        "Car Wash Attendants",
-        "Auto Detailers",
-        "Service Technicians",
-        "Mechanic Assistants",
-        "Customer Service Staff",
+        "Gardeners",
+        "Horticultural Workers",
+        "Nursery Workers",
+        "Landscapers",
+        "Grounds Maintenance Workers",
+        "Gardening Assistants",
       ],
       yourBenefits: [
-        "Trained automotive professionals",
-        "Customer-focused service staff",
-        "Technical skilled workers",
-        "Reliable maintenance teams",
+        "Skilled and experienced horticulture workforce",
+        "Gardeners and Horticultural Workers ready for deployment",
+        "Candidates screened against your role requirements",
+        "Support through documentation, work-permit and visa procedures",
       ],
     },
     {
-      title: "Bakery & Food Production",
+      title: "Fruit Picking & Seasonal Agriculture",
+      image: "/industries/agriculture.avif",
+      roundImage: "/logo/round.png",
+      shortDescription:
+        "Seasonal recruitment for harvesting and agricultural peak periods.",
+      keyRoles: [
+        "Fruit Pickers",
+        "Harvest Workers",
+        "Seasonal Farm Workers",
+        "Crop Pickers",
+        "Packing Workers",
+        "Agricultural Assistants",
+      ],
+      yourBenefits: [
+        "Reliable seasonal harvest workforce",
+        "Fruit Pickers and Harvest Workers ready for deployment",
+        "Candidates screened against your role requirements",
+        "Support through documentation, work-permit and visa procedures",
+      ],
+    },
+    {
+      title: "Livestock & Dairy",
+      image: "/industries/dairy.avif",
+      roundImage: "/logo/round.png",
+      shortDescription:
+        "Recruitment for livestock farms, dairy operations and milk production.",
+      keyRoles: [
+        "Dairy Farm Workers",
+        "Livestock Workers",
+        "Milking Operators",
+        "Farm Assistants",
+        "Animal Care Workers",
+        "Dairy Production Workers",
+      ],
+      yourBenefits: [
+        "Skilled and experienced dairy and livestock workforce",
+        "Dairy Farm Workers and Livestock Workers ready for deployment",
+        "Candidates screened against your role requirements",
+        "Support through documentation, work-permit and visa procedures",
+      ],
+    },
+    {
+      title: "Viticulture & Wine Production",
+      image: "/industries/agriculture.avif",
+      roundImage: "/logo/round.png",
+      shortDescription:
+        "Recruitment for vineyards, grape cultivation and wine-production operations.",
+      keyRoles: [
+        "Vineyard Workers",
+        "Grape Pickers",
+        "Agricultural Workers",
+        "Winery Production Workers",
+        "Cellar Workers",
+        "Seasonal Harvest Workers",
+      ],
+      yourBenefits: [
+        "Skilled and experienced viticulture workforce",
+        "Vineyard Workers and Grape Pickers ready for deployment",
+        "Candidates screened against your role requirements",
+        "Support through documentation, work-permit and visa procedures",
+      ],
+    },
+    {
+      title: "Fishing & Seafood Processing",
+      image: "/industries/packaging.avif",
+      roundImage: "/logo/round.png",
+      shortDescription:
+        "Workforce recruitment for fishing and seafood processing operations.",
+      keyRoles: [
+        "Fish Processing Workers",
+        "Seafood Sorters",
+        "Processing Operators",
+        "Packing Workers",
+        "Labelling Workers",
+        "Production Workers",
+      ],
+      yourBenefits: [
+        "Skilled and experienced seafood processing workforce",
+        "Fish Processing Workers and Seafood Sorters ready for deployment",
+        "Candidates screened against your role requirements",
+        "Support through documentation, work-permit and visa procedures",
+      ],
+    },
+    {
+      title: "Food Production & Processing",
+      image: "/industries/manufacturing.avif",
+      roundImage: "/logo/round.png",
+      shortDescription:
+        "Recruitment for food factories, processing plants and production facilities.",
+      keyRoles: [
+        "Food Production Workers",
+        "Production Operators",
+        "Processing Workers",
+        "Quality Control Workers",
+        "Machine Operators",
+        "Packing Workers",
+      ],
+      yourBenefits: [
+        "Skilled and experienced food production workforce",
+        "Food Production Workers and Production Operators ready for deployment",
+        "Candidates screened against your role requirements",
+        "Support through documentation, work-permit and visa procedures",
+      ],
+    },
+    {
+      title: "Bakery & Confectionery",
       image: "/industries/bakery.avif",
       roundImage: "/logo/round.png",
       shortDescription:
-        "Specialized staffing for bakeries, food processing, and production facilities",
+        "Recruitment for bakeries, pastry production and confectionery operations.",
       keyRoles: [
         "Bakers",
-        "Pastry Chefs",
-        "Food Production Workers",
-        "Quality Control Inspectors",
-        "Packaging Operators",
+        "Pastry Workers",
+        "Bakery Assistants",
+        "Production Workers",
+        "Packaging Workers",
+        "Food Production Operators",
       ],
       yourBenefits: [
-        "Certified bakers",
-        "Food hygiene trained staff",
-        "Production line experts",
-        "Quality assurance professionals",
+        "Skilled and experienced bakery workforce",
+        "Bakers and Pastry Workers ready for deployment",
+        "Candidates screened against your role requirements",
+        "Support through documentation, work-permit and visa procedures",
       ],
     },
     {
-      title: "Healthcare & Care Homes",
-      image: "/industries/healthcare.avif",
+      title: "Meat Processing & Butchery",
+      image: "/industries/butchery.avif",
       roundImage: "/logo/round.png",
       shortDescription:
-        "Dedicated healthcare recruitment for hospitals, clinics, and residential care facilities",
+        "Workforce solutions for meat-processing plants, butcheries and food-production facilities.",
       keyRoles: [
-        "Caregivers",
-        "Nurses",
-        "Healthcare Assistants",
-        "Support Workers",
-        "Medical Technicians",
+        "Butchers",
+        "Meat Cutters",
+        "Meat Processing Workers",
+        "Production Workers",
+        "Packaging Workers",
+        "Quality Control Workers",
       ],
       yourBenefits: [
-        "Qualified healthcare professionals",
-        "Compassionate care staff",
-        "Certified nursing assistants",
-        "Trained medical support",
-      ],
-    },
-    {
-      title: "Commercial & Residential Cleaning",
-      image: "/industries/cleaning.avif",
-      roundImage: "/logo/round.png",
-      shortDescription:
-        "Professional cleaning staff recruitment for commercial and residential properties",
-      keyRoles: [
-        "Cleaners",
-        "Janitors",
-        "Housekeeping Staff",
-        "Sanitation Workers",
-        "Cleaning Supervisors",
-      ],
-      yourBenefits: [
-        "Trained cleaning professionals",
-        "Reliable maintenance staff",
-        "Sanitation certified workers",
-        "Experienced cleaning teams",
-      ],
-    },
-    {
-      title: "Construction & Building Trades",
-      image: "/industries/construction.avif",
-      roundImage: "/logo/round.png",
-      shortDescription:
-        "Skilled workforce recruitment for construction projects and building maintenance",
-      keyRoles: [
-        "Construction Workers",
-        "Laborers",
-        "Site Assistants",
-        "Building Maintenance Staff",
-        "Construction Helpers",
-      ],
-      yourBenefits: [
-        "Skilled construction labor",
-        "Safety trained workers",
-        "Reliable site staff",
-        "Experienced building teams",
-      ],
-    },
-    {
-      title: "Logistics & Delivery Services",
-      image: "/industries/delivery.avif",
-      roundImage: "/logo/round.png",
-      shortDescription:
-        "Comprehensive recruitment for delivery, logistics, and transportation sectors",
-      keyRoles: [
-        "Delivery Drivers",
-        "Heavy Vehicle Operators",
-        "Logistics Assistants",
-        "Couriers",
-        "Warehouse Packers",
-      ],
-      yourBenefits: [
-        "Licensed drivers",
-        "Experienced logistics staff",
-        "Reliable delivery personnel",
-        "Safety conscious operators",
-      ],
-    },
-    {
-      title: "Technical Services & HVAC",
-      image: "/industries/technical.avif",
-      roundImage: "/logo/round.png",
-      shortDescription:
-        "Specialized recruitment for electrical, HVAC, refrigeration, and technical maintenance roles",
-      keyRoles: [
-        "Electricians",
-        "HVAC Technicians",
-        "Refrigeration Specialists",
-        "AC Maintenance Staff",
-        "Technical Engineers",
-      ],
-      yourBenefits: [
-        "Certified technicians",
-        "Skilled maintenance professionals",
-        "Safety trained electricians",
-        "Experienced HVAC specialists",
+        "Skilled and experienced meat-processing workforce",
+        "Butchers and Meat Cutters ready for deployment",
+        "Candidates screened against your role requirements",
+        "Support through documentation, work-permit and visa procedures",
       ],
     },
     {
@@ -179,59 +207,335 @@ export default function Industries() {
       image: "/industries/hospitality.avif",
       roundImage: "/logo/round.png",
       shortDescription:
-        "Staffing solutions for hotels, restaurants, tourism, and hospitality businesses",
+        "Recruitment for hotels, resorts, hostels, guesthouses and tourism businesses.",
       keyRoles: [
         "Hotel Staff",
-        "Restaurant Workers",
-        "Tourism Guides",
+        "Housekeepers",
+        "Room Attendants",
+        "Kitchen Assistants",
         "Hospitality Assistants",
-        "Service Crew",
+        "Service Staff",
       ],
       yourBenefits: [
-        "Customer service experts",
-        "Hospitality trained staff",
-        "Multilingual personnel",
-        "Experienced service professionals",
+        "Skilled and experienced hospitality workforce",
+        "Hotel Staff and Housekeepers ready for deployment",
+        "Candidates screened against your role requirements",
+        "Support through documentation, work-permit and visa procedures",
       ],
     },
     {
-      title: "Dairy & Food Processing",
-      image: "/industries/dairy.avif",
+      title: "Restaurant, Café & Food Service",
+      image: "/industries/restaurant.avif",
       roundImage: "/logo/round.png",
       shortDescription:
-        "Workforce solutions for dairy farms, milk processing, and food manufacturing",
+        "Recruitment for restaurants, cafés, catering businesses and food-service operations.",
       keyRoles: [
-        "Dairy Workers",
-        "Milk Processing Operators",
-        "Food Technicians",
-        "Production Staff",
-        "Quality Checkers",
+        "Chefs",
+        "Cooks",
+        "Kitchen Assistants",
+        "Waiters",
+        "Food Service Workers",
+        "Restaurant Assistants",
       ],
       yourBenefits: [
-        "Food safety certified workers",
-        "Experienced dairy staff",
-        "Production line operators",
-        "Quality control experts",
+        "Skilled and experienced food-service workforce",
+        "Chefs and Cooks ready for deployment",
+        "Candidates screened against your role requirements",
+        "Support through documentation, work-permit and visa procedures",
       ],
     },
     {
-      title: "Manufacturing & Automotive",
+      title: "Cleaning & Facility Services",
+      image: "/industries/cleaning.avif",
+      roundImage: "/logo/round.png",
+      shortDescription:
+        "Recruitment for commercial, residential and facility-cleaning operations.",
+      keyRoles: [
+        "Cleaners",
+        "Janitors",
+        "Housekeeping Staff",
+        "Sanitation Workers",
+        "Cleaning Supervisors",
+        "Facility Assistants",
+      ],
+      yourBenefits: [
+        "Skilled and experienced cleaning workforce",
+        "Cleaners and Janitors ready for deployment",
+        "Candidates screened against your role requirements",
+        "Support through documentation, work-permit and visa procedures",
+      ],
+    },
+    {
+      title: "Construction & Building Trades",
+      image: "/industries/construction.avif",
+      roundImage: "/logo/round.png",
+      shortDescription:
+        "Recruitment for construction projects and building-related operations.",
+      keyRoles: [
+        "Construction Workers",
+        "General Labourers",
+        "Bricklayers",
+        "Plasterers",
+        "Carpenters",
+        "Construction Assistants",
+      ],
+      yourBenefits: [
+        "Skilled and experienced construction workforce",
+        "Construction Workers and General Labourers ready for deployment",
+        "Candidates screened against your role requirements",
+        "Support through documentation, work-permit and visa procedures",
+      ],
+    },
+    {
+      title: "Infrastructure & Civil Works",
+      image: "/industries/construction.avif",
+      roundImage: "/logo/round.png",
+      shortDescription:
+        "Workforce recruitment for infrastructure and civil-construction projects.",
+      keyRoles: [
+        "Civil Construction Workers",
+        "Road Workers",
+        "Site Workers",
+        "Construction Labourers",
+        "Equipment Operators",
+        "Site Assistants",
+      ],
+      yourBenefits: [
+        "Skilled and experienced civil-works workforce",
+        "Civil Construction Workers and Road Workers ready for deployment",
+        "Candidates screened against your role requirements",
+        "Support through documentation, work-permit and visa procedures",
+      ],
+    },
+    {
+      title: "Automotive Manufacturing & Components",
       image: "/industries/manufacturing.avif",
       roundImage: "/logo/round.png",
       shortDescription:
-        "Recruitment for automotive manufacturing, component production, and mechanical services",
+        "Recruitment for vehicle manufacturing and automotive component production.",
       keyRoles: [
-        "Auto Mechanics",
         "Production Workers",
-        "Assembly Line Staff",
+        "Assembly Workers",
+        "Machine Operators",
+        "Component Production Workers",
         "Quality Inspectors",
-        "Maintenance Technicians",
+        "Maintenance Workers",
       ],
       yourBenefits: [
-        "Skilled manufacturing workers",
-        "Technical mechanical staff",
-        "Quality focused teams",
-        "Production line experts",
+        "Skilled and experienced automotive manufacturing workforce",
+        "Production Workers and Assembly Workers ready for deployment",
+        "Candidates screened against your role requirements",
+        "Support through documentation, work-permit and visa procedures",
+      ],
+    },
+    {
+      title: "Automotive Services & Repair",
+      image: "/industries/automotive.avif",
+      roundImage: "/logo/round.png",
+      shortDescription:
+        "Recruitment for garages, workshops, vehicle servicing and repair businesses.",
+      keyRoles: [
+        "Automotive Mechanics",
+        "Service Technicians",
+        "Mechanic Assistants",
+        "Vehicle Technicians",
+        "Diagnostics Technicians",
+        "Workshop Assistants",
+      ],
+      yourBenefits: [
+        "Skilled and experienced automotive service workforce",
+        "Automotive Mechanics and Service Technicians ready for deployment",
+        "Candidates screened against your role requirements",
+        "Support through documentation, work-permit and visa procedures",
+      ],
+    },
+    {
+      title: "Car Wash & Vehicle Detailing",
+      image: "/industries/automotive.avif",
+      roundImage: "/logo/round.png",
+      shortDescription:
+        "Workforce solutions for vehicle cleaning and detailing businesses.",
+      keyRoles: [
+        "Car Wash Workers",
+        "Vehicle Detailers",
+        "Cleaning Workers",
+        "Detailing Assistants",
+        "Workshop Assistants",
+        "Customer Service Staff",
+      ],
+      yourBenefits: [
+        "Reliable car wash and detailing workforce",
+        "Car Wash Workers and Vehicle Detailers ready for deployment",
+        "Candidates screened against your role requirements",
+        "Support through documentation, work-permit and visa procedures",
+      ],
+    },
+    {
+      title: "Logistics, Transport & Freight",
+      image: "/industries/warehouse.avif",
+      roundImage: "/logo/round.png",
+      shortDescription:
+        "Recruitment for logistics, freight and transportation operations.",
+      keyRoles: [
+        "Logistics Workers",
+        "Transport Coordinators",
+        "Freight Workers",
+        "Dispatch Assistants",
+        "Transport Assistants",
+        "Logistics Operators",
+      ],
+      yourBenefits: [
+        "Skilled and experienced logistics workforce",
+        "Logistics Workers and Transport Coordinators ready for deployment",
+        "Candidates screened against your role requirements",
+        "Support through documentation, work-permit and visa procedures",
+      ],
+    },
+    {
+      title: "Driving, Courier & Delivery",
+      image: "/industries/delivery.avif",
+      roundImage: "/logo/round.png",
+      shortDescription:
+        "Recruitment for professional drivers, delivery and courier operations.",
+      keyRoles: [
+        "Delivery Drivers",
+        "Heavy Vehicle Drivers",
+        "Truck Drivers",
+        "Courier Drivers",
+        "Van Drivers",
+        "Delivery Assistants",
+      ],
+      yourBenefits: [
+        "Licensed and experienced driving workforce",
+        "Delivery Drivers and Heavy Vehicle Drivers ready for deployment",
+        "Candidates screened against your role requirements",
+        "Support through documentation, work-permit and visa procedures",
+      ],
+    },
+    {
+      title: "Warehousing & Distribution",
+      image: "/industries/warehouse.avif",
+      roundImage: "/logo/round.png",
+      shortDescription:
+        "Workforce solutions for warehouses, distribution centres and storage operations.",
+      keyRoles: [
+        "Warehouse Workers",
+        "Pickers & Packers",
+        "Forklift Operators",
+        "Stock Workers",
+        "Inventory Assistants",
+        "Loading & Unloading Workers",
+      ],
+      yourBenefits: [
+        "Skilled and experienced warehouse workforce",
+        "Warehouse Workers and Forklift Operators ready for deployment",
+        "Candidates screened against your role requirements",
+        "Support through documentation, work-permit and visa procedures",
+      ],
+    },
+    {
+      title: "Electrical, HVAC & Refrigeration",
+      image: "/industries/technical.avif",
+      roundImage: "/logo/round.png",
+      shortDescription:
+        "Recruitment for electrical, heating, ventilation, air-conditioning and refrigeration services.",
+      keyRoles: [
+        "Electricians",
+        "HVAC Technicians",
+        "Refrigeration Technicians",
+        "Air-Conditioning Technicians",
+        "Maintenance Technicians",
+        "Electrical Assistants",
+      ],
+      yourBenefits: [
+        "Certified and experienced technical workforce",
+        "Electricians and HVAC Technicians ready for deployment",
+        "Candidates screened against your role requirements",
+        "Support through documentation, work-permit and visa procedures",
+      ],
+    },
+    {
+      title: "Mechanical & Industrial Maintenance",
+      image: "/industries/technical.avif",
+      roundImage: "/logo/round.png",
+      shortDescription:
+        "Recruitment for machinery maintenance, industrial equipment and mechanical operations.",
+      keyRoles: [
+        "Mechanical Technicians",
+        "Maintenance Technicians",
+        "Machinery Operators",
+        "Industrial Mechanics",
+        "Maintenance Assistants",
+        "Equipment Technicians",
+      ],
+      yourBenefits: [
+        "Skilled and experienced maintenance workforce",
+        "Mechanical Technicians and Maintenance Technicians ready for deployment",
+        "Candidates screened against your role requirements",
+        "Support through documentation, work-permit and visa procedures",
+      ],
+    },
+    {
+      title: "Manufacturing & Industrial Production",
+      image: "/industries/manufacturing.avif",
+      roundImage: "/logo/round.png",
+      shortDescription:
+        "Workforce recruitment for factories, production facilities and industrial operations.",
+      keyRoles: [
+        "Production Workers",
+        "Factory Workers",
+        "Assembly Workers",
+        "Machine Operators",
+        "Production Assistants",
+        "Quality Control Workers",
+      ],
+      yourBenefits: [
+        "Skilled and experienced manufacturing workforce",
+        "Production Workers and Factory Workers ready for deployment",
+        "Candidates screened against your role requirements",
+        "Support through documentation, work-permit and visa procedures",
+      ],
+    },
+    {
+      title: "Chemical Manufacturing & Processing",
+      image: "/industries/packaging.avif",
+      roundImage: "/logo/round.png",
+      shortDescription:
+        "Recruitment for chemical manufacturing and industrial processing facilities.",
+      keyRoles: [
+        "Production Operators",
+        "Processing Workers",
+        "Machine Operators",
+        "Plant Workers",
+        "Packaging Workers",
+        "Maintenance Workers",
+      ],
+      yourBenefits: [
+        "Skilled and experienced chemical processing workforce",
+        "Production Operators and Processing Workers ready for deployment",
+        "Candidates screened against your role requirements",
+        "Support through documentation, work-permit and visa procedures",
+      ],
+    },
+    {
+      title: "Electronics Manufacturing & Assembly",
+      image: "/industries/manufacturing.avif",
+      roundImage: "/logo/round.png",
+      shortDescription:
+        "Workforce solutions for electronics production and assembly facilities.",
+      keyRoles: [
+        "Electronics Assembly Workers",
+        "Production Operators",
+        "Assembly Workers",
+        "Testing Assistants",
+        "Machine Operators",
+        "Quality Control Workers",
+      ],
+      yourBenefits: [
+        "Skilled and experienced electronics assembly workforce",
+        "Electronics Assembly Workers and Production Operators ready for deployment",
+        "Candidates screened against your role requirements",
+        "Support through documentation, work-permit and visa procedures",
       ],
     },
     {
@@ -239,239 +543,104 @@ export default function Industries() {
       image: "/industries/textiles.avif",
       roundImage: "/logo/round.png",
       shortDescription:
-        "Staffing solutions for textile production, clothing manufacturing, and garment industries",
+        "Recruitment for textile factories, garment production and clothing manufacturing.",
       keyRoles: [
         "Sewing Operators",
         "Textile Workers",
-        "Garment Makers",
+        "Garment Workers",
+        "Machine Operators",
+        "Production Workers",
         "Quality Controllers",
-        "Production Assistants",
       ],
       yourBenefits: [
-        "Skilled textile workers",
-        "Experienced seamstresses",
-        "Quality assurance staff",
-        "Production efficiency experts",
+        "Skilled and experienced textile workforce",
+        "Sewing Operators and Textile Workers ready for deployment",
+        "Candidates screened against your role requirements",
+        "Support through documentation, work-permit and visa procedures",
       ],
     },
     {
-      title: "Mining & Resource Extraction",
-      image: "/industries/mining.avif",
+      title: "Leather & Footwear Manufacturing",
+      image: "/industries/textiles.avif",
       roundImage: "/logo/round.png",
       shortDescription:
-        "Workforce recruitment for mining, quarrying, and resource extraction operations",
+        "Recruitment for leather processing, footwear and related manufacturing.",
       keyRoles: [
-        "Miners",
-        "Quarry Workers",
-        "Extraction Operators",
-        "Heavy Equipment Staff",
-        "Safety Officers",
+        "Leather Workers",
+        "Shoe Production Workers",
+        "Sewing Operators",
+        "Cutting Workers",
+        "Assembly Workers",
+        "Finishing Workers",
       ],
       yourBenefits: [
-        "Safety certified miners",
-        "Experienced quarry workers",
-        "Heavy machinery operators",
-        "Risk management professionals",
+        "Skilled and experienced leather and footwear workforce",
+        "Leather Workers and Shoe Production Workers ready for deployment",
+        "Candidates screened against your role requirements",
+        "Support through documentation, work-permit and visa procedures",
       ],
     },
     {
-      title: "Oil & Gas Refinery",
-      image: "/industries/oil-gas.avif",
-      roundImage: "/logo/round.png",
-      shortDescription:
-        "Specialized recruitment for oil refineries, gas plants, and energy sector operations",
-      keyRoles: [
-        "Refinery Operators",
-        "Plant Technicians",
-        "Process Workers",
-        "Maintenance Staff",
-        "Safety Coordinators",
-      ],
-      yourBenefits: [
-        "Certified refinery staff",
-        "Safety trained operators",
-        "Technical plant workers",
-        "Experienced energy sector professionals",
-      ],
-    },
-    {
-      title: "Packaging & Plastic Manufacturing",
+      title: "Plastics & Packaging Manufacturing",
       image: "/industries/packaging.avif",
       roundImage: "/logo/round.png",
       shortDescription:
-        "Staffing solutions for packaging industries and plastic product manufacturing",
+        "Recruitment for plastic processing, packaging production and related manufacturing.",
       keyRoles: [
+        "Plastic Machine Operators",
         "Packaging Operators",
-        "Plastic Molding Technicians",
-        "Production Line Workers",
-        "Quality Checkers",
-        "Machine Operators",
+        "Production Workers",
+        "Moulding Operators",
+        "Packing Workers",
+        "Quality Control Workers",
       ],
       yourBenefits: [
-        "Skilled packaging staff",
-        "Machine operation experts",
-        "Quality control professionals",
-        "Production efficiency teams",
+        "Skilled and experienced packaging workforce",
+        "Plastic Machine Operators and Packaging Operators ready for deployment",
+        "Candidates screened against your role requirements",
+        "Support through documentation, work-permit and visa procedures",
       ],
     },
     {
-      title: "Railway & Transport Manufacturing",
-      image: "/industries/railway.avif",
-      roundImage: "/logo/round.png",
-      shortDescription:
-        "Recruitment for rail wagon manufacturing and transport equipment production",
-      keyRoles: [
-        "Welders",
-        "Assembly Workers",
-        "Metal Fabricators",
-        "Quality Inspectors",
-        "Production Technicians",
-      ],
-      yourBenefits: [
-        "Certified welders",
-        "Skilled metal workers",
-        "Quality focused manufacturers",
-        "Technical assembly staff",
-      ],
-    },
-    {
-      title: "Restaurant & Food Service",
-      image: "/industries/restaurant.avif",
-      roundImage: "/logo/round.png",
-      shortDescription:
-        "Comprehensive staffing for restaurants, cafes, and food service establishments",
-      keyRoles: [
-        "Chefs",
-        "Kitchen Staff",
-        "Waiters",
-        "Food Preparers",
-        "Restaurant Managers",
-      ],
-      yourBenefits: [
-        "Trained culinary staff",
-        "Customer service experts",
-        "Food safety certified workers",
-        "Experienced restaurant teams",
-      ],
-    },
-    {
-      title: "Beauty & Hairdressing",
-      image: "/industries/beauty.avif",
-      roundImage: "/logo/round.png",
-      shortDescription:
-        "Professional recruitment for salons, hairdressing, and beauty services",
-      keyRoles: [
-        "Hairdressers",
-        "Beauty Therapists",
-        "Salon Assistants",
-        "Stylists",
-        "Spa Technicians",
-      ],
-      yourBenefits: [
-        "Certified beauty professionals",
-        "Skilled hairstylists",
-        "Customer service experts",
-        "Creative beauty teams",
-      ],
-    },
-    {
-      title: "Sugar Processing & Manufacturing",
-      image: "/industries/sugar.avif",
-      roundImage: "/logo/round.png",
-      shortDescription:
-        "Workforce solutions for sugar factories and sweetener production facilities",
-      keyRoles: [
-        "Processing Operators",
-        "Factory Workers",
-        "Quality Control Staff",
-        "Maintenance Technicians",
-        "Production Supervisors",
-      ],
-      yourBenefits: [
-        "Experienced processing staff",
-        "Quality focused workers",
-        "Factory operation experts",
-        "Safety trained teams",
-      ],
-    },
-    {
-      title: "Butchery & Meat Processing",
-      image: "/industries/butchery.avif",
-      roundImage: "/logo/round.png",
-      shortDescription:
-        "Specialized recruitment for butchery, meat processing, and food preparation",
-      keyRoles: [
-        "Butchers",
-        "Meat Cutters",
-        "Food Processing Workers",
-        "Quality Inspectors",
-        "Packaging Staff",
-      ],
-      yourBenefits: [
-        "Certified butchers",
-        "Food safety trained staff",
-        "Skilled meat processors",
-        "Hygiene conscious workers",
-      ],
-    },
-    {
-      title: "Warehouse & Logistics",
-      image: "/industries/warehouse.avif",
-      roundImage: "/logo/round.png",
-      shortDescription:
-        "Staffing solutions for warehouse operations, storage, and distribution centers",
-      keyRoles: [
-        "Warehouse Workers",
-        "Forklift Operators",
-        "Stock Clerks",
-        "Inventory Staff",
-        "Logistics Coordinators",
-      ],
-      yourBenefits: [
-        "Certified forklift operators",
-        "Experienced warehouse staff",
-        "Inventory management experts",
-        "Logistics professionals",
-      ],
-    },
-    {
-      title: "Welding & Metal Fabrication",
+      title: "Metalworking, Welding & Fabrication",
       image: "/industries/welding.avif",
       roundImage: "/logo/round.png",
       shortDescription:
-        "Recruitment for welding, metalwork, and fabrication industries",
+        "Recruitment for metalworking, welding and industrial fabrication.",
       keyRoles: [
         "Welders",
         "Metal Fabricators",
+        "MIG/MAG Welders",
+        "TIG Welders",
         "Sheet Metal Workers",
-        "Welding Assistants",
-        "Quality Inspectors",
+        "Fabrication Assistants",
       ],
       yourBenefits: [
-        "Certified welders",
-        "Skilled metal workers",
-        "Quality focused fabricators",
-        "Safety trained technicians",
+        "Certified and experienced welding workforce",
+        "Welders and Metal Fabricators ready for deployment",
+        "Candidates screened against your role requirements",
+        "Support through documentation, work-permit and visa procedures",
       ],
     },
     {
-      title: "Woodwork & Furniture Manufacturing",
+      title: "Wood & Furniture Manufacturing",
       image: "/industries/woodwork.avif",
       roundImage: "/logo/round.png",
       shortDescription:
-        "Workforce solutions for wood processing, furniture making, and carpentry industries",
+        "Recruitment for furniture factories, woodworking and carpentry operations.",
       keyRoles: [
         "Carpenters",
         "Furniture Makers",
-        "Wood Workers",
-        "Assembly Staff",
-        "Finishing Technicians",
+        "Woodworkers",
+        "Assembly Workers",
+        "Machine Operators",
+        "Finishing Workers",
       ],
       yourBenefits: [
-        "Skilled carpenters",
-        "Experienced wood workers",
-        "Quality furniture makers",
-        "Creative design staff",
+        "Skilled and experienced woodworking workforce",
+        "Carpenters and Furniture Makers ready for deployment",
+        "Candidates screened against your role requirements",
+        "Support through documentation, work-permit and visa procedures",
       ],
     },
   ];
@@ -487,7 +656,9 @@ export default function Industries() {
             Industries We Serve
           </h2>
           <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto px-4">
-            Specialized recruitment solutions for your industry needs
+            Workforce recruitment across 30 core industries that rely on
+            dependable operational, skilled, semi-skilled, technical and
+            seasonal workers
           </p>
         </div>
         <div className="space-y-20 md:space-y-32">
@@ -549,7 +720,7 @@ function ResponsiveIndustryCard({
 
   return (
     <div className="relative">
-     
+
       <div className="absolute -top-20 -left-20 w-96 h-96 opacity-5 z-0">
         <motion.div
           animate={{ rotate: 360 }}
@@ -672,7 +843,7 @@ function ResponsiveIndustryCard({
           transition={{ duration: 0.8, delay: 0.1 }}
           className="flex-1 relative w-full max-w-2xl mx-auto lg:mx-0"
         >
- 
+
           <div className="absolute -inset-10 opacity-5 z-0">
             <motion.div
               animate={{ rotate: 360 }}
@@ -711,8 +882,8 @@ function ResponsiveIndustryCard({
 
           <motion.div
             style={{ rotate: rotate1 }}
-            className="absolute -top-6 -left-4 sm:-top-8 sm:-left-6 lg:-top-14 lg:-left-8 
-                       w-20 h-20 sm:w-28 sm:h-28 lg:w-44 lg:h-44 
+            className="absolute -top-6 -left-4 sm:-top-8 sm:-left-6 lg:-top-14 lg:-left-8
+                       w-20 h-20 sm:w-28 sm:h-28 lg:w-44 lg:h-44
                        rounded-full overflow-hidden z-10"
           >
             <Image
@@ -727,8 +898,8 @@ function ResponsiveIndustryCard({
 
           <motion.div
             style={{ rotate: rotate2 }}
-            className="absolute -top-4 -right-4 sm:-top-6 sm:-right-6 lg:-top-8 lg:-right-8 
-                       w-16 h-16 sm:w-20 sm:h-20 lg:w-28 lg:h-28 
+            className="absolute -top-4 -right-4 sm:-top-6 sm:-right-6 lg:-top-8 lg:-right-8
+                       w-16 h-16 sm:w-20 sm:h-20 lg:w-28 lg:h-28
                        rounded-full overflow-hidden z-10"
           >
             <Image
@@ -743,8 +914,8 @@ function ResponsiveIndustryCard({
 
           <motion.div
             style={{ rotate: rotate3 }}
-            className="absolute -bottom-4 -left-4 sm:-bottom-6 sm:-left-6 lg:-bottom-8 lg:-left-8 
-                       w-20 h-20 sm:w-24 sm:h-24 lg:w-36 lg:h-36 
+            className="absolute -bottom-4 -left-4 sm:-bottom-6 sm:-left-6 lg:-bottom-8 lg:-left-8
+                       w-20 h-20 sm:w-24 sm:h-24 lg:w-36 lg:h-36
                        rounded-full overflow-hidden z-10"
           >
             <Image
@@ -759,8 +930,8 @@ function ResponsiveIndustryCard({
 
           <motion.div
             style={{ rotate: rotate4 }}
-            className="absolute -bottom-6 -right-4 sm:-bottom-8 sm:-right-6 lg:-bottom-14 lg:-right-8 
-                       w-20 h-20 sm:w-28 sm:h-28 lg:w-44 lg:h-44 
+            className="absolute -bottom-6 -right-4 sm:-bottom-8 sm:-right-6 lg:-bottom-14 lg:-right-8
+                       w-20 h-20 sm:w-28 sm:h-28 lg:w-44 lg:h-44
                        rounded-full overflow-hidden z-10"
           >
             <Image
@@ -783,8 +954,8 @@ function ResponsiveIndustryCard({
               repeat: Infinity,
               ease: "easeInOut",
             }}
-            className="hidden sm:block absolute -top-3 -left-3 lg:-top-4 lg:-left-4 
-                       w-24 h-24 sm:w-32 sm:h-32 lg:w-40 lg:h-40 
+            className="hidden sm:block absolute -top-3 -left-3 lg:-top-4 lg:-left-4
+                       w-24 h-24 sm:w-32 sm:h-32 lg:w-40 lg:h-40
                        rounded-full border border-[#EF3D54]/20 pointer-events-none"
           />
 
@@ -799,8 +970,8 @@ function ResponsiveIndustryCard({
               ease: "easeInOut",
               delay: 1,
             }}
-            className="hidden sm:block absolute -top-2 -right-3 lg:-top-4 lg:-right-4 
-                       w-20 h-20 sm:w-28 sm:h-28 lg:w-36 lg:h-36 
+            className="hidden sm:block absolute -top-2 -right-3 lg:-top-4 lg:-right-4
+                       w-20 h-20 sm:w-28 sm:h-28 lg:w-36 lg:h-36
                        rounded-full border border-[#EF3D54]/20 pointer-events-none"
           />
         </motion.div>

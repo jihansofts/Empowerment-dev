@@ -7,9 +7,9 @@ import { useTranslations } from "next-intl";
 import OurPeople from "@/components/pages/home/OurPeople";
 
 export const metadata = {
-  title: "About Us - Empowerment Group",
+  title: "About Us - Empowerment Recruitment",
   description:
-    "Empowerment Group is a leading recruitment consultancy offering professional recruitment and talent acquisition services to companies in India and abroad.",
+    "Empowerment Recruitment connects European employers with reliable, skilled and motivated workers from international markets across Asia and Africa.",
 };
 
 export default function About() {

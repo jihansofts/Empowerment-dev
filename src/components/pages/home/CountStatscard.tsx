@@ -29,7 +29,7 @@ const CountStatscard = () => {
       },
     });
 
-    animate(0, 2500, {
+    animate(0, 1000, {
       duration: 2,
       onUpdate: (value) => {
         if (containerRef.current) {
@@ -39,7 +39,7 @@ const CountStatscard = () => {
       },
     });
 
-    animate(0, 150, {
+    animate(0, 100, {
       duration: 2,
       onUpdate: (value) => {
         if (containerRef.current) {

@@ -6,7 +6,7 @@ import {
   staggerContainer,
   fadeInItem,
 } from "@/components/animation/variants";
-import { Shield, Target, Users, Lightbulb } from "lucide-react";
+import { Shield, Target, Users, Lightbulb, TrendingUp } from "lucide-react";
 import { useTranslations } from "next-intl";
 
 const OurCulture = () => {
@@ -36,9 +36,15 @@ const OurCulture = () => {
       title: t("culture4.title"),
       description: t("culture4.desc"),
     },
+    {
+      id: 5,
+      icon: TrendingUp,
+      title: t("culture5.title"),
+      description: t("culture5.desc"),
+    },
   ];
   return (
-    <section id="ourculture" className="py-24">
+    <section id="ourculture" className="py-24 scroll-mt-28">
       <motion.div
         variants={staggerContainer}
         initial="hidden"
@@ -58,7 +64,7 @@ const OurCulture = () => {
         </motion.div>
 
         {/* Culture Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {cultureItems.map((item) => (
             <motion.div
               key={item.id}

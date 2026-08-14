@@ -26,7 +26,6 @@ import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import {
   MapPin,
-  // Phone,
   Mail,
   Facebook,
   // Twitter,
@@ -154,7 +153,7 @@ const ContactUs = () => {
                       <MapPin className="w-6 h-6 text-gray-700" />
                     </div>
                     <div className="">
-                      {/* <div className="p-4 border border-gray-400">
+                      <div className="p-4 border border-gray-400">
                         <div className="w-full ">
                           <h3 className="font-semibold text-[12px]  text-gray-800">
                             {t("location1.title")}
@@ -163,31 +162,9 @@ const ContactUs = () => {
                         <div className="w-full ">
                           <p>{t("location1.address")}</p>
                         </div>
-                      </div> */}
-                      <div className="p-4 border border-gray-400">
-                        <div className="w-full ">
-                          <h3 className="font-semibold text-[12px]  text-gray-800">
-                            {t("location2.title")}
-                          </h3>
-                        </div>
-                        <div className="w-full ">
-                          <p>{t("location2.address")}</p>
-                        </div>
                       </div>
                     </div>
                   </div>
-
-                  {/* <div className="flex items-start space-x-4 group">
-                    <div className="p-3 transition-colors bg-gray-100 rounded-xl group-hover:bg-gray-200">
-                      <Phone className="w-6 h-6 text-gray-700" />
-                    </div>
-                    <div>
-                      <h3 className="mb-2 font-semibold text-gray-800">
-                        {t("phone")}
-                      </h3>
-                      <p className="text-gray-600"> +40784805998</p>
-                    </div>
-                  </div> */}
 
                   <div className="flex items-start space-x-4 group">
                     <div className="p-3 transition-colors bg-gray-100 rounded-xl group-hover:bg-gray-200">

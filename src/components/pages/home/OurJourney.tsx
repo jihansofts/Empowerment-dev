@@ -43,6 +43,12 @@ const OurJourney: React.FC = () => {
       description: t("timedec5"),
       image: "/images/2020.jpg",
     },
+    {
+      year: t("timeyear6"),
+      title: t("timetitle6"),
+      description: t("timedec6"),
+      image: "/images/2020.jpg",
+    },
   ];
 
   useEffect(() => {
@@ -71,7 +77,7 @@ const OurJourney: React.FC = () => {
   }, []);
 
   return (
-    <section className="relative py-8 overflow-hidden bg-white sm:py-12 md:py-16">
+    <section id="journey" className="relative py-8 overflow-hidden bg-white sm:py-12 md:py-16 scroll-mt-28">
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <motion.div
           style={{ rotate: rotateValue }}

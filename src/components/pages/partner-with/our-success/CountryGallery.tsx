@@ -43,7 +43,7 @@ const stories: Story[] = [
     ],
   },
   {
-    category: "Bosnia",
+    category: "Bosnia & Herzegovina",
     categoryImage: "/images/city4.jpg",
     image: [
       { url: "/images/bosnia1.jpg", type: "image/jpeg" },

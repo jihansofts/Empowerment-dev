@@ -10,7 +10,6 @@ import { useIsMobile } from "@/hooks/use-mobile";
 import { useTranslations } from "next-intl";
 const MobileNavbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [activeTab, setActiveTab] = useState("industries");
   const [expandedMenus, setExpandedMenus] = useState<string[]>([]);
   const isMobile = useIsMobile();
   const t = useTranslations("nav");
@@ -153,22 +152,8 @@ const MobileNavbar = () => {
                       <li>
                         <Link
                           className="block p-2 font-medium rounded-md hover:bg-accent"
-                          href="/services/executive-search">
-                          {t("executive")}
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          className="block p-2 font-medium rounded-md hover:bg-accent"
-                          href="/services/hr-consulting">
-                          {t("leadership")}
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          className="block p-2 font-medium rounded-md hover:bg-accent"
                           href="/services/talent-assessment">
-                          {t("telant")}
+                          {t("talent")}
                         </Link>
                       </li>
                     </ul>
@@ -198,7 +183,7 @@ const MobileNavbar = () => {
                           href="/partner-with/become-agent"
                           className="block p-2 rounded-md hover:bg-accent"
                           onClick={() => setIsOpen(false)}>
-                          Become an Agent
+                          Become a Recruitment Partner
                         </Link>
                       </li>
                       <li>
@@ -213,87 +198,21 @@ const MobileNavbar = () => {
                   </motion.div>
                 </div>
 
-                {/* Expertise Section */}
                 <div className="mb-6">
-                  <button
-                    onClick={() => toggleSubmenu("expertise")}
-                    className="flex items-center justify-between w-full p-2 text-lg font-bold">
-                    <span>Expertise</span>
-                    <ChevronDown
-                      className={`h-5 w-5 transition-transform ${
-                        expandedMenus.includes("expertise") ? "rotate-180" : ""
-                      }`}
-                    />
-                  </button>
-                  <motion.div
-                    initial={false}
-                    animate={{
-                      height: expandedMenus.includes("expertise") ? "auto" : 0,
-                      opacity: expandedMenus.includes("expertise") ? 1 : 0,
-                    }}
-                    className="overflow-hidden">
-                    <div className="flex gap-4 mb-4 border-b">
-                      <button
-                        className={`pb-2 font-medium transition-colors relative ${
-                          activeTab === "industries"
-                            ? "text-primary border-b-2 border-primary -mb-[2px]"
-                            : "text-gray-500"
-                        }`}
-                        onClick={() => setActiveTab("industries")}>
-                        Industries
-                      </button>
-                    </div>
-                    <ul className="py-2 pl-4 space-y-2">
-                      <li>
-                        <Link
-                          href="/expertise/building-materials"
-                          className="block p-2 rounded-md hover:bg-accent"
-                          onClick={() => setIsOpen(false)}>
-                          Building Materials
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          href="/expertise/education"
-                          className="block p-2 rounded-md hover:bg-accent"
-                          onClick={() => setIsOpen(false)}>
-                          Education
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          href="/expertise/industrial"
-                          className="block p-2 rounded-md hover:bg-accent"
-                          onClick={() => setIsOpen(false)}>
-                          Industrial
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          href="/expertise/development"
-                          className="block p-2 rounded-md hover:bg-accent"
-                          onClick={() => setIsOpen(false)}>
-                          Development
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          href="/expertise/real-estate"
-                          className="block p-2 rounded-md hover:bg-accent"
-                          onClick={() => setIsOpen(false)}>
-                          Real Estate
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          href="/expertise/technology"
-                          className="block p-2 rounded-md hover:bg-accent"
-                          onClick={() => setIsOpen(false)}>
-                          Technology
-                        </Link>
-                      </li>
-                    </ul>
-                  </motion.div>
+                  <Link
+                    href="/areas-of-expertise"
+                    className="block p-2 text-lg font-bold"
+                    onClick={() => setIsOpen(false)}>
+                    Areas of Expertise
+                  </Link>
+                </div>
+                <div className="mb-6">
+                  <Link
+                    href="/careers"
+                    className="block p-2 text-lg font-bold"
+                    onClick={() => setIsOpen(false)}>
+                    Careers
+                  </Link>
                 </div>
               </nav>
             </motion.div>

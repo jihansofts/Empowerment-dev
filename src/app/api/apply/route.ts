@@ -34,13 +34,13 @@ export async function POST(req: Request) {
         <p><strong>Email:</strong> ${email}</p>
         ${message ? `<p><strong>Message:</strong> ${message}</p>` : ""}
         <hr/>
-        <p>This email was sent automatically from the Empowerment Group career page.</p>
+        <p>This email was sent automatically from the Empowerment Recruitment careers page.</p>
       </div>
     `;
 
     // Prepare email with optional attachment
     const mailOptions: nodemailer.SendMailOptions = {
-      from: `"Empowerment Group Careers" <${process.env.NEXT_EMAIL_USER}>`,
+      from: `"Empowerment Recruitment Careers" <${process.env.NEXT_EMAIL_USER}>`,
       to: "info@empowerment.group", // admin email
       subject: `New Job Application from ${fullName}`,
       html: htmlContent,

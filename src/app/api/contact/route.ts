@@ -22,7 +22,7 @@ export async function POST(req: Request) {
     });
 
     const mailOptions = {
-      from: `Empowerment Group <${email}>`,
+      from: `Empowerment Recruitment <${email}>`,
       to: " info@empowerment.group",
       subject: `${name}`,
       html: `
@@ -31,7 +31,7 @@ export async function POST(req: Request) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Empowerment Group</title>
+    <title>Empowerment Recruitment</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -99,7 +99,7 @@ export async function POST(req: Request) {
 <body>
     <div class="header">
         <!-- Replace with your logo URL -->
-        <img src="https://empowerment.group/logo.png" alt="Empowerment Group Logo">
+        <img src="https://empowerment.group/logo.png" alt="Empowerment Recruitment Logo">
     </div>
     
     <div class="content">
@@ -122,7 +122,7 @@ export async function POST(req: Request) {
     </div>
     
     <div class="footer">
-        <p>© ${new Date().getFullYear()} Empowerment Group. All rights reserved.</p>
+        <p>© ${new Date().getFullYear()} Empowerment Recruitment. All rights reserved.</p>
         <p>
             <a href="https://empowerment.group" style="color: #ff0000; text-decoration: none;">Website</a> | 
             <a href="https://empowerment.group/privacy" style="color: #ff0000; text-decoration: none;">Privacy Policy</a>

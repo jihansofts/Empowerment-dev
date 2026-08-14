@@ -43,7 +43,7 @@ const Navbar: React.FC<HTMLAttributes<HTMLElement>> = () => {
               <Link href="/" className="flex items-center">
                 <Image
                   src="/logo.png"
-                  alt="Empowerment Group"
+                  alt="Empowerment Recruitment"
                   width={120}
                   height={32}
                   priority
@@ -122,20 +122,6 @@ const Navbar: React.FC<HTMLAttributes<HTMLElement>> = () => {
                           <li>
                             <Link
                               className="block p-2 font-medium rounded-md hover:bg-accent"
-                              href="/services/executive-search">
-                              {t("executive")}
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              className="block p-2 font-medium rounded-md hover:bg-accent"
-                              href="/services/hr-consulting">
-                              {t("leadership")}
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              className="block p-2 font-medium rounded-md hover:bg-accent"
                               href="/services/talent-assessment">
                               {t("talent")}
                             </Link>
@@ -159,7 +145,7 @@ const Navbar: React.FC<HTMLAttributes<HTMLElement>> = () => {
                             <Link
                               className="block p-2 text-base font-medium rounded-md hover:bg-accent"
                               href="/partner-with/become-agent">
-                              Become an Agent
+                              Become a Recruitment Partner
                             </Link>
                           </li>
                           <li>

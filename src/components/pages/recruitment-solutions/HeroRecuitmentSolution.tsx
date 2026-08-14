@@ -67,26 +67,26 @@ export default function HeroRecruitmentSolution() {
   const features = [
     {
       icon: FaSearch,
-      text: "Precision Candidate Matching",
+      text: "International Candidate Network",
     },
     {
       icon: FaUsers,
-      text: "Talent Community Building",
+      text: "Industry Expertise",
     },
     {
       icon: FaRocket,
-      text: "Streamlined Hiring Process",
+      text: "Structured Screening",
     },
     {
       icon: FaShieldAlt,
-      text: "Secure & Trusted Platform",
+      text: "End-to-End Coordination",
     },
   ];
 
   const stats = [
-    { number: "1K+", label: "Success Stories", icon: FaHeart },
+    { number: "1,000+", label: "Successful Placements", icon: FaHeart },
     { number: "95%", label: "Client Satisfaction", icon: FaStar },
-    { number: "24/7", label: "Dedicated Support", icon: FaHandshake },
+    { number: "30+", label: "Industries", icon: FaHandshake },
     { number: "100+", label: "Partner Companies", icon: FaAward },
   ];
 
@@ -178,7 +178,7 @@ export default function HeroRecruitmentSolution() {
               <FaCheckCircle className="text-[#E23D51] text-lg" />
             </motion.div>
             <span className="text-white text-lg font-semibold">
-              Trusted by 100+ Leading Companies
+              Trusted by 100+ Partner Companies
             </span>
           </motion.div>
 
@@ -186,7 +186,7 @@ export default function HeroRecruitmentSolution() {
             variants={itemVariants}
             className="text-5xl sm:text-6xl lg:text-8xl font-bold text-white mb-6 leading-tight"
           >
-            Find Your
+            The Right People.
             <motion.span
               className="block text-[#E23D51]"
               animate={{
@@ -202,7 +202,7 @@ export default function HeroRecruitmentSolution() {
                 ease: "easeInOut",
               }}
             >
-              Perfect Match
+              The Right Workforce.
             </motion.span>
           </motion.h1>
 
@@ -210,13 +210,13 @@ export default function HeroRecruitmentSolution() {
             variants={itemVariants}
             className="text-2xl sm:text-3xl lg:text-4xl text-white/90 mb-8 max-w-5xl mx-auto leading-relaxed font-light"
           >
-            Connecting{" "}
+            Empowerment Recruitment helps European employers recruit{" "}
             <span className="text-[#E23D51] font-semibold">
-              exceptional talent
+              workers from international markets
             </span>{" "}
-            with{" "}
+            for{" "}
             <span className="text-[#E23D51] font-semibold">
-              extraordinary opportunities
+              permanent and seasonal positions
             </span>
           </motion.p>
 
@@ -224,9 +224,9 @@ export default function HeroRecruitmentSolution() {
             variants={itemVariants}
             className="text-xl text-white/80 mb-12 max-w-3xl mx-auto leading-relaxed font-normal"
           >
-            Experience the human touch in recruitment. Our expert team combines
-            industry knowledge with personalized service to create meaningful
-            connections that transform careers and businesses.
+            We combine international candidate sourcing, structured screening
+            and recruitment coordination with practical support throughout
+            the employment-migration process.
           </motion.p>
           <motion.div
             variants={itemVariants}
@@ -243,7 +243,7 @@ export default function HeroRecruitmentSolution() {
                 href="/contact-us"
                 className="bg-[#E23D51] hover:bg-[#d42a4a] text-white px-12 py-5 rounded-full font-bold text-xl flex items-center gap-4 group transition-all duration-300"
               >
-                Start Your Success Story
+                Get in Touch
                 <motion.div
                   animate={{ x: [0, 5, 0] }}
                   transition={{ duration: 1.5, repeat: Infinity }}

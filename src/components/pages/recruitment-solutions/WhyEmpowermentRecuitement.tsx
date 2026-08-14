@@ -20,52 +20,52 @@ export default function WhyEmpowermentRecruitment() {
   const features = [
     {
       icon: FaHandshake,
-      title: "Partnership Approach",
+      title: "International Candidate Network",
       description:
-        "We build lasting relationships, not just fill positions. Your success is our success.",
+        "Access candidates from established recruitment markets across Asia and Africa.",
       color: "from-blue-500 to-cyan-400",
     },
     {
       icon: FaUsers,
-      title: "Community Focus",
+      title: "Industry Expertise",
       description:
-        "We connect you with talent that shares your values and vision for growth.",
+        "Recruitment solutions designed around the specific workforce requirements of each sector.",
       color: "from-green-500 to-emerald-400",
     },
     {
       icon: FaChartLine,
-      title: "Growth Mindset",
+      title: "Structured Screening",
       description:
-        "We find candidates who are ready to grow with your company and drive results.",
+        "A consistent approach to identifying candidates who match the position requirements.",
       color: "from-purple-500 to-pink-400",
     },
     {
       icon: FaHeart,
-      title: "Passion-Driven",
+      title: "End-to-End Coordination",
       description:
-        "We match you with people who are genuinely passionate about your industry.",
+        "Support throughout the recruitment, documentation and deployment journey.",
       color: "from-red-500 to-pink-500",
     },
     {
       icon: FaShieldAlt,
-      title: "Trust & Reliability",
+      title: "Employer-Focused Service",
       description:
-        "Proven track record of successful placements and long-term satisfaction.",
+        "We work around the actual workforce requirements of each employer.",
       color: "from-orange-500 to-yellow-400",
     },
     {
       icon: FaLightbulb,
-      title: "Innovative Solutions",
+      title: "Long-Term Partnerships",
       description:
-        "Creative approaches to finding the perfect talent for your unique needs.",
+        "Our goal is to build recruitment relationships that continue beyond a single vacancy.",
       color: "from-indigo-500 to-purple-400",
     },
   ];
 
   const stats = [
-    { number: "1K+", label: "Success Stories", icon: FaHeart },
+    { number: "1,000+", label: "Successful Placements", icon: FaHeart },
     { number: "95%", label: "Client Satisfaction", icon: FaStar },
-    { number: "24/7", label: "Dedicated Support", icon: FaHandshake },
+    { number: "30+", label: "Industries", icon: FaHandshake },
     { number: "100+", label: "Partner Companies", icon: FaAward },
   ];
 
@@ -148,8 +148,8 @@ export default function WhyEmpowermentRecruitment() {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            More Than Just
-            <span className="text-[#E23D51] block">Recruitment</span>
+            More Than
+            <span className="text-[#E23D51] block">Filling Vacancies</span>
           </motion.h2>
 
           <motion.p
@@ -159,10 +159,11 @@ export default function WhyEmpowermentRecruitment() {
             transition={{ duration: 0.6, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            We believe in building meaningful connections that empower
-            businesses to thrive and individuals to achieve their career dreams.
-            Our approach goes beyond matching skills—we match passion, purpose,
-            and potential.
+            The right recruitment partner should understand more than a job
+            description. We take the time to understand your workforce
+            requirements, identify suitable candidates and coordinate the
+            recruitment process from initial sourcing through to the stages
+            required for successful deployment.
           </motion.p>
         </motion.div>
 
@@ -287,11 +288,12 @@ export default function WhyEmpowermentRecruitment() {
 
             <div className="relative z-10">
               <h3 className="text-3xl lg:text-4xl font-bold mb-4">
-                Ready to Empower Your Team?
+                Ready to Build Your Workforce?
               </h3>
               <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-                Lets work together to build a team that drives your business
-                forward and creates lasting success stories.
+                Tell us about your vacancies and workforce requirements, and
+                let&apos;s work together to build a team that drives your
+                business forward.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

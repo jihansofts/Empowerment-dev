@@ -6,9 +6,9 @@ import PageTransition from "@/components/animation/PageTransition";
 export default function HeroExpertise() {
   const stats = [
     { number: "30+", label: "Industries Served" },
-    { number: "500+", label: "Happy Clients" },
-    { number: "98%", label: "Client Satisfaction" },
-    { number: "24/7", label: "Market Support" },
+    { number: "100+", label: "Partner Companies" },
+    { number: "95%", label: "Client Satisfaction" },
+    { number: "1,000+", label: "Successful Placements" },
   ];
 
   const containerVariants: Variants = {
@@ -49,14 +49,14 @@ export default function HeroExpertise() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3, duration: 0.8 }}
           >
-            Markets Served
+            Recruitment Expertise
             <motion.span
               className="block mt-2 text-white/90 text-4xl md:text-6xl"
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.5, duration: 0.6 }}
             >
-              Across Industries
+              Across 30 Core Industries
             </motion.span>
           </motion.h1>
 
@@ -66,8 +66,9 @@ export default function HeroExpertise() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.7, duration: 0.6 }}
           >
-            Connecting top talent with leading organizations across diverse
-            sectors and industries worldwide
+            We provide workforce recruitment solutions across sectors that
+            rely on dependable operational, skilled, semi-skilled, technical
+            and seasonal workers
           </motion.p>
 
           <motion.div
@@ -110,7 +111,7 @@ export default function HeroExpertise() {
             animate={{ opacity: 1 }}
             transition={{ delay: 2.0 }}
           >
-            Ready to find the perfect talent for your industry?
+            Ready to find the right workforce for your industry?
           </motion.p>
           <motion.button
             onClick={() => {
@@ -124,7 +125,7 @@ export default function HeroExpertise() {
             whileTap={{ scale: 0.95 }}
             className="bg-white text-[#EF3D54] px-12 py-4 rounded-full text-lg font-semibold shadow-lg hover:bg-white/90 transition-colors duration-300"
           >
-            Explore Market Solutions
+            Explore Our Industries
           </motion.button>
         </motion.div>
       </div>

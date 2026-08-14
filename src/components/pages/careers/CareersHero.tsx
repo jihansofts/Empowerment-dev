@@ -41,10 +41,13 @@ export default function CareersPage() {
     <div className="min-h-screen px-6 py-12 bg-gray-50">
       <div className="max-w-6xl mx-auto text-center">
         <h1 className="mb-4 text-4xl font-bold text-gray-900">
-          Career Opportunities
+          Find Your Next Opportunity in Europe
         </h1>
         <p className="mb-10 text-gray-600">
-          Explore exciting opportunities and apply today!
+          Explore employment opportunities across our recruitment markets. We
+          recruit for permanent and seasonal positions across agriculture,
+          hospitality, construction, logistics, manufacturing, automotive,
+          technical services and other sectors.
         </p>
 
         {loading ? (
@@ -87,7 +90,7 @@ export default function CareersPage() {
                         </p>
                         <p className="flex items-center gap-2">
                           <FaMoneyBillWave className="text-green-500" />
-                          {job.Salary} / year
+                          {job.Salary}
                         </p>
                         <p className="flex items-center gap-2">
                           <FaUserTie className="text-gray-600" />
@@ -102,15 +105,6 @@ export default function CareersPage() {
                       <div className="flex flex-wrap gap-2 mb-3">
                         <span className="px-3 py-1 text-xs font-medium text-blue-700 bg-blue-100 rounded-full">
                           {job.JobType}
-                        </span>
-                        <span className="px-3 py-1 text-xs font-medium text-green-700 bg-green-100 rounded-full">
-                          Flexible Hours
-                        </span>
-                        <span className="px-3 py-1 text-xs font-medium text-purple-700 bg-purple-100 rounded-full">
-                          Expert Level
-                        </span>
-                        <span className="px-3 py-1 text-xs font-medium text-pink-700 bg-pink-100 rounded-full">
-                          Big Data
                         </span>
                       </div>
 

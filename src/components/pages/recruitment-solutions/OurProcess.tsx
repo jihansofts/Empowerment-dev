@@ -17,49 +17,49 @@ export default function OurProcess() {
     {
       step: "01",
       icon: FaSearch,
-      title: "Understand Your Needs",
+      title: "Understand Your Requirements",
       description:
-        "We take time to deeply understand your company culture, team dynamics, and specific requirements to find the perfect fit",
+        "We begin by understanding your company, vacancy, workforce requirements, location, employment conditions and candidate profile",
       delay: 0.1,
     },
     {
       step: "02",
       icon: FaUsers,
-      title: "Talent Discovery",
+      title: "Candidate Sourcing",
       description:
-        "Our experienced team actively seeks out exceptional candidates who match your values and technical requirements",
+        "Our recruitment teams identify suitable candidates through our international recruitment network and source markets",
       delay: 0.2,
     },
     {
       step: "03",
       icon: FaHandshake,
-      title: "Meaningful Connections",
+      title: "Screening & Shortlisting",
       description:
-        "We facilitate genuine conversations that help both parties discover mutual fit and shared vision for success",
+        "Candidates are screened against the requirements of the position and suitable profiles are shortlisted",
       delay: 0.3,
     },
     {
       step: "04",
       icon: FaHeart,
-      title: "Perfect Matching",
+      title: "Interview & Selection",
       description:
-        "Carefully evaluating skills, personality, and aspirations to create lasting and successful partnerships",
+        "We coordinate interviews between the employer and shortlisted candidates and support the selection process",
       delay: 0.4,
     },
     {
       step: "05",
       icon: FaRocket,
-      title: "Smooth Onboarding",
+      title: "Documentation & Work Permit Support",
       description:
-        "Ensuring a seamless transition and setting up for immediate impact and long-term growth within your team",
+        "Following selection, we coordinate the necessary recruitment documentation and, where required, the work-permit and visa process",
       delay: 0.5,
     },
     {
       step: "06",
       icon: FaStar,
-      title: "Ongoing Success",
+      title: "Travel & Arrival Support",
       description:
-        "We maintain relationships to celebrate achievements and support continuous career development and satisfaction",
+        "We assist with travel coordination, pre-departure preparation and, where applicable, arrival support and follow-up",
       delay: 0.6,
     },
   ];
@@ -182,16 +182,17 @@ export default function OurProcess() {
           </motion.div>
 
           <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
-            How We Create
+            Our
             <span className="text-[#E23D51] block">
-              Successful Partnerships
+              Recruitment Process
             </span>
           </h2>
 
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Our carefully crafted process ensures we find not just qualified
-            candidates, but the right people who will thrive in your environment
-            and contribute to your success.
+            We combine international candidate sourcing, structured screening
+            and recruitment coordination with practical support throughout
+            the employment-migration process, from initial sourcing through
+            to the stages required for successful deployment.
           </p>
         </motion.div>
 

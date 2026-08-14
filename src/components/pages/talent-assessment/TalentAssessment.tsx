@@ -20,53 +20,56 @@ export default function TalentAssessment() {
   const assessmentFeatures = [
     {
       icon: FaBrain,
-      title: "Cognitive Excellence",
+      title: "Skills & Experience",
       description:
-        "Comprehensive cognitive assessments to identify problem-solving abilities and critical thinking skills",
+        "Assess relevant technical skills, experience and practical capabilities",
       color: "from-blue-500 to-cyan-400",
     },
     {
       icon: FaHeart,
-      title: "Cultural Alignment",
+      title: "Role Compatibility",
       description:
-        "Personality and value-based assessments ensuring perfect cultural fit with your organization",
+        "Evaluate whether the candidate's background and capabilities align with the actual requirements of the position",
       color: "from-pink-500 to-rose-400",
     },
     {
-      icon: FaRocket,
-      title: "Skills Mastery",
+      icon: FaUsers,
+      title: "Workplace Compatibility",
       description:
-        "Technical and domain-specific evaluations to verify expertise and practical capabilities",
-      color: "from-purple-500 to-indigo-400",
+        "Consider communication, reliability, adaptability and other relevant workplace characteristics",
+      color: "from-orange-500 to-amber-400",
     },
     {
       icon: FaChartLine,
       title: "Growth Potential",
       description:
-        "Identify future leaders and high-potential candidates ready for long-term growth",
+        "Identify candidates who can develop with the role and contribute over the longer term",
       color: "from-green-500 to-emerald-400",
     },
     {
-      icon: FaUsers,
-      title: "Team Compatibility",
+      icon: FaRocket,
+      title: "Structured Evaluation",
       description:
-        "Assess how candidates will collaborate and contribute to your existing team dynamics",
-      color: "from-orange-500 to-amber-400",
+        "Use a consistent assessment approach to support informed recruitment decisions",
+      color: "from-purple-500 to-indigo-400",
     },
     {
       icon: FaLightbulb,
-      title: "Innovation Quotient",
+      title: "Long-Term Fit",
       description:
-        "Measure creativity, adaptability, and innovative thinking capabilities",
+        "Assess the likelihood of long-term retention and a successful placement outcome",
       color: "from-yellow-500 to-orange-400",
     },
   ];
 
+  // NOTE: the 90% retention figure should be backed by internal placement data
+  // or a documented methodology before being published as a factual claim.
   const benefits = [
     {
       number: "90%",
       title: "Higher Retention",
-      description: "Better cultural matches lead to long-term success",
+      description:
+        "Better candidate-to-role matching can contribute to stronger workforce stability and long-term placement outcomes",
     },
     {
       number: "3x",
@@ -75,7 +78,7 @@ export default function TalentAssessment() {
     },
     {
       number: "95%",
-      title: "Success Rate",
+      title: "Client Satisfaction",
       description: "Proven track record of successful placements",
     },
   ];
@@ -281,7 +284,7 @@ export default function TalentAssessment() {
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
             >
-              Discover Exceptional
+              Assess Beyond
               <motion.span
                 className="block text-[#E23D51]"
                 animate={{
@@ -297,7 +300,7 @@ export default function TalentAssessment() {
                   ease: "easeInOut",
                 }}
               >
-                Talent Potential
+                the CV
               </motion.span>
             </motion.h2>
 
@@ -308,18 +311,17 @@ export default function TalentAssessment() {
               transition={{ duration: 0.6, delay: 0.2 }}
               viewport={{ once: true }}
             >
-              Our comprehensive assessment methodology goes beyond resumes to
-              uncover
+              A CV provides information about a candidate&apos;s background.
+              Effective recruitment requires a broader understanding of
+              <span className="text-[#E23D51] font-semibold"> suitability</span>.
+              Our talent assessment approach considers the requirements of the
+              position, relevant skills, experience, behavioural
+              characteristics and
               <span className="text-[#E23D51] font-semibold">
                 {" "}
-                true potential
+                workplace compatibility
               </span>
-              , ensuring you find candidates who will
-              <span className="text-[#E23D51] font-semibold">
-                {" "}
-                thrive and excel
-              </span>{" "}
-              in your organization.
+              .
             </motion.p>
           </motion.div>
 

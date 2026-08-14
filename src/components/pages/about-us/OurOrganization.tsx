@@ -61,7 +61,7 @@ const AboutPage = () => {
                 className="relative w-full h-[250px] xs:h-[300px] sm:h-[400px] md:h-[450px] lg:h-[500px] rounded-xl overflow-hidden order-1">
                 <Image
                   src="/images/h2.jpg"
-                  alt="About Empowerment Group"
+                  alt="About Empowerment Recruitment"
                   fill
                   className="object-cover"
                   priority

@@ -29,11 +29,6 @@ const IndustrySpecialisation = () => {
       icon: "🍞",
     },
     {
-      title: "Healthcare & Care Homes",
-      image: "/industries/healthcare.avif",
-      icon: "🏥",
-    },
-    {
       title: "Commercial Cleaning",
       image: "/industries/cleaning.avif",
       icon: "✨",
