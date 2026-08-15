@@ -78,7 +78,7 @@ export default function Industries() {
     },
     {
       title: "Livestock & Dairy",
-      image: "/industries/dairy.avif",
+      image: "/industries/Livestock.jpg",
       roundImage: "/logo/round.png",
       shortDescription:
         "Recruitment for livestock farms, dairy operations and milk production.",
