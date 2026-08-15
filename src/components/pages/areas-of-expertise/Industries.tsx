@@ -36,7 +36,7 @@ export default function Industries() {
     },
     {
       title: "Horticulture & Gardening",
-      image: "/industries/agriculture.avif",
+      image: "/industries/Horticulture.jpg",
       roundImage: "/logo/round.png",
       shortDescription:
         "Workforce solutions for horticulture, gardening, nurseries and landscaping operations.",
@@ -57,7 +57,7 @@ export default function Industries() {
     },
     {
       title: "Fruit Picking & Seasonal Agriculture",
-      image: "/industries/agriculture.avif",
+      image: "/industries/Fruit Picking.jpg",
       roundImage: "/logo/round.png",
       shortDescription:
         "Seasonal recruitment for harvesting and agricultural peak periods.",
@@ -99,7 +99,7 @@ export default function Industries() {
     },
     {
       title: "Viticulture & Wine Production",
-      image: "/industries/agriculture.avif",
+      image: "/industries/Viticulture.jpg",
       roundImage: "/logo/round.png",
       shortDescription:
         "Recruitment for vineyards, grape cultivation and wine-production operations.",
@@ -648,14 +648,13 @@ export default function Industries() {
   return (
     <section
       id="industry-explore"
-      className="py-12 md:py-20 bg-white relative overflow-hidden"
-    >
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="text-center mb-12 md:mb-20">
+      className="relative py-12 overflow-hidden bg-white md:py-20">
+      <div className="container relative z-10 px-4 mx-auto sm:px-6 lg:px-8">
+        <div className="mb-12 text-center md:mb-20">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#EF3D54] mb-4">
             Industries We Serve
           </h2>
-          <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto px-4">
+          <p className="max-w-3xl px-4 mx-auto text-lg text-gray-600 sm:text-xl">
             Workforce recruitment across 30 core industries that rely on
             dependable operational, skilled, semi-skilled, technical and
             seasonal workers
@@ -720,8 +719,7 @@ function ResponsiveIndustryCard({
 
   return (
     <div className="relative">
-
-      <div className="absolute -top-20 -left-20 w-96 h-96 opacity-5 z-0">
+      <div className="absolute z-0 -top-20 -left-20 w-96 h-96 opacity-5">
         <motion.div
           animate={{ rotate: 360 }}
           transition={{
@@ -729,8 +727,7 @@ function ResponsiveIndustryCard({
             repeat: Infinity,
             ease: "linear",
           }}
-          className="w-full h-full"
-        >
+          className="w-full h-full">
           <Image
             src="/logo/round.png"
             alt="Background Logo"
@@ -745,8 +742,7 @@ function ResponsiveIndustryCard({
         </motion.div>
       </div>
 
-
-      <div className="absolute -bottom-20 -right-20 w-80 h-80 opacity-5 z-0">
+      <div className="absolute z-0 -bottom-20 -right-20 w-80 h-80 opacity-5">
         <motion.div
           animate={{ rotate: -360 }}
           transition={{
@@ -754,8 +750,7 @@ function ResponsiveIndustryCard({
             repeat: Infinity,
             ease: "linear",
           }}
-          className="w-full h-full"
-        >
+          className="w-full h-full">
           <Image
             src="/logo/round.png"
             alt="Background Logo"
@@ -777,26 +772,23 @@ function ResponsiveIndustryCard({
         transition={{ duration: 0.8 }}
         className={`relative flex flex-col ${
           isEven ? "lg:flex-row" : "lg:flex-row-reverse"
-        } items-center gap-8 md:gap-12 lg:gap-20 min-h-[300px] md:min-h-[400px] lg:min-h-[500px] z-10`}
-      >
-
+        } items-center gap-8 md:gap-12 lg:gap-20 min-h-[300px] md:min-h-[400px] lg:min-h-[500px] z-10`}>
         <motion.div
           initial={{ opacity: 0, x: isEven ? -30 : 30 }}
           animate={isInView ? { opacity: 1, x: 0 } : {}}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="flex-1 space-y-4 md:space-y-6 w-full relative z-20"
-        >
+          className="relative z-20 flex-1 w-full space-y-4 md:space-y-6">
           <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#EF3D54] leading-tight">
             {industry.title}
           </h3>
 
-          <p className="text-base sm:text-lg text-gray-600 leading-relaxed">
+          <p className="text-base leading-relaxed text-gray-600 sm:text-lg">
             {industry.shortDescription}
           </p>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8">
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:gap-8">
             <div className="space-y-3 md:space-y-4">
-              <h4 className="text-lg sm:text-xl font-semibold text-gray-900">
+              <h4 className="text-lg font-semibold text-gray-900 sm:text-xl">
                 Key Roles
               </h4>
               <ul className="space-y-2 md:space-y-3">
@@ -806,8 +798,7 @@ function ResponsiveIndustryCard({
                     initial={{ opacity: 0, x: -20 }}
                     animate={isInView ? { opacity: 1, x: 0 } : {}}
                     transition={{ delay: 0.3 + i * 0.1 }}
-                    className="flex items-center gap-3 text-gray-700 text-sm sm:text-base"
-                  >
+                    className="flex items-center gap-3 text-sm text-gray-700 sm:text-base">
                     <div className="w-2 h-2 bg-[#EF3D54] rounded-full flex-shrink-0"></div>
                     <span>{role}</span>
                   </motion.li>
@@ -815,7 +806,7 @@ function ResponsiveIndustryCard({
               </ul>
             </div>
             <div className="space-y-3 md:space-y-4">
-              <h4 className="text-lg sm:text-xl font-semibold text-gray-900">
+              <h4 className="text-lg font-semibold text-gray-900 sm:text-xl">
                 Your Benefits
               </h4>
               <ul className="space-y-2 md:space-y-3">
@@ -825,9 +816,8 @@ function ResponsiveIndustryCard({
                     initial={{ opacity: 0, x: 20 }}
                     animate={isInView ? { opacity: 1, x: 0 } : {}}
                     transition={{ delay: 0.4 + i * 0.1 }}
-                    className="flex items-center gap-3 text-gray-700 text-sm sm:text-base"
-                  >
-                    <div className="w-2 h-2 bg-green-500 rounded-full flex-shrink-0"></div>
+                    className="flex items-center gap-3 text-sm text-gray-700 sm:text-base">
+                    <div className="flex-shrink-0 w-2 h-2 bg-green-500 rounded-full"></div>
                     <span>{benefit}</span>
                   </motion.li>
                 ))}
@@ -836,15 +826,12 @@ function ResponsiveIndustryCard({
           </div>
         </motion.div>
 
-
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={isInView ? { opacity: 1, scale: 1 } : {}}
           transition={{ duration: 0.8, delay: 0.1 }}
-          className="flex-1 relative w-full max-w-2xl mx-auto lg:mx-0"
-        >
-
-          <div className="absolute -inset-10 opacity-5 z-0">
+          className="relative flex-1 w-full max-w-2xl mx-auto lg:mx-0">
+          <div className="absolute z-0 -inset-10 opacity-5">
             <motion.div
               animate={{ rotate: 360 }}
               transition={{
@@ -852,8 +839,7 @@ function ResponsiveIndustryCard({
                 repeat: Infinity,
                 ease: "linear",
               }}
-              className="w-full h-full flex items-center justify-center"
-            >
+              className="flex items-center justify-center w-full h-full">
               <Image
                 src="/logo/round.png"
                 alt="Background Logo"
@@ -868,7 +854,7 @@ function ResponsiveIndustryCard({
             </motion.div>
           </div>
 
-          <div className="relative rounded-xl md:rounded-2xl overflow-hidden shadow-lg md:shadow-xl bg-gray-100 aspect-video w-full z-20">
+          <div className="relative z-20 w-full overflow-hidden bg-gray-100 shadow-lg rounded-xl md:rounded-2xl md:shadow-xl aspect-video">
             <Image
               src={industry.image}
               alt={industry.title}
@@ -882,64 +868,52 @@ function ResponsiveIndustryCard({
 
           <motion.div
             style={{ rotate: rotate1 }}
-            className="absolute -top-6 -left-4 sm:-top-8 sm:-left-6 lg:-top-14 lg:-left-8
-                       w-20 h-20 sm:w-28 sm:h-28 lg:w-44 lg:h-44
-                       rounded-full overflow-hidden z-10"
-          >
+            className="absolute z-10 w-20 h-20 overflow-hidden rounded-full -top-6 -left-4 sm:-top-8 sm:-left-6 lg:-top-14 lg:-left-8 sm:w-28 sm:h-28 lg:w-44 lg:h-44">
             <Image
               src={industry.roundImage}
               alt="Round logo"
               width={176}
               height={176}
-              className="w-full h-full object-cover"
+              className="object-cover w-full h-full"
               sizes="(max-width: 640px) 80px, (max-width: 768px) 112px, 176px"
             />
           </motion.div>
 
           <motion.div
             style={{ rotate: rotate2 }}
-            className="absolute -top-4 -right-4 sm:-top-6 sm:-right-6 lg:-top-8 lg:-right-8
-                       w-16 h-16 sm:w-20 sm:h-20 lg:w-28 lg:h-28
-                       rounded-full overflow-hidden z-10"
-          >
+            className="absolute z-10 w-16 h-16 overflow-hidden rounded-full -top-4 -right-4 sm:-top-6 sm:-right-6 lg:-top-8 lg:-right-8 sm:w-20 sm:h-20 lg:w-28 lg:h-28">
             <Image
               src={industry.roundImage}
               alt="Round logo"
               width={112}
               height={112}
-              className="w-full h-full object-cover"
+              className="object-cover w-full h-full"
               sizes="(max-width: 640px) 64px, (max-width: 768px) 80px, 112px"
             />
           </motion.div>
 
           <motion.div
             style={{ rotate: rotate3 }}
-            className="absolute -bottom-4 -left-4 sm:-bottom-6 sm:-left-6 lg:-bottom-8 lg:-left-8
-                       w-20 h-20 sm:w-24 sm:h-24 lg:w-36 lg:h-36
-                       rounded-full overflow-hidden z-10"
-          >
+            className="absolute z-10 w-20 h-20 overflow-hidden rounded-full -bottom-4 -left-4 sm:-bottom-6 sm:-left-6 lg:-bottom-8 lg:-left-8 sm:w-24 sm:h-24 lg:w-36 lg:h-36">
             <Image
               src={industry.roundImage}
               alt="Round logo"
               width={144}
               height={144}
-              className="w-full h-full object-cover"
+              className="object-cover w-full h-full"
               sizes="(max-width: 640px) 80px, (max-width: 768px) 96px, 144px"
             />
           </motion.div>
 
           <motion.div
             style={{ rotate: rotate4 }}
-            className="absolute -bottom-6 -right-4 sm:-bottom-8 sm:-right-6 lg:-bottom-14 lg:-right-8
-                       w-20 h-20 sm:w-28 sm:h-28 lg:w-44 lg:h-44
-                       rounded-full overflow-hidden z-10"
-          >
+            className="absolute z-10 w-20 h-20 overflow-hidden rounded-full -bottom-6 -right-4 sm:-bottom-8 sm:-right-6 lg:-bottom-14 lg:-right-8 sm:w-28 sm:h-28 lg:w-44 lg:h-44">
             <Image
               src={industry.roundImage}
               alt="Round logo"
               width={176}
               height={176}
-              className="w-full h-full object-cover"
+              className="object-cover w-full h-full"
               sizes="(max-width: 640px) 80px, (max-width: 768px) 112px, 176px"
             />
           </motion.div>
