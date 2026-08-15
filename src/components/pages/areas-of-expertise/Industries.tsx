@@ -120,7 +120,7 @@ export default function Industries() {
     },
     {
       title: "Fishing & Seafood Processing",
-      image: "/industries/packaging.avif",
+      image: "/industries/fishing_seafood.png",
       roundImage: "/logo/round.png",
       shortDescription:
         "Workforce recruitment for fishing and seafood processing operations.",
@@ -183,7 +183,7 @@ export default function Industries() {
     },
     {
       title: "Meat Processing & Butchery",
-      image: "/industries/butchery.avif",
+      image: "/industries/meat_processing.png",
       roundImage: "/logo/round.png",
       shortDescription:
         "Workforce solutions for meat-processing plants, butcheries and food-production facilities.",
@@ -288,7 +288,7 @@ export default function Industries() {
     },
     {
       title: "Infrastructure & Civil Works",
-      image: "/industries/construction.avif",
+      image: "/industries/infrastructure_civil.png",
       roundImage: "/logo/round.png",
       shortDescription:
         "Workforce recruitment for infrastructure and civil-construction projects.",
@@ -309,7 +309,7 @@ export default function Industries() {
     },
     {
       title: "Automotive Manufacturing & Components",
-      image: "/industries/manufacturing.avif",
+      image: "/industries/automotive_manufacturing.png",
       roundImage: "/logo/round.png",
       shortDescription:
         "Recruitment for vehicle manufacturing and automotive component production.",
@@ -351,7 +351,7 @@ export default function Industries() {
     },
     {
       title: "Car Wash & Vehicle Detailing",
-      image: "/industries/automotive.avif",
+      image: "/industries/car_wash_vehicle.png",
       roundImage: "/logo/round.png",
       shortDescription:
         "Workforce solutions for vehicle cleaning and detailing businesses.",
@@ -414,7 +414,7 @@ export default function Industries() {
     },
     {
       title: "Warehousing & Distribution",
-      image: "/industries/warehouse.avif",
+      image: "/industries/warehousing_distribution.png",
       roundImage: "/logo/round.png",
       shortDescription:
         "Workforce solutions for warehouses, distribution centres and storage operations.",
@@ -456,7 +456,7 @@ export default function Industries() {
     },
     {
       title: "Mechanical & Industrial Maintenance",
-      image: "/industries/technical.avif",
+      image: "/industries/mechanical_industrial.png",
       roundImage: "/logo/round.png",
       shortDescription:
         "Recruitment for machinery maintenance, industrial equipment and mechanical operations.",
@@ -477,7 +477,7 @@ export default function Industries() {
     },
     {
       title: "Manufacturing & Industrial Production",
-      image: "/industries/manufacturing.avif",
+      image: "/industries/manufacturing_industrial.png",
       roundImage: "/logo/round.png",
       shortDescription:
         "Workforce recruitment for factories, production facilities and industrial operations.",
@@ -519,7 +519,7 @@ export default function Industries() {
     },
     {
       title: "Electronics Manufacturing & Assembly",
-      image: "/industries/manufacturing.avif",
+      image: "/industries/electrical_HVAC.png",
       roundImage: "/logo/round.png",
       shortDescription:
         "Workforce solutions for electronics production and assembly facilities.",
@@ -561,7 +561,7 @@ export default function Industries() {
     },
     {
       title: "Leather & Footwear Manufacturing",
-      image: "/industries/textiles.avif",
+      image: "/industries/Leather & Footwear Manufacturing.jpg",
       roundImage: "/logo/round.png",
       shortDescription:
         "Recruitment for leather processing, footwear and related manufacturing.",
